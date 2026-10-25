@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+venv/
+.DS_Store
+.env
+.idea/
+*.iml
+
+# Personal settings and local-only data
+config.local.yaml
+data/geocode_cache.json
+
+# Dated report history stays local; only reports/latest.* is published
+reports/20*

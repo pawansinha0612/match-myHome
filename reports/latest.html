@@ -1,0 +1,530 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Melbourne Deal Scan — 2026-10-25</title>
+<style>
+  :root {
+    --bg: #ffffff; --surface: #f7f8fa; --border: #e3e6ea;
+    --text: #1a1d23; --text-soft: #5b6270; --text-faint: #8a919e;
+    --accent: #2563eb; --accent-soft: #eaf1ff;
+    --green: #15803d; --green-soft: #eefaf1;
+    --red: #b42318; --red-soft: #fdeeed;
+    --amber: #b45309; --amber-soft: #fef4e6;
+    --dark: #1a1d23;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 2.5rem 1.5rem 5rem; background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-variant-numeric: tabular-nums;
+    -webkit-font-smoothing: antialiased;
+  }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .wrap { max-width: 1120px; margin: 0 auto; }
+  h1 { font-size: 1.7rem; font-weight: 700; margin: 0 0 0.3rem; letter-spacing: -0.01em; }
+  .subtitle { color: var(--text-soft); font-size: 0.9rem; margin-bottom: 1.5rem; }
+  .subtitle a { color: var(--accent); text-decoration: none; font-weight: 600; }
+  .subtitle a:hover { text-decoration: underline; }
+  .warning { background: var(--amber-soft); border-left: 4px solid var(--amber); color: #7a3d05; padding: 0.8rem 1rem; border-radius: 6px; margin-bottom: 1.5rem; font-size: 0.9rem; }
+  .empty { color: var(--text-soft); font-style: italic; }
+
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1rem; }
+  .card {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+    padding: 1.1rem 1.3rem;
+  }
+  .card-head { display: flex; justify-content: space-between; align-items: baseline; gap: 0.75rem; flex-wrap: wrap; position: relative; }
+  .card h2 { font-size: 1rem; font-weight: 600; margin: 0; line-height: 1.35; }
+  .card h2 a { color: var(--text); text-decoration: none; }
+  .card h2 a:hover { color: var(--accent); text-decoration: underline; }
+  .score { font-size: 1.25rem; font-weight: 700; color: var(--accent); white-space: nowrap; }
+  .score-max { font-size: 0.85rem; color: var(--text-faint); font-weight: 400; }
+  .tags { margin: 0.55rem 0; display: flex; gap: 0.4rem; flex-wrap: wrap; }
+  .tag { font-size: 0.72rem; font-weight: 600; padding: 0.2rem 0.6rem; border-radius: 999px; }
+  .tag.status { background: color-mix(in srgb, var(--c) 12%, white); color: var(--c); }
+  .tag.fit { background: var(--green-soft); color: var(--green); }
+  .tag.nofit { background: var(--red-soft); color: var(--red); }
+  .tag.new { background: var(--accent); color: #fff; }
+  .tag.bonus { background: var(--amber-soft); color: var(--amber); }
+  .tag.price { background: var(--border); color: var(--text); }
+  .tag.live { background: var(--dark); color: #fff; }
+  .agent-text { font-size: 0.8rem; font-style: italic; color: var(--text-faint); margin-bottom: 0.5rem; }
+  .details { display: flex; gap: 1.25rem; flex-wrap: wrap; font-size: 0.85rem; color: var(--text-soft); margin-bottom: 0.5rem; }
+  .details b { color: var(--text); font-weight: 600; }
+  .breakdown { font-size: 0.75rem; color: var(--text-faint); border-top: 1px solid var(--border); padding-top: 0.55rem; }
+  footer { margin-top: 2.5rem; font-size: 0.78rem; color: var(--text-faint); text-align: center; line-height: 1.6; }
+
+  .toolbar { display: flex; gap: 0.6rem; align-items: center; margin-bottom: 0.7rem; flex-wrap: wrap; }
+  .toolbar input[type="text"] {
+    flex: 1; min-width: 220px; font: inherit; font-size: 0.95rem; padding: 0.55rem 0.9rem;
+    border: 1.5px solid var(--border); border-radius: 8px; background: #fff; color: var(--text);
+  }
+  .toolbar input[type="text"]:focus { outline: none; border-color: var(--accent); }
+  .no-results { color: var(--text-soft); font-style: italic; display: none; }
+  .state-check { font-size: 0.85rem; display: flex; align-items: center; gap: 0.35rem; white-space: nowrap; color: var(--text-soft); }
+  .price-toolbar { margin-bottom: 0.6rem; }
+  .price-toolbar label { font-size: 0.85rem; display: flex; align-items: center; gap: 0.4rem; color: var(--text-soft); }
+  .price-toolbar input[type="number"] {
+    width: 9rem; font: inherit; font-size: 0.9rem; padding: 0.4rem 0.6rem;
+    border: 1.5px solid var(--border); border-radius: 8px; background: #fff; color: var(--text);
+  }
+  .price-toolbar input[type="number"]:focus { outline: none; border-color: var(--accent); }
+
+  .compare-check { font-size: 0.72rem; font-weight: 600; color: var(--text-soft); display: flex; align-items: center; gap: 0.3rem; order: -1; }
+
+  #compareBar {
+    position: fixed; bottom: 1.2rem; right: 1.2rem; left: auto; top: auto; z-index: 50;
+    background: var(--dark); color: #fff; box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+    padding: 0.6rem 0.6rem 0.6rem 1.1rem; border-radius: 999px; font-size: 0.85rem; max-width: calc(100vw - 2.4rem);
+    display: none; align-items: center; justify-content: space-between; gap: 1rem;
+  }
+  #compareBar.show { display: flex; }
+  #compareBar button {
+    font: inherit; font-size: 0.8rem; font-weight: 600; background: var(--accent); color: #fff; border: none;
+    padding: 0.5rem 1.1rem; border-radius: 999px; cursor: pointer;
+  }
+  #compareBar button:disabled { opacity: 0.5; cursor: not-allowed; }
+
+  #compareTable {
+    display: none; background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+    padding: 1.2rem; margin-bottom: 1.5rem;
+  }
+  #compareTable.show { display: block; }
+  .compare-table-scroll { overflow-x: auto; }
+  #compareTable table { border-collapse: collapse; width: 100%; font-size: 0.87rem; table-layout: fixed; }
+  #compareTable th, #compareTable td {
+    text-align: left; padding: 0.55rem 0.6rem; border-bottom: 1px solid var(--border);
+    white-space: normal; word-break: break-word; vertical-align: top;
+  }
+  #compareTable thead th:first-child, #compareTable td:first-child, #compareTable th:first-child { width: 26%; }
+  #compareTable thead th { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-faint); font-weight: 600; }
+  #compareTable tbody th { font-weight: 600; color: var(--text-soft); font-size: 0.82rem; }
+  #compareTable td.winner { color: var(--green); font-weight: 700; }
+  #verdict { font-size: 0.9rem; margin-top: 1.1rem; padding-top: 0.9rem; border-top: 2px solid var(--dark); line-height: 1.6; }
+
+  .toolbar button#liveSearchBtn {
+    font: inherit; font-size: 0.88rem; font-weight: 600; background: var(--dark); color: #fff; border: none;
+    padding: 0.55rem 1.1rem; border-radius: 8px; cursor: pointer; white-space: nowrap;
+  }
+  .toolbar button#liveSearchBtn:disabled { opacity: 0.6; cursor: wait; }
+  .toolbar-hint { font-size: 0.78rem; color: var(--text-faint); margin: -0.6rem 0 1.2rem; }
+  .toolbar-hint code { background: var(--surface); padding: 0.1rem 0.35rem; border-radius: 4px; }
+  #liveResults { margin-bottom: 1.5rem; }
+  #liveResults .live-heading { font-size: 0.95rem; margin-bottom: 0.7rem; color: var(--text-soft); }
+  #liveResults .live-error {
+    background: var(--red-soft); border-left: 4px solid var(--red); color: #7a1a12;
+    padding: 0.7rem 1rem; border-radius: 6px; font-size: 0.85rem;
+  }
+  #liveResults .live-loading { color: var(--text-soft); font-style: italic; font-size: 0.85rem; }
+  #liveResults .grid { margin-top: 0.7rem; }
+
+  @media (max-width: 640px) {
+    #compareTable { padding: 0.8rem; }
+    #compareBar { left: 1.2rem; right: 1.2rem; }
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Melbourne Deal Scan</h1>
+    <div class="subtitle">
+      2026-10-25 · 4+ bed house, 400m²+ land,
+      $600,000–$750,000 price range · homely.com.au,
+      2 suburbs scanned
+    </div>
+    
+
+    <div class="toolbar">
+      <input type="text" id="suburbFilter" placeholder="Filter these results, or type a suburb and press Enter to scan it live…">
+      <label class="state-check"><input type="checkbox" id="vicOnly" checked> VIC only</label>
+      <button id="liveSearchBtn">Scan live</button>
+    </div>
+    <div class="toolbar price-toolbar">
+      <label>Price min <input type="number" id="priceMin" placeholder="e.g. 600000" step="10000"></label>
+      <label>Price max <input type="number" id="priceMax" placeholder="e.g. 750000" step="10000"></label>
+    </div>
+    <p class="toolbar-hint">Typing/price filters the list below instantly. "Scan live" fetches that suburb from
+    homely.com.au right now (unchecking "VIC only" searches all states, leaving "Price max" blank searches
+    any price instead of the $750,000 cap) — requires <code>python server.py</code>
+    to be running.</p>
+    <p class="no-results" id="noResults">No listings match that filter.</p>
+
+    <div id="liveResults"></div>
+
+    <div id="compareBar">
+      <span id="compareCount">0 selected</span>
+      <button id="compareBtn" disabled>Compare</button>
+    </div>
+    <div id="compareTable"></div>
+
+    
+    <div class="grid">
+    
+        <div class="card" data-idx="0" data-address="21 victoria street, truganina vic 3029">
+          <div class="card-head">
+            <label class="compare-check">
+              <input type="checkbox" class="cmp" data-idx="0"> compare
+            </label>
+            <h2><a href="https://www.homely.com.au/homes/21-victoria-street-truganina-vic-3029/13624919" target="_blank" rel="noopener">21 Victoria Street, Truganina VIC 3029</a> </h2>
+            <div class="score">56<span class="score-max">/100</span> <span class="tag bonus">+5 west</span></div>
+          </div>
+          <div class="tags">
+            <span class="tag status" style="--c:#2f6b3f">Available</span>
+            <span class="tag fit">fits criteria</span>
+            <span class="tag price">$735,000–$755,000</span>
+          </div>
+          <div class="agent-text">agent: “$735,000-$755,000”</div>
+          <div class="details">
+            <div>Land: <b>494m²</b> (need 400m²+)</div>
+            <div>Beds/baths/car: <b>4 / 2 / 2</b></div>
+            <div>Est. upfront cash needed: <b>$189,894</b></div>
+          </div>
+          <div class="breakdown">
+            score breakdown (points, not facts) — land/size 11.3/30 ·
+            value vs estimate 15.0/30 ·
+            build condition 10.0/20 (build year unknown) ·
+            availability 20/20
+          </div>
+        </div>
+        <div class="card" data-idx="1" data-address="2339 pandini drive, truganina vic 3029">
+          <div class="card-head">
+            <label class="compare-check">
+              <input type="checkbox" class="cmp" data-idx="1"> compare
+            </label>
+            <h2><a href="https://www.homely.com.au/homes/2339-pandini-drive-truganina-vic-3029/13610950" target="_blank" rel="noopener">2339 Pandini Drive, Truganina VIC 3029</a> </h2>
+            <div class="score">55<span class="score-max">/100</span> <span class="tag bonus">+5 west</span></div>
+          </div>
+          <div class="tags">
+            <span class="tag status" style="--c:#2f6b3f">Available</span>
+            <span class="tag fit">fits criteria</span>
+            <span class="tag price">$708,310–$708,310</span>
+          </div>
+          <div class="agent-text">agent: “$708,310”</div>
+          <div class="details">
+            <div>Land: <b>400m²</b> (need 400m²+)</div>
+            <div>Beds/baths/car: <b>4 / 2 / 2</b></div>
+            <div>Est. upfront cash needed: <b>$171,239</b></div>
+          </div>
+          <div class="breakdown">
+            score breakdown (points, not facts) — land/size 0/30 ·
+            value vs estimate 15.0/30 ·
+            build condition 20/20 ·
+            availability 20/20
+          </div>
+        </div>
+        <div class="card" data-idx="2" data-address="7 mulloway drive, point cook vic 3030">
+          <div class="card-head">
+            <label class="compare-check">
+              <input type="checkbox" class="cmp" data-idx="2"> compare
+            </label>
+            <h2><a href="https://www.homely.com.au/homes/7-mulloway-drive-point-cook-vic-3030/13626514" target="_blank" rel="noopener">7 Mulloway Drive, Point Cook VIC 3030</a> </h2>
+            <div class="score">42<span class="score-max">/100</span> <span class="tag bonus">+5 west</span></div>
+          </div>
+          <div class="tags">
+            <span class="tag status" style="--c:#9b4530">Under offer</span>
+            <span class="tag fit">fits criteria</span>
+            <span class="tag price">$730,000–$750,000</span>
+          </div>
+          <div class="agent-text">agent: “$730,000 - $750,000 | Vacant Possession Available”</div>
+          <div class="details">
+            <div>Land: <b>508m²</b> (need 400m²+)</div>
+            <div>Beds/baths/car: <b>4 / 2 / 2</b></div>
+            <div>Est. upfront cash needed: <b>$187,289</b></div>
+          </div>
+          <div class="breakdown">
+            score breakdown (points, not facts) — land/size 13.0/30 ·
+            value vs estimate 15.0/30 ·
+            build condition 10.0/20 (build year unknown) ·
+            availability 4.0/20
+          </div>
+        </div>
+        <div class="card" data-idx="3" data-address="address available on request">
+          <div class="card-head">
+            <label class="compare-check">
+              <input type="checkbox" class="cmp" data-idx="3"> compare
+            </label>
+            <h2><a href="https://www.homely.com.au/homes/truganina-vic-3029/13620337" target="_blank" rel="noopener">Address available on request</a> </h2>
+            <div class="score">45<span class="score-max">/100</span> </div>
+          </div>
+          <div class="tags">
+            <span class="tag status" style="--c:#2f6b3f">Available</span>
+            <span class="tag fit">fits criteria</span>
+            <span class="tag price">$683,573–$683,573</span>
+          </div>
+          <div class="agent-text">agent: “Contact Agent”</div>
+          <div class="details">
+            <div>Land: <b>400m²</b> (need 400m²+)</div>
+            <div>Beds/baths/car: <b>4 / 2 / 2</b></div>
+            <div>Est. upfront cash needed: <b>$159,269</b></div>
+          </div>
+          <div class="breakdown">
+            score breakdown (points, not facts) — land/size 0/30 ·
+            value vs estimate 15.0/30 ·
+            build condition 10.0/20 (build year unknown) ·
+            availability 20/20
+          </div>
+        </div>
+    </div>
+    <footer>Generated locally by scan_deals.py — not financial advice. Score breakdowns are points against
+    your criteria, not verified facts about the property — always confirm details (especially build year)
+    against the real listing.</footer>
+  </div>
+
+<script id="listing-data" type="application/json">[{"idx": 0, "address": "21 Victoria Street, Truganina VIC 3029", "url": "https://www.homely.com.au/homes/21-victoria-street-truganina-vic-3029/13624919", "score": 56, "bonus": 5, "total": 61, "price_low": 735000.0, "price_high": 755000.0, "price_display": "$735,000-$755,000", "land": 494, "beds": 4, "baths": 2, "cars": 2, "status": "Available", "build_year": null, "is_new_home": false, "breakdown": {"land": 11.3, "build": 10.0, "value": 15.0, "status": 20}, "weights": {"land_and_size": 30, "value_vs_estimate": 30, "build_age_condition": 20, "availability_status": 20}, "upfront": 189894, "fits": true, "lat": -37.8560147, "lon": 144.7274314}, {"idx": 1, "address": "2339 Pandini Drive, Truganina VIC 3029", "url": "https://www.homely.com.au/homes/2339-pandini-drive-truganina-vic-3029/13610950", "score": 55, "bonus": 5, "total": 60, "price_low": 708310.0, "price_high": 708310.0, "price_display": "$708,310", "land": 400, "beds": 4, "baths": 2, "cars": 2, "status": "Available", "build_year": null, "is_new_home": true, "breakdown": {"land": 0, "build": 20, "value": 15.0, "status": 20}, "weights": {"land_and_size": 30, "value_vs_estimate": 30, "build_age_condition": 20, "availability_status": 20}, "upfront": 171239, "fits": true, "lat": -37.8208705, "lon": 144.6944256}, {"idx": 2, "address": "7 Mulloway Drive, Point Cook VIC 3030", "url": "https://www.homely.com.au/homes/7-mulloway-drive-point-cook-vic-3030/13626514", "score": 42, "bonus": 5, "total": 47, "price_low": 730000.0, "price_high": 750000.0, "price_display": "$730,000 - $750,000 | Vacant Possession Available", "land": 508, "beds": 4, "baths": 2, "cars": 2, "status": "Under offer", "build_year": null, "is_new_home": false, "breakdown": {"land": 13.0, "build": 10.0, "value": 15.0, "status": 4.0}, "weights": {"land_and_size": 30, "value_vs_estimate": 30, "build_age_condition": 20, "availability_status": 20}, "upfront": 187289, "fits": true, "lat": -37.9146269, "lon": 144.761211}, {"idx": 3, "address": "Address available on request", "url": "https://www.homely.com.au/homes/truganina-vic-3029/13620337", "score": 45, "bonus": 0, "total": 45, "price_low": 683573, "price_high": 683573, "price_display": "Contact Agent", "land": 400, "beds": 4, "baths": 2, "cars": 2, "status": "Available", "build_year": null, "is_new_home": false, "breakdown": {"land": 0, "build": 10.0, "value": 15.0, "status": 20}, "weights": {"land_and_size": 30, "value_vs_estimate": 30, "build_age_condition": 20, "availability_status": 20}, "upfront": 159269, "fits": true, "lat": null, "lon": null}]</script>
+<script>
+(function() {
+  // mutable: live-search results get appended here with new indices, so
+  // they can be selected for comparison alongside the batch-scanned ones
+  let LISTINGS = JSON.parse(document.getElementById('listing-data').textContent);
+
+  // --- suburb/address text filter + price range filter (combined, AND'd) ---
+  const filterInput = document.getElementById('suburbFilter');
+  const priceMinInput = document.getElementById('priceMin');
+  const priceMaxInput = document.getElementById('priceMax');
+  const noResults = document.getElementById('noResults');
+
+  function applyFilters() {
+    const q = filterInput.value.trim().toLowerCase();
+    const min = parseFloat(priceMinInput.value);
+    const max = parseFloat(priceMaxInput.value);
+    let visible = 0;
+    document.querySelectorAll('.card[data-idx]').forEach(card => {
+      const item = LISTINGS[parseInt(card.dataset.idx, 10)];
+      // Live-search cards are already scoped to the suburb you searched for
+      // (homely resolved it, possibly fuzzy-matching a typo) — re-checking
+      // the typed text against their address would wrongly hide results
+      // homely itself just found. Only the batch-scanned cards need the
+      // text match; live cards only get the price filter.
+      const textMatch = card.dataset.live === '1' || !q || card.dataset.address.includes(q);
+      const mid = item ? priceMid(item) : null;
+      const minOk = isNaN(min) || (mid !== null && mid >= min);
+      const maxOk = isNaN(max) || (mid !== null && mid <= max);
+      const match = textMatch && minOk && maxOk;
+      card.style.display = match ? '' : 'none';
+      if (match) visible++;
+    });
+    noResults.style.display = visible === 0 ? 'block' : 'none';
+  }
+
+  filterInput.addEventListener('input', applyFilters);
+  priceMinInput.addEventListener('input', applyFilters);
+  priceMaxInput.addEventListener('input', applyFilters);
+
+  // --- live suburb search (talks to server.py's /api/scan) ---
+  const liveBtn = document.getElementById('liveSearchBtn');
+  const liveResults = document.getElementById('liveResults');
+
+  function renderLiveCard(item, idx) {
+    const priceStr = fmtMoney(priceMid(item)) === 'N/A' ? 'Price N/A'
+      : '$' + (item.price_low || 0).toLocaleString('en-AU') + '–$' + (item.price_high || 0).toLocaleString('en-AU');
+    const agentText = item.price_display
+      ? '<div class="agent-text">agent: “' + item.price_display.replace(/</g, '&lt;') + '”</div>' : '';
+    const fitTag = item.fits
+      ? '<span class="tag fit">fits criteria</span>' : '<span class="tag nofit">outside criteria</span>';
+    const buildNote = (!item.build_year && !item.is_new_home) ? ' (build year unknown)' : '';
+    return '<div class="card" data-idx="' + idx + '" data-live="1" data-address="' + item.address.toLowerCase().replace(/"/g, '') + '">' +
+      '<div class="card-head">' +
+      '<label class="compare-check"><input type="checkbox" class="cmp" data-idx="' + idx + '"> compare</label>' +
+      '<h2><a href="' + item.url + '" target="_blank" rel="noopener">' +
+      item.address.replace(/</g, '&lt;') + '</a> <span class="tag live">LIVE</span></h2>' +
+      '<div class="score">' + item.score + '<span class="score-max">/100</span>' +
+      (item.bonus ? ' <span class="tag bonus">+' + item.bonus + ' west</span>' : '') + '</div></div>' +
+      '<div class="tags"><span class="tag status">' + item.status + '</span>' + fitTag +
+      '<span class="tag price">' + priceStr + '</span></div>' + agentText +
+      '<div class="details"><div>Land: <b>' + (item.land || 'N/A') + 'm²</b></div>' +
+      '<div>Beds/baths/car: <b>' + (item.beds ?? '?') + ' / ' + (item.baths ?? '?') + ' / ' + (item.cars ?? '?') + '</b></div>' +
+      '<div>Est. upfront cash needed: <b>$' + Math.round(item.upfront).toLocaleString('en-AU') + '</b></div></div>' +
+      '<div class="breakdown">score breakdown (points, not facts) — land/size ' + item.breakdown.land + '/' + item.weights.land_and_size +
+      ' · value vs estimate ' + item.breakdown.value + '/' + item.weights.value_vs_estimate +
+      ' · build condition ' + item.breakdown.build + '/' + item.weights.build_age_condition + buildNote +
+      ' · availability ' + item.breakdown.status + '/' + item.weights.availability_status + '</div></div>';
+  }
+
+  const vicOnly = document.getElementById('vicOnly');
+
+  function runLiveSearch() {
+    const q = filterInput.value.trim();
+    if (!q) return;
+    liveBtn.disabled = true;
+    liveResults.innerHTML = '<p class="live-loading">Scanning ' + q + ' on homely.com.au…</p>';
+    const stateParam = vicOnly.checked ? '&state=Victoria' : '';
+    const priceMaxVal = priceMaxInput.value.trim();
+    const priceMaxParam = priceMaxVal ? '&price_max=' + encodeURIComponent(priceMaxVal) : '';
+    fetch('/api/scan?suburb=' + encodeURIComponent(q) + stateParam + priceMaxParam)
+      .then(r => r.json().then(body => ({ ok: r.ok, body })))
+      .then(({ ok, body }) => {
+        if (!ok) {
+          liveResults.innerHTML = '<div class="live-error">' + body.error + '</div>';
+          return;
+        }
+        if (body.count === 0) {
+          liveResults.innerHTML = '<div class="live-heading">No listings found for ' + body.suburb + ', ' + body.state + ' right now.</div>';
+          return;
+        }
+        const heading = '<div class="live-heading"><b>' + body.count + ' live result(s) for ' +
+          body.suburb + ', ' + body.state + '</b> — fetched just now from homely.com.au, sorted by score.</div>';
+        const startIdx = LISTINGS.length;
+        LISTINGS = LISTINGS.concat(body.results);
+        const cardsHtml = body.results.map((item, i) => renderLiveCard(item, startIdx + i)).join('');
+        liveResults.innerHTML = heading + '<div class="grid">' + cardsHtml + '</div>';
+        applyFilters(); // respect any price range already set
+      })
+      .catch(() => {
+        liveResults.innerHTML = '<div class="live-error">Live search needs the local server running — ' +
+          'start it with <code>python server.py</code> instead of opening this file directly.</div>';
+      })
+      .finally(() => { liveBtn.disabled = false; });
+  }
+
+  liveBtn.addEventListener('click', runLiveSearch);
+  filterInput.addEventListener('keydown', e => { if (e.key === 'Enter') runLiveSearch(); });
+
+  // --- compare selection ---
+  // Uses event delegation (not a cached checkbox list) so checkboxes added
+  // later by live search results are picked up automatically.
+  const MAX_COMPARE = 3;
+  const compareBar = document.getElementById('compareBar');
+  const compareCount = document.getElementById('compareCount');
+  const compareBtn = document.getElementById('compareBtn');
+  const compareTable = document.getElementById('compareTable');
+
+  function selectedIdxs() {
+    return Array.from(document.querySelectorAll('.cmp:checked')).map(c => parseInt(c.dataset.idx, 10));
+  }
+
+  function updateBar() {
+    const n = selectedIdxs().length;
+    compareBar.classList.toggle('show', n > 0);
+    compareCount.textContent = n + ' selected (max ' + MAX_COMPARE + ')';
+    compareBtn.disabled = n < 2;
+  }
+
+  document.addEventListener('change', e => {
+    if (!e.target.classList.contains('cmp')) return;
+    if (selectedIdxs().length > MAX_COMPARE) {
+      e.target.checked = false;
+      alert('You can compare up to ' + MAX_COMPARE + ' properties at a time.');
+    }
+    updateBar();
+  });
+
+  function fmtMoney(v) {
+    return (v === null || v === undefined) ? 'N/A' : '$' + Math.round(v).toLocaleString('en-AU');
+  }
+
+  function priceMid(l) {
+    if (l.price_low && l.price_high) return (l.price_low + l.price_high) / 2;
+    return l.price_low || l.price_high || null;
+  }
+
+  function buildLabel(l) {
+    if (l.is_new_home) return 'New / off-the-plan';
+    if (l.build_year) return 'Built ' + l.build_year;
+    const q = encodeURIComponent('"' + l.address + '" built year');
+    return 'Unknown — <a href="https://www.google.com/search?q=' + q +
+      '" target="_blank" rel="noopener">check build year ↗</a>';
+  }
+
+  function renderCompare() {
+    const idxs = selectedIdxs();
+    if (idxs.length < 2) { compareTable.classList.remove('show'); return; }
+    const items = idxs.map(i => LISTINGS[i]);
+
+    const rows = [
+      ['Score (incl. bonus)', l => l.total + '/105', l => l.total],
+      ['Price (mid-point)', l => fmtMoney(priceMid(l)), l => -(priceMid(l) || Infinity)],
+      ['Land size', l => (l.land ? l.land + 'm²' : 'N/A'), l => l.land || 0],
+      ['Beds / baths / cars', l => (l.beds ?? '?') + ' / ' + (l.baths ?? '?') + ' / ' + (l.cars ?? '?'), null],
+      ['Status', l => l.status, null],
+      ['Build year', l => buildLabel(l), null],
+      ['Fits your criteria', l => l.fits ? 'Yes' : 'No', l => l.fits ? 1 : 0],
+      ['Est. upfront cash', l => fmtMoney(l.upfront), l => -l.upfront],
+    ];
+
+    let html = '<div class="compare-table-scroll"><table><thead><tr><th>Criteria</th>';
+    items.forEach(l => { html += '<th>' + l.address.replace(/</g, '&lt;') + '</th>'; });
+    html += '</tr></thead><tbody>';
+    rows.forEach(([label, fmt, rank]) => {
+      html += '<tr><th>' + label + '</th>';
+      let bestVal = null, bestI = -1;
+      if (rank) {
+        items.forEach((l, i) => {
+          const v = rank(l);
+          if (bestVal === null || v > bestVal) { bestVal = v; bestI = i; }
+        });
+      }
+      items.forEach((l, i) => {
+        html += '<td' + (i === bestI ? ' class="winner"' : '') + '>' + fmt(l) + '</td>';
+      });
+      html += '</tr>';
+    });
+    html += '<tr id="distanceLoadingRow"><th>Distance to your reference locations</th>' +
+      '<td colspan="' + items.length + '">Fetching driving distance (no traffic, no API key)…</td></tr>';
+    html += '</tbody></table></div>';
+
+    // --- verdict: rank by total score, explain the deciding factors ---
+    const sorted = items.slice().sort((a, b) => b.total - a.total);
+    const winner = sorted[0], runnerUp = sorted[1];
+    const parts = [];
+    ['land', 'value', 'build', 'status'].forEach(k => {
+      const wv = winner.breakdown[k], rv = runnerUp.breakdown[k];
+      if (wv - rv >= 3) {
+        const names = {land: 'land size', value: 'value vs. estimate', build: 'build condition', status: 'availability'};
+        parts.push(names[k]);
+      }
+    });
+    let verdict = '<b>' + winner.address + '</b> scores highest overall (' + winner.total + ' vs ' +
+      runnerUp.total + ')';
+    verdict += parts.length ? ', mainly on ' + parts.join(' and ') + '.' : ', by a narrow margin.';
+    if (!winner.fits) {
+      verdict += ' Note: it does NOT fit your hard budget/land criteria, so weigh that against the score.';
+    }
+    const unknownBuild = items.filter(l => !l.build_year && !l.is_new_home).map(l => l.address);
+    if (unknownBuild.length) {
+      verdict += ' Build year is unknown for ' + unknownBuild.length + ' of these — that portion of the ' +
+        'score is neutral, not a real assessment of age. Verify build year yourself before deciding.';
+    }
+    html += '<div id="verdict">' + verdict + '</div>';
+
+    compareTable.innerHTML = html;
+    compareTable.classList.add('show');
+    compareTable.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    fetchAndRenderDistances(items);
+  }
+
+  function fetchAndRenderDistances(items) {
+    Promise.all(items.map(l => {
+      if (l.lat == null || l.lon == null) return Promise.resolve(null);
+      return fetch('/api/distances?lat=' + l.lat + '&lon=' + l.lon)
+        .then(r => r.json()).catch(() => null);
+    })).then(results => {
+      const loadingRow = document.getElementById('distanceLoadingRow');
+      if (!loadingRow) return;
+      if (results.every(r => !r)) {
+        loadingRow.innerHTML = '<th>Distance to your reference locations</th>' +
+          '<td colspan="' + items.length + '">Could not fetch distances — is <code>python server.py</code> running?</td>';
+        return;
+      }
+      // reference locations are the same list for every item; use the first successful response for names
+      const refNames = (results.find(r => r) || { distances: [] }).distances.map(d => d.name);
+      const rowsHtml = refNames.map((name, refIdx) => {
+        let bestVal = null, bestI = -1;
+        const cells = items.map((l, i) => {
+          const r = results[i] && results[i].distances[refIdx];
+          const v = r && !r.error ? r.km : null;
+          if (v !== null && (bestVal === null || v < bestVal)) { bestVal = v; bestI = i; }
+          return r ? (r.error ? r.error : r.km + ' km · ' + r.minutes + ' min drive (no traffic)') : 'N/A';
+        });
+        return '<tr><th>Distance to ' + name + '</th>' + cells.map((c, i) =>
+          '<td' + (i === bestI ? ' class="winner"' : '') + '>' + c + '</td>').join('') + '</tr>';
+      }).join('');
+      loadingRow.outerHTML = rowsHtml;
+    });
+  }
+
+  compareBtn.addEventListener('click', renderCompare);
+})();
+</script>
+</body>
+</html>

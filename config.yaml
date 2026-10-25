@@ -1,0 +1,67 @@
+# Search criteria — edit these freely, everything else adapts automatically.
+#
+# Personal settings (your own deposit, workplace addresses for the distance
+# comparison, etc.) belong in config.local.yaml, which is git-ignored. Any
+# top-level key there overrides the same key here on your machine only.
+
+region_label: "Melbourne, max 35km driving distance from CBD, growth-corridor suburbs built mostly 2010+ (preference for the west)"
+
+budget_min: 600000            # lower end of the price range searched
+budget_max: 750000            # listings priced above this are dropped
+allow_under_budget_min: true  # still show good deals below budget_min
+
+min_land_sqm: 400
+min_bedrooms: 4
+
+deposit_pct: 20               # assumed deposit for the LVR / LMI / upfront cash estimate
+
+max_listings_per_run: 12      # top N listings (by score) shown in the report
+
+# Shown in the compare table as driving distance/time from each property
+# (free-flow, no traffic — via OSRM, no API key). Override in
+# config.local.yaml with your own places, e.g. a workplace.
+reference_locations:
+  - name: "Melbourne CBD (Flinders Street Station)"
+    address: "Flinders St, Melbourne, VIC 3000"
+
+# Buyer Quality Score weights (must sum to 100)
+score_weights:
+  land_and_size: 30
+  value_vs_estimate: 30
+  build_age_condition: 20
+  availability_status: 20
+
+# Suburbs scanned each run (homely.com.au slugs: name-vic-postcode).
+#
+# NOTE ON "built 2010+": homely.com.au has NO build-year field anywhere in its
+# data (confirmed empty even on individual listing detail pages) and agent
+# descriptions essentially never state a year built either (tested across a
+# sample of real listings: 0/12 mentioned one). There is no reliable way to
+# verify an individual listing's age from any free, scriptable source.
+#
+# As a best-effort PROXY (not verified fact — sanity-check against your own
+# local knowledge), this list is narrowed to growth-corridor suburbs that
+# were farmland/undeveloped until roughly the 2010s and so are built almost
+# entirely post-2010:
+#   - truganina, rockbank, plumpton: released and built out from ~2010
+#     onwards, high confidence almost all stock is 2010+.
+#   - williams-landing: entirely new masterplanned suburb built around its
+#     train station (opened 2013), high confidence.
+#   - tarneit, craigieburn, greenvale: large growth-corridor suburbs still
+#     being built out, but each has some older (pre-2010) pockets too —
+#     medium confidence, individual listings can still predate 2010.
+# All other previously-scanned suburbs (inner/middle-ring Melbourne, older
+# established west/north/bayside suburbs) were dropped because their housing
+# stock is predominantly pre-2010.
+#
+# West-Melbourne suburbs get a scoring bonus (see WEST_SUBURBS /
+# WEST_SIDE_BONUS in scan_deals.py). Add/remove suburbs freely.
+suburbs:
+  - truganina-vic-3029
+  - rockbank-vic-3335
+  - plumpton-vic-3335
+  - williams-landing-vic-3027
+  - tarneit-vic-3029
+  - craigieburn-vic-3064
+  - greenvale-vic-3059
+  - point-cook-vic-3030
