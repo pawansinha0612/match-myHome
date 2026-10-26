@@ -119,6 +119,48 @@
   #liveResults .live-loading { color: var(--text-soft); font-style: italic; font-size: 0.85rem; }
   #liveResults .grid { margin-top: 0.7rem; }
 
+  #analyzer {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+    padding: 1rem 1.2rem; margin-bottom: 1.5rem;
+  }
+  #analyzer h2 { font-size: 1rem; margin: 0 0 0.3rem; }
+  #analyzer .hint { font-size: 0.8rem; color: var(--text-soft); margin: 0 0 0.6rem; }
+  #analyzeInput {
+    width: 100%; min-height: 4.5rem; resize: vertical; font: inherit; font-size: 0.9rem; padding: 0.6rem 0.8rem;
+    border: 1.5px solid var(--border); border-radius: 8px; background: #fff; color: var(--text);
+  }
+  #analyzeInput:focus { outline: none; border-color: var(--accent); }
+  #analyzeBtn {
+    margin-top: 0.5rem; font: inherit; font-size: 0.88rem; font-weight: 600; background: var(--accent); color: #fff;
+    border: none; padding: 0.55rem 1.2rem; border-radius: 8px; cursor: pointer;
+  }
+  #analyzeBtn:disabled { opacity: 0.6; cursor: wait; }
+  #analyzeResult { margin-top: 1rem; }
+  #analyzeResult .an-verdict { border-radius: 8px; padding: 0.8rem 1rem; margin-bottom: 0.9rem; font-size: 0.9rem; line-height: 1.5; }
+  #analyzeResult .an-verdict b.label { font-size: 1.05rem; display: block; margin-bottom: 0.2rem; }
+  .an-verdict.good { background: var(--green-soft); color: #0f5a2b; }
+  .an-verdict.ok { background: var(--amber-soft); color: #7a3d05; }
+  .an-verdict.bad { background: var(--red-soft); color: #7a1a12; }
+  #analyzeResult table { border-collapse: collapse; width: 100%; font-size: 0.85rem; }
+  #analyzeResult th, #analyzeResult td { text-align: left; padding: 0.5rem 0.55rem; border-bottom: 1px solid var(--border); vertical-align: top; }
+  #analyzeResult thead th { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-faint); }
+  #analyzeResult tbody th { font-weight: 600; color: var(--text-soft); white-space: nowrap; }
+  #analyzeResult .note { color: var(--text-faint); font-size: 0.78rem; }
+  .pill { font-size: 0.7rem; font-weight: 700; padding: 0.15rem 0.55rem; border-radius: 999px; white-space: nowrap; }
+  .pill.good { background: var(--green-soft); color: var(--green); }
+  .pill.ok { background: var(--amber-soft); color: var(--amber); }
+  .pill.bad { background: var(--red-soft); color: var(--red); }
+  .pill.info, .pill.unknown { background: var(--border); color: var(--text-soft); }
+  #analyzeResult .an-meta { font-size: 0.78rem; color: var(--text-faint); margin: 0.8rem 0 0.4rem; }
+  #analyzeResult .an-checks { display: flex; flex-wrap: wrap; gap: 0.4rem 1rem; font-size: 0.82rem; }
+  #analyzeResult .an-checks a { color: var(--accent); text-decoration: none; }
+  #analyzeResult .an-actions { margin-top: 0.8rem; }
+  #analyzeResult .an-actions button {
+    font: inherit; font-size: 0.82rem; font-weight: 600; background: var(--dark); color: #fff;
+    border: none; padding: 0.45rem 1rem; border-radius: 8px; cursor: pointer;
+  }
+  .an-scroll { overflow-x: auto; }
+
   @media (max-width: 640px) {
     #compareTable { padding: 0.8rem; }
     #compareBar { left: 1.2rem; right: 1.2rem; }
@@ -131,9 +173,19 @@
     <div class="subtitle">
       2026-10-26 · 4+ bed house, 400m²+ land,
       $600,000–$750,000 price range · homely.com.au,
-      8 suburbs scanned
+      8 suburbs scanned · <a href="https://claude.ai/code/artifact/64932001-d65d-48f4-9606-8b4ceb41c56e" target="_blank" rel="noopener">Purchase Feasibility Analyzer ↗</a> (stamp duty / LMI calculator)
     </div>
     
+
+    <section id="analyzer">
+      <h2>Should I buy this one?</h2>
+      <p class="hint">Paste a homely / domain / realestate.com.au link, an address, or the listing text copied
+      from any site. You get every factor rated against your criteria and the suburb, plus a verdict.
+      Needs <code>python server.py</code> running.</p>
+      <textarea id="analyzeInput" placeholder="e.g. 12 Smith St, Truganina VIC 3029 — or paste the whole listing (price, beds, land size…)"></textarea>
+      <button id="analyzeBtn">Analyse property</button>
+      <div id="analyzeResult"></div>
+    </section>
 
     <div class="toolbar">
       <input type="text" id="suburbFilter" placeholder="Filter these results, or type a suburb and press Enter to scan it live…">
@@ -161,38 +213,12 @@
     
     <div class="grid">
     
-        <div class="card" data-idx="0" data-address="2005 western highway, rockbank vic 3335">
+        <div class="card" data-idx="0" data-address="36 langdon crescent, craigieburn vic 3064">
           <div class="card-head">
             <label class="compare-check">
               <input type="checkbox" class="cmp" data-idx="0"> compare
             </label>
-            <h2><a href="https://www.homely.com.au/homes/2005-western-highway-rockbank-vic-3335/13617825" target="_blank" rel="noopener">2005 Western Highway, Rockbank VIC 3335</a> <span class="tag new">NEW</span></h2>
-            <div class="score">69<span class="score-max">/100</span> <span class="tag bonus">+5 west</span></div>
-          </div>
-          <div class="tags">
-            <span class="tag status" style="--c:#2f6b3f">Available</span>
-            <span class="tag fit">fits criteria</span>
-            <span class="tag price">$600,000–$650,000</span>
-          </div>
-          <div class="agent-text">agent: “$600,000 to $650,000”</div>
-          <div class="details">
-            <div>Land: <b>601m²</b> (need 400m²+)</div>
-            <div>Beds/baths/car: <b>4 / 1 / 4</b></div>
-            <div>Est. upfront cash needed: <b>$132,878</b></div>
-          </div>
-          <div class="breakdown">
-            score breakdown (points, not facts) — land/size 24.1/30 ·
-            value vs estimate 15.0/30 ·
-            build condition 10.0/20 (build year unknown) ·
-            availability 20/20
-          </div>
-        </div>
-        <div class="card" data-idx="1" data-address="36 langdon crescent, craigieburn vic 3064">
-          <div class="card-head">
-            <label class="compare-check">
-              <input type="checkbox" class="cmp" data-idx="1"> compare
-            </label>
-            <h2><a href="https://www.homely.com.au/homes/36-langdon-crescent-craigieburn-vic-3064/13627922" target="_blank" rel="noopener">36 Langdon Crescent, Craigieburn VIC 3064</a> <span class="tag new">NEW</span></h2>
+            <h2><a href="https://www.homely.com.au/homes/36-langdon-crescent-craigieburn-vic-3064/13627922" target="_blank" rel="noopener">36 Langdon Crescent, Craigieburn VIC 3064</a> </h2>
             <div class="score">71<span class="score-max">/100</span> </div>
           </div>
           <div class="tags">
@@ -204,7 +230,7 @@
           <div class="details">
             <div>Land: <b>694m²</b> (need 400m²+)</div>
             <div>Beds/baths/car: <b>4 / 2 / 2</b></div>
-            <div>Est. upfront cash needed: <b>$184,703</b></div>
+            <div>Est. upfront cash needed: <b>$101,336</b></div>
           </div>
           <div class="breakdown">
             score breakdown (points, not facts) — land/size 30/30 ·
@@ -213,232 +239,24 @@
             availability 16.0/20
           </div>
         </div>
-        <div class="card" data-idx="2" data-address="1 pandey place, rockbank vic 3335">
+        <div class="card" data-idx="1" data-address="8 dylan street, tarneit vic 3029">
           <div class="card-head">
             <label class="compare-check">
-              <input type="checkbox" class="cmp" data-idx="2"> compare
+              <input type="checkbox" class="cmp" data-idx="1"> compare
             </label>
-            <h2><a href="https://www.homely.com.au/homes/1-pandey-place-rockbank-vic-3335/13621663" target="_blank" rel="noopener">1 Pandey Place, Rockbank VIC 3335</a> <span class="tag new">NEW</span></h2>
-            <div class="score">65<span class="score-max">/100</span> <span class="tag bonus">+5 west</span></div>
-          </div>
-          <div class="tags">
-            <span class="tag status" style="--c:#2f6b3f">Available</span>
-            <span class="tag fit">fits criteria</span>
-            <span class="tag price">$634,661–$634,661</span>
-          </div>
-          <div class="agent-text">agent: “Brand-New, Fully Upgraded Luxury Living”</div>
-          <div class="details">
-            <div>Land: <b>564m²</b> (need 400m²+)</div>
-            <div>Beds/baths/car: <b>4 / 3 / 2</b></div>
-            <div>Est. upfront cash needed: <b>$137,042</b></div>
-          </div>
-          <div class="breakdown">
-            score breakdown (points, not facts) — land/size 19.7/30 ·
-            value vs estimate 15.0/30 ·
-            build condition 10.0/20 (build year unknown) ·
-            availability 20/20
-          </div>
-        </div>
-        <div class="card" data-idx="3" data-address="4426 stanmore crescent, wyndham vale vic 3024">
-          <div class="card-head">
-            <label class="compare-check">
-              <input type="checkbox" class="cmp" data-idx="3"> compare
-            </label>
-            <h2><a href="https://www.homely.com.au/homes/4426-stanmore-crescent-wyndham-vale-vic-3024/13631707" target="_blank" rel="noopener">4426 Stanmore Crescent, Wyndham Vale VIC 3024</a> <span class="tag new">NEW</span></h2>
-            <div class="score">61<span class="score-max">/100</span> <span class="tag bonus">+5 west</span></div>
-          </div>
-          <div class="tags">
-            <span class="tag status" style="--c:#2f6b3f">Available</span>
-            <span class="tag fit">fits criteria</span>
-            <span class="tag price">$732,875–$732,875</span>
-          </div>
-          <div class="agent-text">agent: “$732,875”</div>
-          <div class="details">
-            <div>Land: <b>448m²</b> (need 400m²+)</div>
-            <div>Beds/baths/car: <b>4 / 2 / 2</b></div>
-            <div>Est. upfront cash needed: <b>$183,610</b></div>
-          </div>
-          <div class="breakdown">
-            score breakdown (points, not facts) — land/size 5.8/30 ·
-            value vs estimate 15.0/30 ·
-            build condition 20/20 ·
-            availability 20/20
-          </div>
-        </div>
-        <div class="card" data-idx="4" data-address="4424 stanmore crescent, wyndham vale vic 3024">
-          <div class="card-head">
-            <label class="compare-check">
-              <input type="checkbox" class="cmp" data-idx="4"> compare
-            </label>
-            <h2><a href="https://www.homely.com.au/homes/4424-stanmore-crescent-wyndham-vale-vic-3024/13631706" target="_blank" rel="noopener">4424 Stanmore Crescent, Wyndham Vale VIC 3024</a> <span class="tag new">NEW</span></h2>
-            <div class="score">61<span class="score-max">/100</span> <span class="tag bonus">+5 west</span></div>
-          </div>
-          <div class="tags">
-            <span class="tag status" style="--c:#2f6b3f">Available</span>
-            <span class="tag fit">fits criteria</span>
-            <span class="tag price">$725,404–$725,404</span>
-          </div>
-          <div class="agent-text">agent: “$725,404”</div>
-          <div class="details">
-            <div>Land: <b>448m²</b> (need 400m²+)</div>
-            <div>Beds/baths/car: <b>4 / 2 / 2</b></div>
-            <div>Est. upfront cash needed: <b>$179,797</b></div>
-          </div>
-          <div class="breakdown">
-            score breakdown (points, not facts) — land/size 5.8/30 ·
-            value vs estimate 15.0/30 ·
-            build condition 20/20 ·
-            availability 20/20
-          </div>
-        </div>
-        <div class="card" data-idx="5" data-address="4423 stanmore crescent, wyndham vale vic 3024">
-          <div class="card-head">
-            <label class="compare-check">
-              <input type="checkbox" class="cmp" data-idx="5"> compare
-            </label>
-            <h2><a href="https://www.homely.com.au/homes/4423-stanmore-crescent-wyndham-vale-vic-3024/13631704" target="_blank" rel="noopener">4423 Stanmore Crescent, Wyndham Vale VIC 3024</a> <span class="tag new">NEW</span></h2>
-            <div class="score">61<span class="score-max">/100</span> <span class="tag bonus">+5 west</span></div>
-          </div>
-          <div class="tags">
-            <span class="tag status" style="--c:#2f6b3f">Available</span>
-            <span class="tag fit">fits criteria</span>
-            <span class="tag price">$732,875–$732,875</span>
-          </div>
-          <div class="agent-text">agent: “$732,875”</div>
-          <div class="details">
-            <div>Land: <b>448m²</b> (need 400m²+)</div>
-            <div>Beds/baths/car: <b>4 / 2 / 2</b></div>
-            <div>Est. upfront cash needed: <b>$183,610</b></div>
-          </div>
-          <div class="breakdown">
-            score breakdown (points, not facts) — land/size 5.8/30 ·
-            value vs estimate 15.0/30 ·
-            build condition 20/20 ·
-            availability 20/20
-          </div>
-        </div>
-        <div class="card" data-idx="6" data-address="4425 stanmore crescent, wyndham vale vic 3024">
-          <div class="card-head">
-            <label class="compare-check">
-              <input type="checkbox" class="cmp" data-idx="6"> compare
-            </label>
-            <h2><a href="https://www.homely.com.au/homes/4425-stanmore-crescent-wyndham-vale-vic-3024/13631705" target="_blank" rel="noopener">4425 Stanmore Crescent, Wyndham Vale VIC 3024</a> <span class="tag new">NEW</span></h2>
-            <div class="score">61<span class="score-max">/100</span> <span class="tag bonus">+5 west</span></div>
-          </div>
-          <div class="tags">
-            <span class="tag status" style="--c:#2f6b3f">Available</span>
-            <span class="tag fit">fits criteria</span>
-            <span class="tag price">$730,180–$730,180</span>
-          </div>
-          <div class="agent-text">agent: “$730,180”</div>
-          <div class="details">
-            <div>Land: <b>448m²</b> (need 400m²+)</div>
-            <div>Beds/baths/car: <b>4 / 2 / 2</b></div>
-            <div>Est. upfront cash needed: <b>$182,229</b></div>
-          </div>
-          <div class="breakdown">
-            score breakdown (points, not facts) — land/size 5.8/30 ·
-            value vs estimate 15.0/30 ·
-            build condition 20/20 ·
-            availability 20/20
-          </div>
-        </div>
-        <div class="card" data-idx="7" data-address="4421 stanmore crescent, wyndham vale vic 3024">
-          <div class="card-head">
-            <label class="compare-check">
-              <input type="checkbox" class="cmp" data-idx="7"> compare
-            </label>
-            <h2><a href="https://www.homely.com.au/homes/4421-stanmore-crescent-wyndham-vale-vic-3024/13631702" target="_blank" rel="noopener">4421 Stanmore Crescent, Wyndham Vale VIC 3024</a> <span class="tag new">NEW</span></h2>
-            <div class="score">61<span class="score-max">/100</span> <span class="tag bonus">+5 west</span></div>
-          </div>
-          <div class="tags">
-            <span class="tag status" style="--c:#2f6b3f">Available</span>
-            <span class="tag fit">fits criteria</span>
-            <span class="tag price">$725,404–$725,404</span>
-          </div>
-          <div class="agent-text">agent: “$725,404”</div>
-          <div class="details">
-            <div>Land: <b>448m²</b> (need 400m²+)</div>
-            <div>Beds/baths/car: <b>4 / 2 / 2</b></div>
-            <div>Est. upfront cash needed: <b>$179,797</b></div>
-          </div>
-          <div class="breakdown">
-            score breakdown (points, not facts) — land/size 5.8/30 ·
-            value vs estimate 15.0/30 ·
-            build condition 20/20 ·
-            availability 20/20
-          </div>
-        </div>
-        <div class="card" data-idx="8" data-address="4422 stanmore crescent, wyndham vale vic 3024">
-          <div class="card-head">
-            <label class="compare-check">
-              <input type="checkbox" class="cmp" data-idx="8"> compare
-            </label>
-            <h2><a href="https://www.homely.com.au/homes/4422-stanmore-crescent-wyndham-vale-vic-3024/13631701" target="_blank" rel="noopener">4422 Stanmore Crescent, Wyndham Vale VIC 3024</a> <span class="tag new">NEW</span></h2>
-            <div class="score">61<span class="score-max">/100</span> <span class="tag bonus">+5 west</span></div>
-          </div>
-          <div class="tags">
-            <span class="tag status" style="--c:#2f6b3f">Available</span>
-            <span class="tag fit">fits criteria</span>
-            <span class="tag price">$730,180–$730,180</span>
-          </div>
-          <div class="agent-text">agent: “$730,180”</div>
-          <div class="details">
-            <div>Land: <b>448m²</b> (need 400m²+)</div>
-            <div>Beds/baths/car: <b>4 / 2 / 2</b></div>
-            <div>Est. upfront cash needed: <b>$182,229</b></div>
-          </div>
-          <div class="breakdown">
-            score breakdown (points, not facts) — land/size 5.8/30 ·
-            value vs estimate 15.0/30 ·
-            build condition 20/20 ·
-            availability 20/20
-          </div>
-        </div>
-        <div class="card" data-idx="9" data-address="4420 stanmore crescent, wyndham vale vic 3024">
-          <div class="card-head">
-            <label class="compare-check">
-              <input type="checkbox" class="cmp" data-idx="9"> compare
-            </label>
-            <h2><a href="https://www.homely.com.au/homes/4420-stanmore-crescent-wyndham-vale-vic-3024/13631700" target="_blank" rel="noopener">4420 Stanmore Crescent, Wyndham Vale VIC 3024</a> <span class="tag new">NEW</span></h2>
-            <div class="score">61<span class="score-max">/100</span> <span class="tag bonus">+5 west</span></div>
-          </div>
-          <div class="tags">
-            <span class="tag status" style="--c:#2f6b3f">Available</span>
-            <span class="tag fit">fits criteria</span>
-            <span class="tag price">$732,875–$732,875</span>
-          </div>
-          <div class="agent-text">agent: “$732,875”</div>
-          <div class="details">
-            <div>Land: <b>448m²</b> (need 400m²+)</div>
-            <div>Beds/baths/car: <b>4 / 2 / 2</b></div>
-            <div>Est. upfront cash needed: <b>$183,610</b></div>
-          </div>
-          <div class="breakdown">
-            score breakdown (points, not facts) — land/size 5.8/30 ·
-            value vs estimate 15.0/30 ·
-            build condition 20/20 ·
-            availability 20/20
-          </div>
-        </div>
-        <div class="card" data-idx="10" data-address="8 dylan street, tarneit vic 3029">
-          <div class="card-head">
-            <label class="compare-check">
-              <input type="checkbox" class="cmp" data-idx="10"> compare
-            </label>
-            <h2><a href="https://www.homely.com.au/homes/8-dylan-street-tarneit-vic-3029/13628068" target="_blank" rel="noopener">8 Dylan Street, Tarneit VIC 3029</a> <span class="tag new">NEW</span></h2>
+            <h2><a href="https://www.homely.com.au/homes/8-dylan-street-tarneit-vic-3029/13628068" target="_blank" rel="noopener">8 Dylan Street, Tarneit VIC 3029</a> </h2>
             <div class="score">59<span class="score-max">/100</span> <span class="tag bonus">+5 west</span></div>
           </div>
           <div class="tags">
             <span class="tag status" style="--c:#2f6b3f">Available</span>
             <span class="tag fit">fits criteria</span>
-            <span class="tag price">$670,980–$670,980</span>
+            <span class="tag price">$670,656–$670,656</span>
           </div>
           <div class="agent-text">agent: “Contact Agents !”</div>
           <div class="details">
             <div>Land: <b>513m²</b> (need 400m²+)</div>
             <div>Beds/baths/car: <b>4 / 2 / 2</b></div>
-            <div>Est. upfront cash needed: <b>$153,364</b></div>
+            <div>Est. upfront cash needed: <b>$77,144</b></div>
           </div>
           <div class="breakdown">
             score breakdown (points, not facts) — land/size 13.6/30 ·
@@ -447,29 +265,263 @@
             availability 20/20
           </div>
         </div>
-        <div class="card" data-idx="11" data-address="lot 117 bishopgate blvd, plumpton vic 3335">
+        <div class="card" data-idx="2" data-address="21 victoria street, truganina vic 3029">
           <div class="card-head">
             <label class="compare-check">
-              <input type="checkbox" class="cmp" data-idx="11"> compare
+              <input type="checkbox" class="cmp" data-idx="2"> compare
             </label>
-            <h2><a href="https://www.homely.com.au/homes/lot-117-bishopgate-blvd-plumpton-vic-3335/13287161" target="_blank" rel="noopener">Lot 117 Bishopgate Blvd, Plumpton VIC 3335</a> </h2>
-            <div class="score">57<span class="score-max">/100</span> <span class="tag bonus">+5 west</span></div>
+            <h2><a href="https://www.homely.com.au/homes/21-victoria-street-truganina-vic-3029/13624919" target="_blank" rel="noopener">21 Victoria Street, Truganina VIC 3029</a> </h2>
+            <div class="score">56<span class="score-max">/100</span> <span class="tag bonus">+5 west</span></div>
           </div>
           <div class="tags">
             <span class="tag status" style="--c:#2f6b3f">Available</span>
             <span class="tag fit">fits criteria</span>
-            <span class="tag price">$702,808–$702,808</span>
+            <span class="tag price">$735,000–$755,000</span>
           </div>
-          <div class="agent-text">agent: “$702,808”</div>
+          <div class="agent-text">agent: “$735,000-$755,000”</div>
           <div class="details">
-            <div>Land: <b>419m²</b> (need 400m²+)</div>
+            <div>Land: <b>494m²</b> (need 400m²+)</div>
             <div>Beds/baths/car: <b>4 / 2 / 2</b></div>
-            <div>Est. upfront cash needed: <b>$168,534</b></div>
+            <div>Est. upfront cash needed: <b>$105,393</b></div>
           </div>
           <div class="breakdown">
-            score breakdown (points, not facts) — land/size 2.3/30 ·
+            score breakdown (points, not facts) — land/size 11.3/30 ·
+            value vs estimate 15.0/30 ·
+            build condition 10.0/20 (build year unknown) ·
+            availability 20/20
+          </div>
+        </div>
+        <div class="card" data-idx="3" data-address="2339 pandini drive, truganina vic 3029">
+          <div class="card-head">
+            <label class="compare-check">
+              <input type="checkbox" class="cmp" data-idx="3"> compare
+            </label>
+            <h2><a href="https://www.homely.com.au/homes/2339-pandini-drive-truganina-vic-3029/13610950" target="_blank" rel="noopener">2339 Pandini Drive, Truganina VIC 3029</a> </h2>
+            <div class="score">55<span class="score-max">/100</span> <span class="tag bonus">+5 west</span></div>
+          </div>
+          <div class="tags">
+            <span class="tag status" style="--c:#2f6b3f">Available</span>
+            <span class="tag fit">fits criteria</span>
+            <span class="tag price">$708,310–$708,310</span>
+          </div>
+          <div class="agent-text">agent: “$708,310”</div>
+          <div class="details">
+            <div>Land: <b>400m²</b> (need 400m²+)</div>
+            <div>Beds/baths/car: <b>4 / 2 / 2</b></div>
+            <div>Est. upfront cash needed: <b>$90,899</b></div>
+          </div>
+          <div class="breakdown">
+            score breakdown (points, not facts) — land/size 0/30 ·
             value vs estimate 15.0/30 ·
             build condition 20/20 ·
+            availability 20/20
+          </div>
+        </div>
+        <div class="card" data-idx="4" data-address="1616 9 galium road, tarneit vic 3029">
+          <div class="card-head">
+            <label class="compare-check">
+              <input type="checkbox" class="cmp" data-idx="4"> compare
+            </label>
+            <h2><a href="https://www.homely.com.au/homes/1616-9-galium-road-tarneit-vic-3029/13626424" target="_blank" rel="noopener">1616 9 Galium Road, Tarneit VIC 3029</a> </h2>
+            <div class="score">55<span class="score-max">/100</span> <span class="tag bonus">+5 west</span></div>
+          </div>
+          <div class="tags">
+            <span class="tag status" style="--c:#2f6b3f">Available</span>
+            <span class="tag fit">fits criteria</span>
+            <span class="tag price">$732,810–$732,810</span>
+          </div>
+          <div class="agent-text">agent: “$732,810”</div>
+          <div class="details">
+            <div>Land: <b>400m²</b> (need 400m²+)</div>
+            <div>Beds/baths/car: <b>4 / 2 / 2</b></div>
+            <div>Est. upfront cash needed: <b>$100,458</b></div>
+          </div>
+          <div class="breakdown">
+            score breakdown (points, not facts) — land/size 0/30 ·
+            value vs estimate 15.0/30 ·
+            build condition 20/20 ·
+            availability 20/20
+          </div>
+        </div>
+        <div class="card" data-idx="5" data-address="31 ballybunion avenue, craigieburn vic 3064">
+          <div class="card-head">
+            <label class="compare-check">
+              <input type="checkbox" class="cmp" data-idx="5"> compare
+            </label>
+            <h2><a href="https://www.homely.com.au/homes/31-ballybunion-avenue-craigieburn-vic-3064/13625722" target="_blank" rel="noopener">31 Ballybunion Avenue, Craigieburn VIC 3064</a> </h2>
+            <div class="score">59<span class="score-max">/100</span> </div>
+          </div>
+          <div class="tags">
+            <span class="tag status" style="--c:#a67c27">Auction scheduled</span>
+            <span class="tag fit">fits criteria</span>
+            <span class="tag price">$719,525–$719,525</span>
+          </div>
+          <div class="agent-text">agent: “Contact Agent”</div>
+          <div class="details">
+            <div>Land: <b>553m²</b> (need 400m²+)</div>
+            <div>Beds/baths/car: <b>4 / 2 / 2</b></div>
+            <div>Est. upfront cash needed: <b>$95,215</b></div>
+          </div>
+          <div class="breakdown">
+            score breakdown (points, not facts) — land/size 18.4/30 ·
+            value vs estimate 15.0/30 ·
+            build condition 10.0/20 (build year unknown) ·
+            availability 16.0/20
+          </div>
+        </div>
+        <div class="card" data-idx="6" data-address="38 serengeti circuit, tarneit vic 3029">
+          <div class="card-head">
+            <label class="compare-check">
+              <input type="checkbox" class="cmp" data-idx="6"> compare
+            </label>
+            <h2><a href="https://www.homely.com.au/homes/38-serengeti-circuit-tarneit-vic-3029/13627804" target="_blank" rel="noopener">38 Serengeti Circuit, Tarneit VIC 3029</a> </h2>
+            <div class="score">51<span class="score-max">/100</span> <span class="tag bonus">+5 west</span></div>
+          </div>
+          <div class="tags">
+            <span class="tag status" style="--c:#2f6b3f">Available</span>
+            <span class="tag fit">fits criteria</span>
+            <span class="tag price">$670,656–$670,656</span>
+          </div>
+          <div class="agent-text">agent: “Contact Agent!”</div>
+          <div class="details">
+            <div>Land: <b>449m²</b> (need 400m²+)</div>
+            <div>Beds/baths/car: <b>4 / 2 / 4</b></div>
+            <div>Est. upfront cash needed: <b>$77,144</b></div>
+          </div>
+          <div class="breakdown">
+            score breakdown (points, not facts) — land/size 5.9/30 ·
+            value vs estimate 15.0/30 ·
+            build condition 10.0/20 (build year unknown) ·
+            availability 20/20
+          </div>
+        </div>
+        <div class="card" data-idx="7" data-address="11 briggs way, tarneit vic 3029">
+          <div class="card-head">
+            <label class="compare-check">
+              <input type="checkbox" class="cmp" data-idx="7"> compare
+            </label>
+            <h2><a href="https://www.homely.com.au/homes/11-briggs-way-tarneit-vic-3029/13626005" target="_blank" rel="noopener">11 Briggs Way, Tarneit VIC 3029</a> </h2>
+            <div class="score">51<span class="score-max">/100</span> <span class="tag bonus">+5 west</span></div>
+          </div>
+          <div class="tags">
+            <span class="tag status" style="--c:#2f6b3f">Available</span>
+            <span class="tag fit">fits criteria</span>
+            <span class="tag price">$670,000–$720,000</span>
+          </div>
+          <div class="agent-text">agent: “Private Sale | $670,000 - $720,000”</div>
+          <div class="details">
+            <div>Land: <b>448m²</b> (need 400m²+)</div>
+            <div>Beds/baths/car: <b>4 / 2 / 2</b></div>
+            <div>Est. upfront cash needed: <b>$85,907</b></div>
+          </div>
+          <div class="breakdown">
+            score breakdown (points, not facts) — land/size 5.8/30 ·
+            value vs estimate 15.0/30 ·
+            build condition 10.0/20 (build year unknown) ·
+            availability 20/20
+          </div>
+        </div>
+        <div class="card" data-idx="8" data-address="1 nethercote street, craigieburn vic 3064">
+          <div class="card-head">
+            <label class="compare-check">
+              <input type="checkbox" class="cmp" data-idx="8"> compare
+            </label>
+            <h2><a href="https://www.homely.com.au/homes/1-nethercote-street-craigieburn-vic-3064/13627951" target="_blank" rel="noopener">1 Nethercote Street, Craigieburn VIC 3064</a> </h2>
+            <div class="score">55<span class="score-max">/100</span> </div>
+          </div>
+          <div class="tags">
+            <span class="tag status" style="--c:#a67c27">Auction scheduled</span>
+            <span class="tag fit">fits criteria</span>
+            <span class="tag price">$660,000–$690,000</span>
+          </div>
+          <div class="agent-text">agent: “$660,000 - $690,000”</div>
+          <div class="details">
+            <div>Land: <b>515m²</b> (need 400m²+)</div>
+            <div>Beds/baths/car: <b>4 / 2 / 2</b></div>
+            <div>Est. upfront cash needed: <b>$78,673</b></div>
+          </div>
+          <div class="breakdown">
+            score breakdown (points, not facts) — land/size 13.8/30 ·
+            value vs estimate 15.0/30 ·
+            build condition 10.0/20 (build year unknown) ·
+            availability 16.0/20
+          </div>
+        </div>
+        <div class="card" data-idx="9" data-address="26 laurence way, tarneit vic 3029">
+          <div class="card-head">
+            <label class="compare-check">
+              <input type="checkbox" class="cmp" data-idx="9"> compare
+            </label>
+            <h2><a href="https://www.homely.com.au/homes/26-laurence-way-tarneit-vic-3029/12579869" target="_blank" rel="noopener">26 Laurence Way, Tarneit VIC 3029</a> </h2>
+            <div class="score">48<span class="score-max">/100</span> <span class="tag bonus">+5 west</span></div>
+          </div>
+          <div class="tags">
+            <span class="tag status" style="--c:#2f6b3f">Available</span>
+            <span class="tag fit">fits criteria</span>
+            <span class="tag price">$599,000–$640,000</span>
+          </div>
+          <div class="agent-text">agent: “$599,000 - $640,000”</div>
+          <div class="details">
+            <div>Land: <b>421m²</b> (need 400m²+)</div>
+            <div>Beds/baths/car: <b>4 / 2 / 2</b></div>
+            <div>Est. upfront cash needed: <b>$60,274</b></div>
+          </div>
+          <div class="breakdown">
+            score breakdown (points, not facts) — land/size 2.5/30 ·
+            value vs estimate 15.0/30 ·
+            build condition 10.0/20 (build year unknown) ·
+            availability 20/20
+          </div>
+        </div>
+        <div class="card" data-idx="10" data-address="11 adrian circuit, tarneit vic 3029">
+          <div class="card-head">
+            <label class="compare-check">
+              <input type="checkbox" class="cmp" data-idx="10"> compare
+            </label>
+            <h2><a href="https://www.homely.com.au/homes/11-adrian-circuit-tarneit-vic-3029/13630372" target="_blank" rel="noopener">11 Adrian Circuit, Tarneit VIC 3029</a> </h2>
+            <div class="score">47<span class="score-max">/100</span> <span class="tag bonus">+5 west</span></div>
+          </div>
+          <div class="tags">
+            <span class="tag status" style="--c:#2f6b3f">Available</span>
+            <span class="tag fit">fits criteria</span>
+            <span class="tag price">$670,656–$670,656</span>
+          </div>
+          <div class="agent-text">agent: “Walk to Good News|Davis Creek|ICOM &amp; MGM”</div>
+          <div class="details">
+            <div>Land: <b>413m²</b> (need 400m²+)</div>
+            <div>Beds/baths/car: <b>4 / 2 / 2</b></div>
+            <div>Est. upfront cash needed: <b>$77,144</b></div>
+          </div>
+          <div class="breakdown">
+            score breakdown (points, not facts) — land/size 1.6/30 ·
+            value vs estimate 15.0/30 ·
+            build condition 10.0/20 (build year unknown) ·
+            availability 20/20
+          </div>
+        </div>
+        <div class="card" data-idx="11" data-address="9 copeton avenue, tarneit vic 3029">
+          <div class="card-head">
+            <label class="compare-check">
+              <input type="checkbox" class="cmp" data-idx="11"> compare
+            </label>
+            <h2><a href="https://www.homely.com.au/homes/9-copeton-avenue-tarneit-vic-3029/13625801" target="_blank" rel="noopener">9 Copeton Avenue, Tarneit VIC 3029</a> </h2>
+            <div class="score">45<span class="score-max">/100</span> <span class="tag bonus">+5 west</span></div>
+          </div>
+          <div class="tags">
+            <span class="tag status" style="--c:#2f6b3f">Available</span>
+            <span class="tag fit">fits criteria</span>
+            <span class="tag price">$640,000–$670,000</span>
+          </div>
+          <div class="agent-text">agent: “$640,000 - $670,000”</div>
+          <div class="details">
+            <div>Land: <b>400m²</b> (need 400m²+)</div>
+            <div>Beds/baths/car: <b>4 / 2 / 2</b></div>
+            <div>Est. upfront cash needed: <b>$71,759</b></div>
+          </div>
+          <div class="breakdown">
+            score breakdown (points, not facts) — land/size 0/30 ·
+            value vs estimate 15.0/30 ·
+            build condition 10.0/20 (build year unknown) ·
             availability 20/20
           </div>
         </div>
@@ -479,7 +531,7 @@
     against the real listing.</footer>
   </div>
 
-<script id="listing-data" type="application/json">[{"idx": 0, "address": "2005 Western Highway, Rockbank VIC 3335", "url": "https://www.homely.com.au/homes/2005-western-highway-rockbank-vic-3335/13617825", "score": 69, "bonus": 5, "total": 74, "price_low": 600000.0, "price_high": 650000.0, "price_display": "$600,000 to $650,000", "land": 601, "beds": 4, "baths": 1, "cars": 4, "status": "Available", "build_year": null, "is_new_home": false, "breakdown": {"land": 24.1, "build": 10.0, "value": 15.0, "status": 20}, "weights": {"land_and_size": 30, "value_vs_estimate": 30, "build_age_condition": 20, "availability_status": 20}, "upfront": 132878, "fits": true, "lat": -37.7332378, "lon": 144.6666586}, {"idx": 1, "address": "36 Langdon Crescent, Craigieburn VIC 3064", "url": "https://www.homely.com.au/homes/36-langdon-crescent-craigieburn-vic-3064/13627922", "score": 71, "bonus": 0, "total": 71, "price_low": 720000.0, "price_high": 750000.0, "price_display": "$720,000 - $750,000", "land": 694, "beds": 4, "baths": 2, "cars": 2, "status": "Auction scheduled", "build_year": null, "is_new_home": false, "breakdown": {"land": 30, "build": 10.0, "value": 15.0, "status": 16.0}, "weights": {"land_and_size": 30, "value_vs_estimate": 30, "build_age_condition": 20, "availability_status": 20}, "upfront": 184703, "fits": true, "lat": -37.6031083, "lon": 144.9339498}, {"idx": 2, "address": "1 Pandey Place, Rockbank VIC 3335", "url": "https://www.homely.com.au/homes/1-pandey-place-rockbank-vic-3335/13621663", "score": 65, "bonus": 5, "total": 70, "price_low": 634661, "price_high": 634661, "price_display": "Brand-New, Fully Upgraded Luxury Living", "land": 564, "beds": 4, "baths": 3, "cars": 2, "status": "Available", "build_year": null, "is_new_home": false, "breakdown": {"land": 19.7, "build": 10.0, "value": 15.0, "status": 20}, "weights": {"land_and_size": 30, "value_vs_estimate": 30, "build_age_condition": 20, "availability_status": 20}, "upfront": 137042, "fits": true, "lat": -37.7439573, "lon": 144.6587789}, {"idx": 3, "address": "4426 Stanmore Crescent, Wyndham Vale VIC 3024", "url": "https://www.homely.com.au/homes/4426-stanmore-crescent-wyndham-vale-vic-3024/13631707", "score": 61, "bonus": 5, "total": 66, "price_low": 732875.0, "price_high": 732875.0, "price_display": "$732,875", "land": 448, "beds": 4, "baths": 2, "cars": 2, "status": "Available", "build_year": null, "is_new_home": true, "breakdown": {"land": 5.8, "build": 20, "value": 15.0, "status": 20}, "weights": {"land_and_size": 30, "value_vs_estimate": 30, "build_age_condition": 20, "availability_status": 20}, "upfront": 183610, "fits": true, "lat": -37.8383852, "lon": 144.5976673}, {"idx": 4, "address": "4424 Stanmore Crescent, Wyndham Vale VIC 3024", "url": "https://www.homely.com.au/homes/4424-stanmore-crescent-wyndham-vale-vic-3024/13631706", "score": 61, "bonus": 5, "total": 66, "price_low": 725404.0, "price_high": 725404.0, "price_display": "$725,404", "land": 448, "beds": 4, "baths": 2, "cars": 2, "status": "Available", "build_year": null, "is_new_home": true, "breakdown": {"land": 5.8, "build": 20, "value": 15.0, "status": 20}, "weights": {"land_and_size": 30, "value_vs_estimate": 30, "build_age_condition": 20, "availability_status": 20}, "upfront": 179797, "fits": true, "lat": -37.8383852, "lon": 144.5976673}, {"idx": 5, "address": "4423 Stanmore Crescent, Wyndham Vale VIC 3024", "url": "https://www.homely.com.au/homes/4423-stanmore-crescent-wyndham-vale-vic-3024/13631704", "score": 61, "bonus": 5, "total": 66, "price_low": 732875.0, "price_high": 732875.0, "price_display": "$732,875", "land": 448, "beds": 4, "baths": 2, "cars": 2, "status": "Available", "build_year": null, "is_new_home": true, "breakdown": {"land": 5.8, "build": 20, "value": 15.0, "status": 20}, "weights": {"land_and_size": 30, "value_vs_estimate": 30, "build_age_condition": 20, "availability_status": 20}, "upfront": 183610, "fits": true, "lat": -37.8383852, "lon": 144.5976673}, {"idx": 6, "address": "4425 Stanmore Crescent, Wyndham Vale VIC 3024", "url": "https://www.homely.com.au/homes/4425-stanmore-crescent-wyndham-vale-vic-3024/13631705", "score": 61, "bonus": 5, "total": 66, "price_low": 730180.0, "price_high": 730180.0, "price_display": "$730,180", "land": 448, "beds": 4, "baths": 2, "cars": 2, "status": "Available", "build_year": null, "is_new_home": true, "breakdown": {"land": 5.8, "build": 20, "value": 15.0, "status": 20}, "weights": {"land_and_size": 30, "value_vs_estimate": 30, "build_age_condition": 20, "availability_status": 20}, "upfront": 182229, "fits": true, "lat": -37.8383852, "lon": 144.5976673}, {"idx": 7, "address": "4421 Stanmore Crescent, Wyndham Vale VIC 3024", "url": "https://www.homely.com.au/homes/4421-stanmore-crescent-wyndham-vale-vic-3024/13631702", "score": 61, "bonus": 5, "total": 66, "price_low": 725404.0, "price_high": 725404.0, "price_display": "$725,404", "land": 448, "beds": 4, "baths": 2, "cars": 2, "status": "Available", "build_year": null, "is_new_home": true, "breakdown": {"land": 5.8, "build": 20, "value": 15.0, "status": 20}, "weights": {"land_and_size": 30, "value_vs_estimate": 30, "build_age_condition": 20, "availability_status": 20}, "upfront": 179797, "fits": true, "lat": -37.8383852, "lon": 144.5976673}, {"idx": 8, "address": "4422 Stanmore Crescent, Wyndham Vale VIC 3024", "url": "https://www.homely.com.au/homes/4422-stanmore-crescent-wyndham-vale-vic-3024/13631701", "score": 61, "bonus": 5, "total": 66, "price_low": 730180.0, "price_high": 730180.0, "price_display": "$730,180", "land": 448, "beds": 4, "baths": 2, "cars": 2, "status": "Available", "build_year": null, "is_new_home": true, "breakdown": {"land": 5.8, "build": 20, "value": 15.0, "status": 20}, "weights": {"land_and_size": 30, "value_vs_estimate": 30, "build_age_condition": 20, "availability_status": 20}, "upfront": 182229, "fits": true, "lat": -37.8383852, "lon": 144.5976673}, {"idx": 9, "address": "4420 Stanmore Crescent, Wyndham Vale VIC 3024", "url": "https://www.homely.com.au/homes/4420-stanmore-crescent-wyndham-vale-vic-3024/13631700", "score": 61, "bonus": 5, "total": 66, "price_low": 732875.0, "price_high": 732875.0, "price_display": "$732,875", "land": 448, "beds": 4, "baths": 2, "cars": 2, "status": "Available", "build_year": null, "is_new_home": true, "breakdown": {"land": 5.8, "build": 20, "value": 15.0, "status": 20}, "weights": {"land_and_size": 30, "value_vs_estimate": 30, "build_age_condition": 20, "availability_status": 20}, "upfront": 183610, "fits": true, "lat": -37.8383852, "lon": 144.5976673}, {"idx": 10, "address": "8 Dylan Street, Tarneit VIC 3029", "url": "https://www.homely.com.au/homes/8-dylan-street-tarneit-vic-3029/13628068", "score": 59, "bonus": 5, "total": 64, "price_low": 670980, "price_high": 670980, "price_display": "Contact Agents !", "land": 513, "beds": 4, "baths": 2, "cars": 2, "status": "Available", "build_year": null, "is_new_home": false, "breakdown": {"land": 13.6, "build": 10.0, "value": 15.0, "status": 20}, "weights": {"land_and_size": 30, "value_vs_estimate": 30, "build_age_condition": 20, "availability_status": 20}, "upfront": 153364, "fits": true, "lat": -37.8399601, "lon": 144.6577727}, {"idx": 11, "address": "Lot 117 Bishopgate Blvd, Plumpton VIC 3335", "url": "https://www.homely.com.au/homes/lot-117-bishopgate-blvd-plumpton-vic-3335/13287161", "score": 57, "bonus": 5, "total": 62, "price_low": 702808.0, "price_high": 702808.0, "price_display": "$702,808", "land": 419, "beds": 4, "baths": 2, "cars": 2, "status": "Available", "build_year": null, "is_new_home": true, "breakdown": {"land": 2.3, "build": 20, "value": 15.0, "status": 20}, "weights": {"land_and_size": 30, "value_vs_estimate": 30, "build_age_condition": 20, "availability_status": 20}, "upfront": 168534, "fits": true, "lat": -37.7241902, "lon": 144.652589}]</script>
+<script id="listing-data" type="application/json">[{"idx": 0, "address": "36 Langdon Crescent, Craigieburn VIC 3064", "url": "https://www.homely.com.au/homes/36-langdon-crescent-craigieburn-vic-3064/13627922", "score": 71, "bonus": 0, "total": 71, "price_low": 720000.0, "price_high": 750000.0, "price_display": "$720,000 - $750,000", "land": 694, "beds": 4, "baths": 2, "cars": 2, "status": "Auction scheduled", "build_year": null, "is_new_home": false, "breakdown": {"land": 30, "build": 10.0, "value": 15.0, "status": 16.0}, "weights": {"land_and_size": 30, "value_vs_estimate": 30, "build_age_condition": 20, "availability_status": 20}, "upfront": 101336, "fits": true, "lat": -37.6031083, "lon": 144.9339498}, {"idx": 1, "address": "8 Dylan Street, Tarneit VIC 3029", "url": "https://www.homely.com.au/homes/8-dylan-street-tarneit-vic-3029/13628068", "score": 59, "bonus": 5, "total": 64, "price_low": 670656, "price_high": 670656, "price_display": "Contact Agents !", "land": 513, "beds": 4, "baths": 2, "cars": 2, "status": "Available", "build_year": null, "is_new_home": false, "breakdown": {"land": 13.6, "build": 10.0, "value": 15.0, "status": 20}, "weights": {"land_and_size": 30, "value_vs_estimate": 30, "build_age_condition": 20, "availability_status": 20}, "upfront": 77144, "fits": true, "lat": -37.8399601, "lon": 144.6577727}, {"idx": 2, "address": "21 Victoria Street, Truganina VIC 3029", "url": "https://www.homely.com.au/homes/21-victoria-street-truganina-vic-3029/13624919", "score": 56, "bonus": 5, "total": 61, "price_low": 735000.0, "price_high": 755000.0, "price_display": "$735,000-$755,000", "land": 494, "beds": 4, "baths": 2, "cars": 2, "status": "Available", "build_year": null, "is_new_home": false, "breakdown": {"land": 11.3, "build": 10.0, "value": 15.0, "status": 20}, "weights": {"land_and_size": 30, "value_vs_estimate": 30, "build_age_condition": 20, "availability_status": 20}, "upfront": 105393, "fits": true, "lat": -37.8560147, "lon": 144.7274314}, {"idx": 3, "address": "2339 Pandini Drive, Truganina VIC 3029", "url": "https://www.homely.com.au/homes/2339-pandini-drive-truganina-vic-3029/13610950", "score": 55, "bonus": 5, "total": 60, "price_low": 708310.0, "price_high": 708310.0, "price_display": "$708,310", "land": 400, "beds": 4, "baths": 2, "cars": 2, "status": "Available", "build_year": null, "is_new_home": true, "breakdown": {"land": 0, "build": 20, "value": 15.0, "status": 20}, "weights": {"land_and_size": 30, "value_vs_estimate": 30, "build_age_condition": 20, "availability_status": 20}, "upfront": 90899, "fits": true, "lat": -37.8208705, "lon": 144.6944256}, {"idx": 4, "address": "1616 9 Galium Road, Tarneit VIC 3029", "url": "https://www.homely.com.au/homes/1616-9-galium-road-tarneit-vic-3029/13626424", "score": 55, "bonus": 5, "total": 60, "price_low": 732810.0, "price_high": 732810.0, "price_display": "$732,810", "land": 400, "beds": 4, "baths": 2, "cars": 2, "status": "Available", "build_year": null, "is_new_home": true, "breakdown": {"land": 0, "build": 20, "value": 15.0, "status": 20}, "weights": {"land_and_size": 30, "value_vs_estimate": 30, "build_age_condition": 20, "availability_status": 20}, "upfront": 100458, "fits": true, "lat": -37.8208705, "lon": 144.6944256}, {"idx": 5, "address": "31 Ballybunion Avenue, Craigieburn VIC 3064", "url": "https://www.homely.com.au/homes/31-ballybunion-avenue-craigieburn-vic-3064/13625722", "score": 59, "bonus": 0, "total": 59, "price_low": 719525, "price_high": 719525, "price_display": "Contact Agent", "land": 553, "beds": 4, "baths": 2, "cars": 2, "status": "Auction scheduled", "build_year": null, "is_new_home": false, "breakdown": {"land": 18.4, "build": 10.0, "value": 15.0, "status": 16.0}, "weights": {"land_and_size": 30, "value_vs_estimate": 30, "build_age_condition": 20, "availability_status": 20}, "upfront": 95215, "fits": true, "lat": -37.6030858, "lon": 144.9106925}, {"idx": 6, "address": "38 Serengeti Circuit, Tarneit VIC 3029", "url": "https://www.homely.com.au/homes/38-serengeti-circuit-tarneit-vic-3029/13627804", "score": 51, "bonus": 5, "total": 56, "price_low": 670656, "price_high": 670656, "price_display": "Contact Agent!", "land": 449, "beds": 4, "baths": 2, "cars": 4, "status": "Available", "build_year": null, "is_new_home": false, "breakdown": {"land": 5.9, "build": 10.0, "value": 15.0, "status": 20}, "weights": {"land_and_size": 30, "value_vs_estimate": 30, "build_age_condition": 20, "availability_status": 20}, "upfront": 77144, "fits": true, "lat": -37.8294719, "lon": 144.6739242}, {"idx": 7, "address": "11 Briggs Way, Tarneit VIC 3029", "url": "https://www.homely.com.au/homes/11-briggs-way-tarneit-vic-3029/13626005", "score": 51, "bonus": 5, "total": 56, "price_low": 670000.0, "price_high": 720000.0, "price_display": "Private Sale | $670,000 - $720,000", "land": 448, "beds": 4, "baths": 2, "cars": 2, "status": "Available", "build_year": null, "is_new_home": false, "breakdown": {"land": 5.8, "build": 10.0, "value": 15.0, "status": 20}, "weights": {"land_and_size": 30, "value_vs_estimate": 30, "build_age_condition": 20, "availability_status": 20}, "upfront": 85907, "fits": true, "lat": -37.8226954, "lon": 144.6998864}, {"idx": 8, "address": "1 Nethercote Street, Craigieburn VIC 3064", "url": "https://www.homely.com.au/homes/1-nethercote-street-craigieburn-vic-3064/13627951", "score": 55, "bonus": 0, "total": 55, "price_low": 660000.0, "price_high": 690000.0, "price_display": "$660,000 - $690,000", "land": 515, "beds": 4, "baths": 2, "cars": 2, "status": "Auction scheduled", "build_year": null, "is_new_home": false, "breakdown": {"land": 13.8, "build": 10.0, "value": 15.0, "status": 16.0}, "weights": {"land_and_size": 30, "value_vs_estimate": 30, "build_age_condition": 20, "availability_status": 20}, "upfront": 78673, "fits": true, "lat": -37.5977344, "lon": 144.905462}, {"idx": 9, "address": "26 Laurence Way, Tarneit VIC 3029", "url": "https://www.homely.com.au/homes/26-laurence-way-tarneit-vic-3029/12579869", "score": 48, "bonus": 5, "total": 53, "price_low": 599000.0, "price_high": 640000.0, "price_display": "$599,000 - $640,000", "land": 421, "beds": 4, "baths": 2, "cars": 2, "status": "Available", "build_year": null, "is_new_home": false, "breakdown": {"land": 2.5, "build": 10.0, "value": 15.0, "status": 20}, "weights": {"land_and_size": 30, "value_vs_estimate": 30, "build_age_condition": 20, "availability_status": 20}, "upfront": 60274, "fits": true, "lat": -37.8404015, "lon": 144.6585734}, {"idx": 10, "address": "11 Adrian Circuit, Tarneit VIC 3029", "url": "https://www.homely.com.au/homes/11-adrian-circuit-tarneit-vic-3029/13630372", "score": 47, "bonus": 5, "total": 52, "price_low": 670656, "price_high": 670656, "price_display": "Walk to Good News|Davis Creek|ICOM & MGM", "land": 413, "beds": 4, "baths": 2, "cars": 2, "status": "Available", "build_year": null, "is_new_home": false, "breakdown": {"land": 1.6, "build": 10.0, "value": 15.0, "status": 20}, "weights": {"land_and_size": 30, "value_vs_estimate": 30, "build_age_condition": 20, "availability_status": 20}, "upfront": 77144, "fits": true, "lat": -37.8532868, "lon": 144.6624225}, {"idx": 11, "address": "9 Copeton Avenue, Tarneit VIC 3029", "url": "https://www.homely.com.au/homes/9-copeton-avenue-tarneit-vic-3029/13625801", "score": 45, "bonus": 5, "total": 50, "price_low": 640000.0, "price_high": 670000.0, "price_display": "$640,000 - $670,000", "land": 400, "beds": 4, "baths": 2, "cars": 2, "status": "Available", "build_year": null, "is_new_home": false, "breakdown": {"land": 0, "build": 10.0, "value": 15.0, "status": 20}, "weights": {"land_and_size": 30, "value_vs_estimate": 30, "build_age_condition": 20, "availability_status": 20}, "upfront": 71759, "fits": true, "lat": -37.8434055, "lon": 144.6821781}]</script>
 <script>
 (function() {
   // mutable: live-search results get appended here with new indices, so
@@ -732,6 +784,76 @@
   }
 
   compareBtn.addEventListener('click', renderCompare);
+
+  // --- single-property analyser (talks to server.py's /api/analyze) ---
+  const analyzeInput = document.getElementById('analyzeInput');
+  const analyzeBtn = document.getElementById('analyzeBtn');
+  const analyzeResult = document.getElementById('analyzeResult');
+  const RATING_LABEL = { good: 'Good', ok: 'OK', bad: 'Concern', info: 'Info', unknown: 'Unknown' };
+
+  function esc(s) {
+    return String(s ?? '').replace(/[&<>"']/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[c]));
+  }
+
+  function renderAnalysis(r) {
+    const v = r.verdict;
+    let html = '<div class="an-verdict ' + v.rating + '"><b class="label">' + esc(v.label) + '</b>' + esc(v.summary);
+    if (v.pros.length) html += '<br><b>For:</b> ' + v.pros.map(esc).join(' · ');
+    if (v.cons.length) html += '<br><b>Against:</b> ' + v.cons.map(esc).join(' · ');
+    html += '</div>';
+    const title = r.url ? '<a href="' + esc(r.url) + '" target="_blank" rel="noopener">' + esc(r.address) + '</a>' : esc(r.address);
+    html += '<div class="live-heading"><b>' + title + '</b></div>';
+    html += '<div class="an-scroll"><table><thead><tr><th>Factor</th><th>This property</th><th>Compared with</th><th>Rating</th></tr></thead><tbody>';
+    r.rows.forEach(row => {
+      html += '<tr><th>' + esc(row.factor) + '</th><td>' + esc(row.value) +
+        (row.note ? '<div class="note">' + esc(row.note) + '</div>' : '') + '</td><td>' + esc(row.benchmark) +
+        '</td><td><span class="pill ' + row.rating + '">' + RATING_LABEL[row.rating] + '</span></td></tr>';
+    });
+    html += '</tbody></table></div>';
+    html += '<div class="an-meta">Data from: ' + (r.sources.length ? r.sources.map(esc).join(' · ') : 'suburb results only') +
+      '. Suburb comparisons use asking prices, not sold prices.</div>';
+    html += '<div class="an-meta">Check yourself (no free source covers these):</div><div class="an-checks">' +
+      r.checks.map(c => '<a href="' + esc(c.url) + '" target="_blank" rel="noopener">' + esc(c.label) + ' ↗</a>').join('') + '</div>';
+    html += '<div class="an-actions"><button id="analyzeToCompare">Add to compare</button></div>';
+    analyzeResult.innerHTML = html;
+
+    document.getElementById('analyzeToCompare').addEventListener('click', e => {
+      const idx = LISTINGS.length;
+      const item = Object.assign({}, r.listing, { idx, url: r.listing.url || '#' });
+      LISTINGS = LISTINGS.concat([item]);
+      const holder = document.createElement('div');
+      holder.className = 'grid';
+      holder.style.marginTop = '0.8rem';
+      holder.innerHTML = renderLiveCard(item, idx);
+      analyzeResult.appendChild(holder);
+      const box = holder.querySelector('.cmp');
+      box.checked = true;
+      box.dispatchEvent(new Event('change', { bubbles: true }));
+      e.target.disabled = true;
+      e.target.textContent = 'Added — tick other cards and hit Compare';
+    });
+  }
+
+  function runAnalysis() {
+    const text = analyzeInput.value.trim();
+    if (!text) return;
+    analyzeBtn.disabled = true;
+    analyzeResult.innerHTML = '<p class="live-loading">Looking it up — daily scan, then homely.com.au live, then maps (takes ~10–20s)…</p>';
+    fetch('/api/analyze', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ text }) })
+      .then(r => r.json().then(body => ({ ok: r.ok, body })))
+      .then(({ ok, body }) => {
+        if (!ok) { analyzeResult.innerHTML = '<div class="live-error">' + esc(body.error) + '</div>'; return; }
+        renderAnalysis(body);
+      })
+      .catch(() => {
+        analyzeResult.innerHTML = '<div class="live-error">The analyser needs the local server running — ' +
+          'start it with <code>python server.py</code> instead of opening this file directly.</div>';
+      })
+      .finally(() => { analyzeBtn.disabled = false; });
+  }
+
+  analyzeBtn.addEventListener('click', runAnalysis);
+  analyzeInput.addEventListener('keydown', e => { if (e.key === 'Enter' && (e.metaKey || e.ctrlKey)) runAnalysis(); });
 })();
 </script>
 </body>
