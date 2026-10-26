@@ -84,6 +84,20 @@ Then open http://127.0.0.1:5001/. You get the same report, plus:
   lookup to find it
 - a compare view showing driving distance and time from each property to
   your `reference_locations`, using free OSRM routing
+- **Should I buy this one?** — paste a homely / domain / realestate.com.au
+  link, an address, or listing text copied from any site, and get a
+  factor-by-factor table (budget, price vs. suburb, land and $/m², rooms,
+  build age, status, days on market, upfront cash, repayments, drive times)
+  with a Go / Worth a look / Pass verdict. It looks the property up in the
+  daily scan first, then live on homely, and gives search links for what no
+  free source covers (sold history, overlays, school zones). **Add to compare**
+  puts it alongside the scanned listings.
+
+The analyser also runs from the command line:
+
+```bash
+python analyze_property.py "12 Example St, Truganina VIC 3029"
+```
 
 ## Configuration
 
@@ -112,6 +126,8 @@ Main settings in `config.yaml`:
 | `min_land_sqm`, `min_bedrooms` | Hard filters for the report |
 | `deposit_pct` | Deposit assumed for the LVR, LMI and upfront cash estimates |
 | `max_listings_per_run` | Number of top listings in the HTML and Markdown reports |
+| `interest_rate_pct` | Loan rate for the analyser's monthly repayment estimate (default 6.0) |
+| `max_drive_km` | Drive-distance limit the analyser rates against (default 35) |
 | `score_weights` | Buyer score weights (must add up to 100) |
 | `suburbs` | homely URL slugs, e.g. `truganina-vic-3029`. Each one costs one page load per run. |
 

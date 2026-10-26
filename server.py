@@ -9,6 +9,9 @@ hitting Enter calls homely.com.au's own suburb-autocomplete API to resolve
 it to a slug, then scrapes that suburb live using the exact same fetch/parse
 logic as the daily scan — no AI, no third-party API key, just homely.com.au.
 
+It also serves /api/analyze for the "Should I buy this one?" panel — see
+analyze_property.py.
+
 Run:
     python server.py
 
@@ -29,6 +32,7 @@ except ImportError as e:
     sys.exit(1)
 
 import scan_deals as sd
+import analyze_property
 
 PORT = 5001
 
@@ -113,6 +117,17 @@ def api_scan():
         for i, (score, bonus, l, land_ok, budget_ok, breakdown, costs, is_new) in enumerate(scored)
     ]
     return jsonify({"suburb": name, "state": state, "slug": slug, "count": len(results), "results": results})
+
+
+@app.route("/api/analyze", methods=["POST"])
+def api_analyze():
+    text = ((request.get_json(silent=True) or {}).get("text") or "").strip()
+    if not text:
+        return jsonify({"error": "Paste a link, an address or the listing details first."}), 400
+    result = analyze_property.analyze(text)
+    if "error" in result:
+        return jsonify(result), 404
+    return jsonify(result)
 
 
 @app.route("/api/distances")

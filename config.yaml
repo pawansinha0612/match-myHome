@@ -17,6 +17,10 @@ deposit_pct: 20               # assumed deposit for the LVR / LMI / upfront cash
 
 max_listings_per_run: 12      # top N listings (by score) shown in the report
 
+# Used by the "Should I buy this one?" analyser (server.py)
+interest_rate_pct: 6.0        # loan rate for the monthly repayment estimate (30-yr P&I)
+max_drive_km: 35              # drive distance to reference_locations rated as OK
+
 # Shown in the compare table as driving distance/time from each property
 # (free-flow, no traffic — via OSRM, no API key). Override in
 # config.local.yaml with your own places, e.g. a workplace.

@@ -839,6 +839,48 @@ def write_html_report(config, scored, today_str, fetch_failed):
   #liveResults .live-loading {{ color: var(--text-soft); font-style: italic; font-size: 0.85rem; }}
   #liveResults .grid {{ margin-top: 0.7rem; }}
 
+  #analyzer {{
+    background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+    padding: 1rem 1.2rem; margin-bottom: 1.5rem;
+  }}
+  #analyzer h2 {{ font-size: 1rem; margin: 0 0 0.3rem; }}
+  #analyzer .hint {{ font-size: 0.8rem; color: var(--text-soft); margin: 0 0 0.6rem; }}
+  #analyzeInput {{
+    width: 100%; min-height: 4.5rem; resize: vertical; font: inherit; font-size: 0.9rem; padding: 0.6rem 0.8rem;
+    border: 1.5px solid var(--border); border-radius: 8px; background: #fff; color: var(--text);
+  }}
+  #analyzeInput:focus {{ outline: none; border-color: var(--accent); }}
+  #analyzeBtn {{
+    margin-top: 0.5rem; font: inherit; font-size: 0.88rem; font-weight: 600; background: var(--accent); color: #fff;
+    border: none; padding: 0.55rem 1.2rem; border-radius: 8px; cursor: pointer;
+  }}
+  #analyzeBtn:disabled {{ opacity: 0.6; cursor: wait; }}
+  #analyzeResult {{ margin-top: 1rem; }}
+  #analyzeResult .an-verdict {{ border-radius: 8px; padding: 0.8rem 1rem; margin-bottom: 0.9rem; font-size: 0.9rem; line-height: 1.5; }}
+  #analyzeResult .an-verdict b.label {{ font-size: 1.05rem; display: block; margin-bottom: 0.2rem; }}
+  .an-verdict.good {{ background: var(--green-soft); color: #0f5a2b; }}
+  .an-verdict.ok {{ background: var(--amber-soft); color: #7a3d05; }}
+  .an-verdict.bad {{ background: var(--red-soft); color: #7a1a12; }}
+  #analyzeResult table {{ border-collapse: collapse; width: 100%; font-size: 0.85rem; }}
+  #analyzeResult th, #analyzeResult td {{ text-align: left; padding: 0.5rem 0.55rem; border-bottom: 1px solid var(--border); vertical-align: top; }}
+  #analyzeResult thead th {{ font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-faint); }}
+  #analyzeResult tbody th {{ font-weight: 600; color: var(--text-soft); white-space: nowrap; }}
+  #analyzeResult .note {{ color: var(--text-faint); font-size: 0.78rem; }}
+  .pill {{ font-size: 0.7rem; font-weight: 700; padding: 0.15rem 0.55rem; border-radius: 999px; white-space: nowrap; }}
+  .pill.good {{ background: var(--green-soft); color: var(--green); }}
+  .pill.ok {{ background: var(--amber-soft); color: var(--amber); }}
+  .pill.bad {{ background: var(--red-soft); color: var(--red); }}
+  .pill.info, .pill.unknown {{ background: var(--border); color: var(--text-soft); }}
+  #analyzeResult .an-meta {{ font-size: 0.78rem; color: var(--text-faint); margin: 0.8rem 0 0.4rem; }}
+  #analyzeResult .an-checks {{ display: flex; flex-wrap: wrap; gap: 0.4rem 1rem; font-size: 0.82rem; }}
+  #analyzeResult .an-checks a {{ color: var(--accent); text-decoration: none; }}
+  #analyzeResult .an-actions {{ margin-top: 0.8rem; }}
+  #analyzeResult .an-actions button {{
+    font: inherit; font-size: 0.82rem; font-weight: 600; background: var(--dark); color: #fff;
+    border: none; padding: 0.45rem 1rem; border-radius: 8px; cursor: pointer;
+  }}
+  .an-scroll {{ overflow-x: auto; }}
+
   @media (max-width: 640px) {{
     #compareTable {{ padding: 0.8rem; }}
     #compareBar {{ left: 1.2rem; right: 1.2rem; }}
@@ -854,6 +896,16 @@ def write_html_report(config, scored, today_str, fetch_failed):
       {len(config.get('suburbs', []))} suburbs scanned{analyzer_link}
     </div>
     {warning}
+
+    <section id="analyzer">
+      <h2>Should I buy this one?</h2>
+      <p class="hint">Paste a homely / domain / realestate.com.au link, an address, or the listing text copied
+      from any site. You get every factor rated against your criteria and the suburb, plus a verdict.
+      Needs <code>python server.py</code> running.</p>
+      <textarea id="analyzeInput" placeholder="e.g. 12 Smith St, Truganina VIC 3029 — or paste the whole listing (price, beds, land size…)"></textarea>
+      <button id="analyzeBtn">Analyse property</button>
+      <div id="analyzeResult"></div>
+    </section>
 
     <div class="toolbar">
       <input type="text" id="suburbFilter" placeholder="Filter these results, or type a suburb and press Enter to scan it live…">
@@ -1140,6 +1192,76 @@ def write_html_report(config, scored, today_str, fetch_failed):
   }}
 
   compareBtn.addEventListener('click', renderCompare);
+
+  // --- single-property analyser (talks to server.py's /api/analyze) ---
+  const analyzeInput = document.getElementById('analyzeInput');
+  const analyzeBtn = document.getElementById('analyzeBtn');
+  const analyzeResult = document.getElementById('analyzeResult');
+  const RATING_LABEL = {{ good: 'Good', ok: 'OK', bad: 'Concern', info: 'Info', unknown: 'Unknown' }};
+
+  function esc(s) {{
+    return String(s ?? '').replace(/[&<>"']/g, c => ({{'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}}[c]));
+  }}
+
+  function renderAnalysis(r) {{
+    const v = r.verdict;
+    let html = '<div class="an-verdict ' + v.rating + '"><b class="label">' + esc(v.label) + '</b>' + esc(v.summary);
+    if (v.pros.length) html += '<br><b>For:</b> ' + v.pros.map(esc).join(' · ');
+    if (v.cons.length) html += '<br><b>Against:</b> ' + v.cons.map(esc).join(' · ');
+    html += '</div>';
+    const title = r.url ? '<a href="' + esc(r.url) + '" target="_blank" rel="noopener">' + esc(r.address) + '</a>' : esc(r.address);
+    html += '<div class="live-heading"><b>' + title + '</b></div>';
+    html += '<div class="an-scroll"><table><thead><tr><th>Factor</th><th>This property</th><th>Compared with</th><th>Rating</th></tr></thead><tbody>';
+    r.rows.forEach(row => {{
+      html += '<tr><th>' + esc(row.factor) + '</th><td>' + esc(row.value) +
+        (row.note ? '<div class="note">' + esc(row.note) + '</div>' : '') + '</td><td>' + esc(row.benchmark) +
+        '</td><td><span class="pill ' + row.rating + '">' + RATING_LABEL[row.rating] + '</span></td></tr>';
+    }});
+    html += '</tbody></table></div>';
+    html += '<div class="an-meta">Data from: ' + (r.sources.length ? r.sources.map(esc).join(' · ') : 'suburb results only') +
+      '. Suburb comparisons use asking prices, not sold prices.</div>';
+    html += '<div class="an-meta">Check yourself (no free source covers these):</div><div class="an-checks">' +
+      r.checks.map(c => '<a href="' + esc(c.url) + '" target="_blank" rel="noopener">' + esc(c.label) + ' ↗</a>').join('') + '</div>';
+    html += '<div class="an-actions"><button id="analyzeToCompare">Add to compare</button></div>';
+    analyzeResult.innerHTML = html;
+
+    document.getElementById('analyzeToCompare').addEventListener('click', e => {{
+      const idx = LISTINGS.length;
+      const item = Object.assign({{}}, r.listing, {{ idx, url: r.listing.url || '#' }});
+      LISTINGS = LISTINGS.concat([item]);
+      const holder = document.createElement('div');
+      holder.className = 'grid';
+      holder.style.marginTop = '0.8rem';
+      holder.innerHTML = renderLiveCard(item, idx);
+      analyzeResult.appendChild(holder);
+      const box = holder.querySelector('.cmp');
+      box.checked = true;
+      box.dispatchEvent(new Event('change', {{ bubbles: true }}));
+      e.target.disabled = true;
+      e.target.textContent = 'Added — tick other cards and hit Compare';
+    }});
+  }}
+
+  function runAnalysis() {{
+    const text = analyzeInput.value.trim();
+    if (!text) return;
+    analyzeBtn.disabled = true;
+    analyzeResult.innerHTML = '<p class="live-loading">Looking it up — daily scan, then homely.com.au live, then maps (takes ~10–20s)…</p>';
+    fetch('/api/analyze', {{ method: 'POST', headers: {{ 'Content-Type': 'application/json' }}, body: JSON.stringify({{ text }}) }})
+      .then(r => r.json().then(body => ({{ ok: r.ok, body }})))
+      .then(({{ ok, body }}) => {{
+        if (!ok) {{ analyzeResult.innerHTML = '<div class="live-error">' + esc(body.error) + '</div>'; return; }}
+        renderAnalysis(body);
+      }})
+      .catch(() => {{
+        analyzeResult.innerHTML = '<div class="live-error">The analyser needs the local server running — ' +
+          'start it with <code>python server.py</code> instead of opening this file directly.</div>';
+      }})
+      .finally(() => {{ analyzeBtn.disabled = false; }});
+  }}
+
+  analyzeBtn.addEventListener('click', runAnalysis);
+  analyzeInput.addEventListener('keydown', e => {{ if (e.key === 'Enter' && (e.metaKey || e.ctrlKey)) runAnalysis(); }});
 }})();
 </script>
 </body>
