@@ -1,4 +1,4 @@
-name: Daily Truganina Deal Scan
+name: Match My-Home
 
 on:
   schedule:

@@ -124,7 +124,7 @@ the filters, so the live page can apply its own.
 Melbourne during daylight saving (6am otherwise). It commits the updated
 `reports/latest.*` and `data/seen_listings.json` back to the repo.
 
-To run it on demand: **Actions → Daily Truganina Deal Scan → Run workflow**.
+To run it on demand: **Actions → Match My-Home → Run workflow**.
 
 ## Buyer score
 
