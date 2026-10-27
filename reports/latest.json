@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-27T06:20:16+00:00",
- "date": "2026-10-27",
+ "generated_at": "2026-10-27T23:39:58+00:00",
+ "date": "2026-10-28",
  "fetch_failed": false,
  "criteria": {
   "budget_min": 600000,
@@ -26,7 +26,89 @@
  },
  "listings": [
   {
-   "idx": 135,
+   "idx": 158,
+   "address": "24 Monferrato Avenue, Tarneit VIC 3029",
+   "url": "https://www.homely.com.au/homes/24-monferrato-avenue-tarneit-vic-3029/13638684",
+   "score": 76,
+   "bonus": 5,
+   "total": 81,
+   "price_low": 1180000.0,
+   "price_high": 1220000.0,
+   "price_display": "$1,180,000 - $1,220,000",
+   "land": 575,
+   "beds": 4,
+   "baths": 2,
+   "cars": 2,
+   "status": "Available",
+   "build_year": null,
+   "is_new_home": true,
+   "breakdown": {
+    "land": 21.0,
+    "build": 20,
+    "value": 15.0,
+    "status": 20
+   },
+   "weights": {
+    "land_and_size": 30,
+    "value_vs_estimate": 30,
+    "build_age_condition": 20,
+    "availability_status": 20
+   },
+   "upfront": 308450,
+   "fits": false,
+   "lat": -37.8432263,
+   "lon": 144.6369167,
+   "listed_on": null,
+   "sources": [
+    "homely"
+   ],
+   "suburb": "Tarneit",
+   "price_mid": 1200000.0,
+   "is_new": true
+  },
+  {
+   "idx": 84,
+   "address": "14 Anniba Court, Melton West VIC 3337",
+   "url": "https://www.homely.com.au/homes/14-anniba-court-melton-west-vic-3337/13639832",
+   "score": 75,
+   "bonus": 5,
+   "total": 80,
+   "price_low": 500000.0,
+   "price_high": 550000.0,
+   "price_display": "$500,000 - $550,000",
+   "land": 720,
+   "beds": 3,
+   "baths": 1,
+   "cars": 2,
+   "status": "Available",
+   "build_year": null,
+   "is_new_home": false,
+   "breakdown": {
+    "land": 30,
+    "build": 10.0,
+    "value": 15.0,
+    "status": 20
+   },
+   "weights": {
+    "land_and_size": 30,
+    "value_vs_estimate": 30,
+    "build_age_condition": 20,
+    "availability_status": 20
+   },
+   "upfront": 107450,
+   "fits": true,
+   "lat": -37.6784691,
+   "lon": 144.5591935,
+   "listed_on": null,
+   "sources": [
+    "homely"
+   ],
+   "suburb": "Melton West",
+   "price_mid": 525000.0,
+   "is_new": true
+  },
+  {
+   "idx": 134,
    "address": "80 Urban Drive, Williams Landing VIC 3027",
    "url": "https://www.homely.com.au/homes/80-urban-drive-williams-landing-vic-3027/13403561",
    "score": 75,
@@ -68,48 +150,7 @@
    "is_new": false
   },
   {
-   "idx": 185,
-   "address": "24 Seasons Boulevard, Tarneit VIC 3029",
-   "url": "https://view.com.au/property/vic/tarneit-3029/24-seasons-boulevard-18239342/",
-   "score": 75,
-   "bonus": 5,
-   "total": 80,
-   "price_low": 950000,
-   "price_high": 950000,
-   "price_display": "Display Quality / Park Facing / 742sqm Land",
-   "land": 742,
-   "beds": 4,
-   "baths": 2,
-   "cars": 2,
-   "status": "Available",
-   "build_year": null,
-   "is_new_home": false,
-   "breakdown": {
-    "land": 30,
-    "build": 10.0,
-    "value": 15.0,
-    "status": 20
-   },
-   "weights": {
-    "land_and_size": 30,
-    "value_vs_estimate": 30,
-    "build_age_condition": 20,
-    "availability_status": 20
-   },
-   "upfront": 244520,
-   "fits": false,
-   "lat": -37.846231,
-   "lon": 144.693079,
-   "listed_on": "2026-10-22",
-   "sources": [
-    "view.com.au"
-   ],
-   "suburb": "Tarneit",
-   "price_mid": 950000.0,
-   "is_new": true
-  },
-  {
-   "idx": 260,
+   "idx": 254,
    "address": "28 May Gibbs Circle, Point Cook VIC 3030",
    "url": "https://www.homely.com.au/homes/28-may-gibbs-circle-point-cook-vic-3030/13627232",
    "score": 75,
@@ -151,48 +192,7 @@
    "is_new": false
   },
   {
-   "idx": 284,
-   "address": "10 Portofino Crescent, Point Cook VIC 3030",
-   "url": "https://view.com.au/property/vic/point-cook-3030/10-portofino-crescent-18227548/",
-   "score": 75,
-   "bonus": 5,
-   "total": 80,
-   "price_low": 1080000.0,
-   "price_high": 1180000.0,
-   "price_display": "Contact Agent | $1,080,000-$1,180,000",
-   "land": 666,
-   "beds": 4,
-   "baths": 2,
-   "cars": 6,
-   "status": "Available",
-   "build_year": null,
-   "is_new_home": false,
-   "breakdown": {
-    "land": 30,
-    "build": 10.0,
-    "value": 15.0,
-    "status": 20
-   },
-   "weights": {
-    "land_and_size": 30,
-    "value_vs_estimate": 30,
-    "build_age_condition": 20,
-    "availability_status": 20
-   },
-   "upfront": 290600,
-   "fits": false,
-   "lat": -37.890033,
-   "lon": 144.743623,
-   "listed_on": "2026-10-15",
-   "sources": [
-    "view.com.au"
-   ],
-   "suburb": "Point Cook",
-   "price_mid": 1130000.0,
-   "is_new": false
-  },
-  {
-   "idx": 118,
+   "idx": 117,
    "address": "19 Waterways Boulevard, Williams Landing VIC 3027",
    "url": "https://www.homely.com.au/homes/19-waterways-boulevard-williams-landing-vic-3/13629378",
    "score": 72,
@@ -233,7 +233,7 @@
    "is_new": false
   },
   {
-   "idx": 251,
+   "idx": 245,
    "address": "6 Island Way, Point Cook VIC 3030",
    "url": "https://www.homely.com.au/homes/6-island-way-point-cook-vic-3030/13637019",
    "score": 72,
@@ -271,10 +271,10 @@
    ],
    "suburb": "Point Cook",
    "price_mid": 1320000.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 84,
+   "idx": 87,
    "address": "5 Linlithgow Way, Melton West VIC 3337",
    "url": "https://www.homely.com.au/homes/5-linlithgow-way-melton-west-vic-3337/13638435",
    "score": 71,
@@ -312,10 +312,10 @@
    ],
    "suburb": "Melton West",
    "price_mid": 665000.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 270,
+   "idx": 263,
    "address": "30 Drysdale Crescent, Point Cook VIC 3030",
    "url": "https://www.homely.com.au/homes/30-drysdale-crescent-point-cook-vic-3030/13618598",
    "score": 71,
@@ -398,7 +398,48 @@
    "is_new": false
   },
   {
-   "idx": 141,
+   "idx": 86,
+   "address": "6 Hillcrest Court, Harkness VIC 3337",
+   "url": "https://www.homely.com.au/homes/6-hillcrest-court-harkness-vic-3337/13638843",
+   "score": 75,
+   "bonus": 0,
+   "total": 75,
+   "price_low": 939000.0,
+   "price_high": 995000.0,
+   "price_display": "$939,000 To $995,000",
+   "land": 1002,
+   "beds": 5,
+   "baths": 2,
+   "cars": 3,
+   "status": "Available",
+   "build_year": null,
+   "is_new_home": false,
+   "breakdown": {
+    "land": 30,
+    "build": 10.0,
+    "value": 15.0,
+    "status": 20
+   },
+   "weights": {
+    "land_and_size": 30,
+    "value_vs_estimate": 30,
+    "build_age_condition": 20,
+    "availability_status": 20
+   },
+   "upfront": 249035,
+   "fits": false,
+   "lat": -37.6657849,
+   "lon": 144.5686971,
+   "listed_on": null,
+   "sources": [
+    "homely"
+   ],
+   "suburb": "Harkness",
+   "price_mid": 967000.0,
+   "is_new": true
+  },
+  {
+   "idx": 140,
    "address": "70 Newport Avenue, Williams Landing VIC 3027",
    "url": "https://view.com.au/property/vic/williams-landing-3027/70-newport-avenue-17990636/",
    "score": 70,
@@ -436,10 +477,10 @@
    ],
    "suburb": "Williams Landing",
    "price_mid": 1350000.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 187,
+   "idx": 183,
    "address": "25 Hurlingham Way, Craigieburn VIC 3064",
    "url": "https://www.homely.com.au/homes/25-hurlingham-way-craigieburn-vic-3064/13637591",
    "score": 75,
@@ -477,10 +518,10 @@
    ],
    "suburb": "Craigieburn",
    "price_mid": 1640000.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 202,
+   "idx": 198,
    "address": "1 Lydd Court, Craigieburn VIC 3064",
    "url": "https://www.homely.com.au/homes/1-lydd-court-craigieburn-vic-3064/13625098",
    "score": 75,
@@ -522,7 +563,7 @@
    "is_new": false
   },
   {
-   "idx": 205,
+   "idx": 201,
    "address": "26 Golf View Drive, Craigieburn VIC 3064",
    "url": "https://www.homely.com.au/homes/26-golf-view-drive-craigieburn-vic-3064/13624428",
    "score": 75,
@@ -564,7 +605,7 @@
    "is_new": false
   },
   {
-   "idx": 235,
+   "idx": 230,
    "address": "19 Dunfermline Avenue, Greenvale VIC 3059",
    "url": "https://www.homely.com.au/homes/19-dunfermline-avenue-greenvale-vic-3059/13631916",
    "score": 75,
@@ -606,7 +647,7 @@
    "is_new": false
   },
   {
-   "idx": 238,
+   "idx": 233,
    "address": "4 Lochton Court, Greenvale VIC 3059",
    "url": "https://view.com.au/property/vic/greenvale-3059/4-lochton-court-18243373/",
    "score": 75,
@@ -647,7 +688,7 @@
    "is_new": false
   },
   {
-   "idx": 246,
+   "idx": 241,
    "address": "1 Inverness Mews, Greenvale VIC 3059",
    "url": "https://view.com.au/property/vic/greenvale-3059/1-inverness-mews-18225244/",
    "score": 75,
@@ -685,10 +726,51 @@
    ],
    "suburb": "Greenvale",
    "price_mid": 3150000.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 275,
+   "idx": 268,
+   "address": "57 Waves Drive, Point Cook VIC 3030",
+   "url": "https://www.homely.com.au/homes/57-waves-drive-point-cook-vic-3030/13609577",
+   "score": 70,
+   "bonus": 5,
+   "total": 75,
+   "price_low": 1450000.0,
+   "price_high": 1500000.0,
+   "price_display": "$1,450,000 - $1,500,000",
+   "land": 606,
+   "beds": 6,
+   "baths": 4,
+   "cars": 4,
+   "status": "Available",
+   "build_year": null,
+   "is_new_home": false,
+   "breakdown": {
+    "land": 24.7,
+    "build": 10.0,
+    "value": 15.0,
+    "status": 20
+   },
+   "weights": {
+    "land_and_size": 30,
+    "value_vs_estimate": 30,
+    "build_age_condition": 20,
+    "availability_status": 20
+   },
+   "upfront": 378575,
+   "fits": false,
+   "lat": -37.9159287,
+   "lon": 144.7829927,
+   "listed_on": null,
+   "sources": [
+    "homely"
+   ],
+   "suburb": "Point Cook",
+   "price_mid": 1475000.0,
+   "is_new": false
+  },
+  {
+   "idx": 270,
    "address": "16 Anchor Crescent, Point Cook VIC 3030",
    "url": "https://view.com.au/property/vic/point-cook-3030/16-anchor-crescent-18246830/",
    "score": 70,
@@ -726,10 +808,52 @@
    ],
    "suburb": "Point Cook",
    "price_mid": 1600000.0,
+   "is_new": false
+  },
+  {
+   "idx": 41,
+   "address": "2035 Western Highway, Rockbank VIC 3335",
+   "url": "https://www.homely.com.au/homes/2035-western-highway-rockbank-vic-3335/13638703",
+   "score": 69,
+   "bonus": 5,
+   "total": 74,
+   "price_low": 620000.0,
+   "price_high": 670000.0,
+   "price_display": "$620,000 - $670,000",
+   "land": 604,
+   "beds": 3,
+   "baths": 2,
+   "cars": 2,
+   "status": "Available",
+   "build_year": null,
+   "is_new_home": false,
+   "breakdown": {
+    "land": 24.5,
+    "build": 10.0,
+    "value": 15.0,
+    "status": 20
+   },
+   "weights": {
+    "land_and_size": 30,
+    "value_vs_estimate": 30,
+    "build_age_condition": 20,
+    "availability_status": 20
+   },
+   "upfront": 141581,
+   "fits": true,
+   "lat": -37.7330602,
+   "lon": 144.6667325,
+   "listed_on": "2026-10-27",
+   "sources": [
+    "homely",
+    "view.com.au"
+   ],
+   "suburb": "Rockbank",
+   "price_mid": 645000.0,
    "is_new": true
   },
   {
-   "idx": 48,
+   "idx": 49,
    "address": "2005 Western Highway, Rockbank VIC 3335",
    "url": "https://www.homely.com.au/homes/2005-western-highway-rockbank-vic-3335/13617825",
    "score": 69,
@@ -770,7 +894,7 @@
    "is_new": false
   },
   {
-   "idx": 282,
+   "idx": 277,
    "address": "17 Lewiston Drive, Point Cook VIC 3030",
    "url": "https://view.com.au/property/vic/point-cook-3030/17-lewiston-drive-18227894/",
    "score": 69,
@@ -811,7 +935,7 @@
    "is_new": false
   },
   {
-   "idx": 47,
+   "idx": 48,
    "address": "9 Stewart Crescent, Rockbank VIC 3335",
    "url": "https://www.homely.com.au/homes/9-stewart-crescent-rockbank-vic-3335/13619416",
    "score": 68,
@@ -853,7 +977,7 @@
    "is_new": false
   },
   {
-   "idx": 150,
+   "idx": 159,
    "address": "22 Monferrato Avenue, Tarneit VIC 3029",
    "url": "https://www.homely.com.au/homes/22-monferrato-avenue-tarneit-vic-3029/13638617",
    "score": 68,
@@ -891,12 +1015,12 @@
    ],
    "suburb": "Tarneit",
    "price_mid": 900000.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 171,
+   "idx": 164,
    "address": "1 Zetland Way, Tarneit VIC 3029",
-   "url": "https://www.homely.com.au/homes/1-zetland-way-tarneit-vic-3029/13636910",
+   "url": "https://view.com.au/property/vic/tarneit-3029/1-zetland-way-18246843/",
    "score": 68,
    "bonus": 5,
    "total": 73,
@@ -924,19 +1048,18 @@
    },
    "upfront": 201620,
    "fits": false,
-   "lat": -37.8477555,
-   "lon": 144.6625172,
+   "lat": -37.847737,
+   "lon": 144.662408,
    "listed_on": "2026-10-27",
    "sources": [
-    "homely",
     "view.com.au"
    ],
    "suburb": "Tarneit",
    "price_mid": 785000.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 276,
+   "idx": 271,
    "address": "26 Viewbank Court, Point Cook VIC 3030",
    "url": "https://view.com.au/property/vic/point-cook-3030/26-viewbank-court-18244954/",
    "score": 68,
@@ -974,10 +1097,10 @@
    ],
    "suburb": "Point Cook",
    "price_mid": null,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 252,
+   "idx": 246,
    "address": "91 Juniper Avenue, Point Cook VIC 3030",
    "url": "https://www.homely.com.au/homes/91-juniper-avenue-point-cook-vic-3030/13355982",
    "score": 67,
@@ -1018,7 +1141,7 @@
    "is_new": false
   },
   {
-   "idx": 259,
+   "idx": 253,
    "address": "5 Boardwalk Boulevard, Point Cook VIC 3030",
    "url": "https://www.homely.com.au/homes/5-boardwalk-boulevard-point-cook-vic-3030/13627388",
    "score": 67,
@@ -1060,7 +1183,7 @@
    "is_new": false
   },
   {
-   "idx": 52,
+   "idx": 53,
    "address": "13 Meadowbank Grove, Rockbank VIC 3335",
    "url": "https://www.homely.com.au/homes/13-meadowbank-grove-rockbank-vic-3335/13596059",
    "score": 66,
@@ -1101,7 +1224,7 @@
    "is_new": false
   },
   {
-   "idx": 194,
+   "idx": 190,
    "address": "10 Mulberry Pass, Craigieburn VIC 3064",
    "url": "https://www.homely.com.au/homes/10-mulberry-pass-craigieburn-vic-3064/13629228",
    "score": 71,
@@ -1142,7 +1265,7 @@
    "is_new": false
   },
   {
-   "idx": 196,
+   "idx": 192,
    "address": "36 Langdon Crescent, Craigieburn VIC 3064",
    "url": "https://www.homely.com.au/homes/36-langdon-crescent-craigieburn-vic-3064/13627922",
    "score": 71,
@@ -1183,7 +1306,7 @@
    "is_new": false
   },
   {
-   "idx": 206,
+   "idx": 202,
    "address": "17 Creekwood Drive, Craigieburn VIC 3064",
    "url": "https://www.homely.com.au/homes/17-creekwood-drive-craigieburn-vic-3064/13624372",
    "score": 71,
@@ -1225,7 +1348,7 @@
    "is_new": false
   },
   {
-   "idx": 220,
+   "idx": 215,
    "address": "5 Sage Hills Place, Craigieburn VIC 3064",
    "url": "https://view.com.au/property/vic/craigieburn-3064/5-sage-hills-place-18228864/",
    "score": 71,
@@ -1263,10 +1386,10 @@
    ],
    "suburb": "Craigieburn",
    "price_mid": 775000.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 233,
+   "idx": 228,
    "address": "6 Rothesay Place, Greenvale VIC 3059",
    "url": "https://www.homely.com.au/homes/6-rothesay-place-greenvale-vic-3059/13634889",
    "score": 71,
@@ -1307,7 +1430,7 @@
    "is_new": false
   },
   {
-   "idx": 245,
+   "idx": 240,
    "address": "16 MacLaren Court, Greenvale VIC 3059",
    "url": "https://view.com.au/property/vic/greenvale-3059/16-maclaren-court-18230314/",
    "score": 71,
@@ -1345,10 +1468,10 @@
    ],
    "suburb": "Greenvale",
    "price_mid": 995000.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 250,
+   "idx": 244,
    "address": "29 Malibu Boulevard, Point Cook VIC 3030",
    "url": "https://www.homely.com.au/homes/29-malibu-boulevard-point-cook-vic-3030/13638586",
    "score": 66,
@@ -1380,23 +1503,24 @@
    "fits": false,
    "lat": -37.9078254,
    "lon": 144.7369442,
-   "listed_on": null,
+   "listed_on": "2026-10-27",
    "sources": [
-    "homely"
+    "homely",
+    "view.com.au"
    ],
    "suburb": "Point Cook",
    "price_mid": 1300000.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 254,
+   "idx": 248,
    "address": "3 Forum Way, Point Cook VIC 3030",
    "url": "https://www.homely.com.au/homes/3-forum-way-point-cook-vic-3030/13631262",
    "score": 66,
    "bonus": 5,
    "total": 71,
-   "price_low": 810000,
-   "price_high": 810000,
+   "price_low": 811483,
+   "price_high": 811483,
    "price_display": "AUCTION",
    "land": 612,
    "beds": 4,
@@ -1417,7 +1541,7 @@
     "build_age_condition": 20,
     "availability_status": 20
    },
-   "upfront": 208120,
+   "upfront": 208506,
    "fits": false,
    "lat": -37.9153243,
    "lon": 144.7844168,
@@ -1426,18 +1550,18 @@
     "homely"
    ],
    "suburb": "Point Cook",
-   "price_mid": 810000.0,
+   "price_mid": 811483.0,
    "is_new": false
   },
   {
-   "idx": 46,
+   "idx": 47,
    "address": "1 Pandey Place, Rockbank VIC 3335",
    "url": "https://www.homely.com.au/homes/1-pandey-place-rockbank-vic-3335/13621663",
    "score": 65,
    "bonus": 5,
    "total": 70,
-   "price_low": 639813,
-   "price_high": 639813,
+   "price_low": 639438,
+   "price_high": 639438,
    "price_display": "Brand-New, Fully Upgraded Luxury Living",
    "land": 564,
    "beds": 4,
@@ -1458,7 +1582,7 @@
     "build_age_condition": 20,
     "availability_status": 20
    },
-   "upfront": 139293,
+   "upfront": 139129,
    "fits": true,
    "lat": -37.7439573,
    "lon": 144.6587789,
@@ -1468,11 +1592,11 @@
     "view.com.au"
    ],
    "suburb": "Rockbank",
-   "price_mid": 639813.0,
+   "price_mid": 639438.0,
    "is_new": false
   },
   {
-   "idx": 281,
+   "idx": 276,
    "address": "81 Juniper Avenue, Point Cook VIC 3030",
    "url": "https://view.com.au/property/vic/point-cook-3030/81-juniper-avenue-18228764/",
    "score": 65,
@@ -1510,10 +1634,10 @@
    ],
    "suburb": "Point Cook",
    "price_mid": 1005000.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 127,
+   "idx": 126,
    "address": "91 Waterways Boulevard, Williams Landing VIC 3027",
    "url": "https://www.homely.com.au/homes/91-waterways-boulevard-williams-landing-vic-3/13495835",
    "score": 64,
@@ -1554,7 +1678,7 @@
    "is_new": false
   },
   {
-   "idx": 188,
+   "idx": 184,
    "address": "63 Escapade Boulevard, Craigieburn VIC 3064",
    "url": "https://www.homely.com.au/homes/63-escapade-boulevard-craigieburn-vic-3064/13636146",
    "score": 69,
@@ -1592,10 +1716,10 @@
    ],
    "suburb": "Craigieburn",
    "price_mid": 1300000.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 283,
+   "idx": 278,
    "address": "3 Solero Parade, Point Cook VIC 3030",
    "url": "https://view.com.au/property/vic/point-cook-3030/3-solero-parade-18227647/",
    "score": 63,
@@ -1633,7 +1757,7 @@
    ],
    "suburb": "Point Cook",
    "price_mid": 955000.0,
-   "is_new": true
+   "is_new": false
   },
   {
    "idx": 9,
@@ -1674,10 +1798,10 @@
    ],
    "suburb": "Truganina",
    "price_mid": 769167.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 86,
+   "idx": 89,
    "address": "Lot 4364 Draycott Street, Wyndham Vale VIC 3024",
    "url": "https://www.homely.com.au/homes/lot-4364-draycott-street-wyndham-vale-vic-302/13638136",
    "score": 61,
@@ -1715,52 +1839,10 @@
    ],
    "suburb": "Wyndham Vale",
    "price_mid": 745167.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 168,
-   "address": "Lot 2433 Cathcart Avenue, Tarneit VIC 3029",
-   "url": "https://www.homely.com.au/homes/lot-2433-cathcart-avenue-tarneit-vic-3029/13637170",
-   "score": 61,
-   "bonus": 5,
-   "total": 66,
-   "price_low": 815797.0,
-   "price_high": 815797.0,
-   "price_display": "$815,797",
-   "land": 448,
-   "beds": 4,
-   "baths": 2,
-   "cars": 2,
-   "status": "Available",
-   "build_year": null,
-   "is_new_home": true,
-   "breakdown": {
-    "land": 5.8,
-    "build": 20,
-    "value": 15.0,
-    "status": 20
-   },
-   "weights": {
-    "land_and_size": 30,
-    "value_vs_estimate": 30,
-    "build_age_condition": 20,
-    "availability_status": 20
-   },
-   "upfront": 209627,
-   "fits": false,
-   "lat": -37.8208705,
-   "lon": 144.6944256,
-   "listed_on": "2026-10-27",
-   "sources": [
-    "homely",
-    "view.com.au"
-   ],
-   "suburb": "Tarneit",
-   "price_mid": 815797.0,
-   "is_new": true
-  },
-  {
-   "idx": 177,
+   "idx": 174,
    "address": "8 Dylan Street, Tarneit VIC 3029",
    "url": "https://view.com.au/property/vic/tarneit-3029/8-dylan-street-18240941/",
    "score": 59,
@@ -1801,14 +1883,14 @@
    "is_new": false
   },
   {
-   "idx": 271,
+   "idx": 264,
    "address": "26 Oceanwave Pde, Point Cook VIC 3030",
    "url": "https://www.homely.com.au/homes/26-oceanwave-pde-point-cook-vic-3030/13618534",
    "score": 59,
    "bonus": 5,
    "total": 64,
-   "price_low": 810000,
-   "price_high": 810000,
+   "price_low": 811483,
+   "price_high": 811483,
    "price_display": "Contact Agent",
    "land": 519,
    "beds": 5,
@@ -1829,7 +1911,7 @@
     "build_age_condition": 20,
     "availability_status": 20
    },
-   "upfront": 208120,
+   "upfront": 208506,
    "fits": false,
    "lat": -37.9033392,
    "lon": 144.7406053,
@@ -1839,11 +1921,11 @@
     "view.com.au"
    ],
    "suburb": "Point Cook",
-   "price_mid": 810000.0,
+   "price_mid": 811483.0,
    "is_new": false
   },
   {
-   "idx": 272,
+   "idx": 265,
    "address": "2 Viola Avenue, Point Cook VIC 3030",
    "url": "https://www.homely.com.au/homes/2-viola-avenue-point-cook-vic-3030/13618363",
    "score": 59,
@@ -1923,10 +2005,10 @@
    ],
    "suburb": "Truganina",
    "price_mid": 760000.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 125,
+   "idx": 124,
    "address": "18 Mallard Close, Williams Landing VIC 3027",
    "url": "https://www.homely.com.au/homes/18-mallard-close-williams-landing-vic-3027/13527415",
    "score": 58,
@@ -1968,48 +2050,7 @@
    "is_new": false
   },
   {
-   "idx": 162,
-   "address": "14 Monferrato Avenue, Tarneit VIC 3029",
-   "url": "https://www.homely.com.au/homes/14-monferrato-avenue-tarneit-vic-3029/13517724",
-   "score": 58,
-   "bonus": 5,
-   "total": 63,
-   "price_low": 910000.0,
-   "price_high": 960000.0,
-   "price_display": "$910,000-$960,000",
-   "land": 512,
-   "beds": 4,
-   "baths": 2,
-   "cars": 2,
-   "status": "Available",
-   "build_year": null,
-   "is_new_home": false,
-   "breakdown": {
-    "land": 13.4,
-    "build": 10.0,
-    "value": 15.0,
-    "status": 20
-   },
-   "weights": {
-    "land_and_size": 30,
-    "value_vs_estimate": 30,
-    "build_age_condition": 20,
-    "availability_status": 20
-   },
-   "upfront": 240620,
-   "fits": false,
-   "lat": -37.8440189,
-   "lon": 144.6368391,
-   "listed_on": null,
-   "sources": [
-    "homely"
-   ],
-   "suburb": "Tarneit",
-   "price_mid": 935000.0,
-   "is_new": true
-  },
-  {
-   "idx": 266,
+   "idx": 259,
    "address": "133 Malibu Boulevard, Point Cook VIC 3030",
    "url": "https://www.homely.com.au/homes/133-malibu-boulevard-point-cook-vic-3030/13622946",
    "score": 58,
@@ -2050,7 +2091,7 @@
    "is_new": false
   },
   {
-   "idx": 269,
+   "idx": 262,
    "address": "135 Malibu Blvd, Point Cook VIC 3030",
    "url": "https://www.homely.com.au/homes/135-malibu-blvd-point-cook-vic-3030/13622519",
    "score": 58,
@@ -2092,7 +2133,7 @@
    "is_new": false
   },
   {
-   "idx": 278,
+   "idx": 273,
    "address": "20 Liverpool Street, Point Cook VIC 3030",
    "url": "https://view.com.au/property/vic/point-cook-3030/20-liverpool-street-18241109/",
    "score": 58,
@@ -2130,7 +2171,7 @@
    ],
    "suburb": "Point Cook",
    "price_mid": 1245000.0,
-   "is_new": true
+   "is_new": false
   },
   {
    "idx": 77,
@@ -2175,90 +2216,7 @@
    "is_new": false
   },
   {
-   "idx": 163,
-   "address": "Lot 5557 Nautical circuit, Tarneit VIC 3029",
-   "url": "https://www.homely.com.au/homes/lot-5557-nautical-circuit-tarneit-vic-3029/13637278",
-   "score": 57,
-   "bonus": 5,
-   "total": 62,
-   "price_low": 763752.0,
-   "price_high": 763752.0,
-   "price_display": "$763,752",
-   "land": 416,
-   "beds": 4,
-   "baths": 2,
-   "cars": 2,
-   "status": "Available",
-   "build_year": null,
-   "is_new_home": true,
-   "breakdown": {
-    "land": 1.9,
-    "build": 20,
-    "value": 15.0,
-    "status": 20
-   },
-   "weights": {
-    "land_and_size": 30,
-    "value_vs_estimate": 30,
-    "build_age_condition": 20,
-    "availability_status": 20
-   },
-   "upfront": 196096,
-   "fits": false,
-   "lat": -37.8208705,
-   "lon": 144.6944256,
-   "listed_on": "2026-10-27",
-   "sources": [
-    "homely",
-    "view.com.au"
-   ],
-   "suburb": "Tarneit",
-   "price_mid": 763752.0,
-   "is_new": true
-  },
-  {
-   "idx": 164,
-   "address": "Lot 5552 Launch Drive, Tarneit VIC 3029",
-   "url": "https://www.homely.com.au/homes/lot-5552-launch-drive-tarneit-vic-3029/13637224",
-   "score": 57,
-   "bonus": 5,
-   "total": 62,
-   "price_low": 745329.0,
-   "price_high": 745329.0,
-   "price_display": "$745,329",
-   "land": 416,
-   "beds": 4,
-   "baths": 2,
-   "cars": 2,
-   "status": "Available",
-   "build_year": null,
-   "is_new_home": true,
-   "breakdown": {
-    "land": 1.9,
-    "build": 20,
-    "value": 15.0,
-    "status": 20
-   },
-   "weights": {
-    "land_and_size": 30,
-    "value_vs_estimate": 30,
-    "build_age_condition": 20,
-    "availability_status": 20
-   },
-   "upfront": 190066,
-   "fits": true,
-   "lat": -37.8208705,
-   "lon": 144.6944256,
-   "listed_on": null,
-   "sources": [
-    "homely"
-   ],
-   "suburb": "Tarneit",
-   "price_mid": 745329.0,
-   "is_new": true
-  },
-  {
-   "idx": 261,
+   "idx": 255,
    "address": "13 Central Park Avenue, Point Cook VIC 3030",
    "url": "https://www.homely.com.au/homes/13-central-park-avenue-point-cook-vic-3030/13627003",
    "score": 57,
@@ -2380,7 +2338,7 @@
    ],
    "suburb": "Truganina",
    "price_mid": 756199.0,
-   "is_new": true
+   "is_new": false
   },
   {
    "idx": 2,
@@ -2422,7 +2380,7 @@
    ],
    "suburb": "Truganina",
    "price_mid": 750853.0,
-   "is_new": true
+   "is_new": false
   },
   {
    "idx": 3,
@@ -2463,7 +2421,7 @@
    ],
    "suburb": "Truganina",
    "price_mid": 739814.0,
-   "is_new": true
+   "is_new": false
   },
   {
    "idx": 4,
@@ -2505,7 +2463,7 @@
    ],
    "suburb": "Truganina",
    "price_mid": 746253.0,
-   "is_new": true
+   "is_new": false
   },
   {
    "idx": 5,
@@ -2546,7 +2504,7 @@
    ],
    "suburb": "Truganina",
    "price_mid": 719799.0,
-   "is_new": true
+   "is_new": false
   },
   {
    "idx": 6,
@@ -2587,7 +2545,7 @@
    ],
    "suburb": "Truganina",
    "price_mid": 668920.0,
-   "is_new": true
+   "is_new": false
   },
   {
    "idx": 7,
@@ -2628,7 +2586,7 @@
    ],
    "suburb": "Truganina",
    "price_mid": 714611.0,
-   "is_new": true
+   "is_new": false
   },
   {
    "idx": 8,
@@ -2669,7 +2627,7 @@
    ],
    "suburb": "Truganina",
    "price_mid": 673718.0,
-   "is_new": true
+   "is_new": false
   },
   {
    "idx": 10,
@@ -2710,7 +2668,7 @@
    ],
    "suburb": "Truganina",
    "price_mid": 727799.0,
-   "is_new": true
+   "is_new": false
   },
   {
    "idx": 12,
@@ -2751,7 +2709,7 @@
    ],
    "suburb": "Truganina",
    "price_mid": 800000.0,
-   "is_new": true
+   "is_new": false
   },
   {
    "idx": 17,
@@ -2796,7 +2754,7 @@
    "is_new": false
   },
   {
-   "idx": 56,
+   "idx": 57,
    "address": "117 Slide Place, Rockbank VIC 3335",
    "url": "https://www.homely.com.au/homes/117-slide-place-rockbank-vic-3335/13589725",
    "score": 55,
@@ -2837,7 +2795,7 @@
    "is_new": false
   },
   {
-   "idx": 57,
+   "idx": 58,
    "address": "133 Hinge Street, Rockbank VIC 3335",
    "url": "https://www.homely.com.au/homes/133-hinge-street-rockbank-vic-3335/13589724",
    "score": 55,
@@ -2878,7 +2836,7 @@
    "is_new": false
   },
   {
-   "idx": 58,
+   "idx": 59,
    "address": "126 Socket Drive, Rockbank VIC 3335",
    "url": "https://www.homely.com.au/homes/126-socket-drive-rockbank-vic-3335/13589722",
    "score": 55,
@@ -2919,7 +2877,7 @@
    "is_new": false
   },
   {
-   "idx": 60,
+   "idx": 61,
    "address": "125 Socket Drive, Rockbank VIC 3335",
    "url": "https://www.homely.com.au/homes/125-socket-drive-rockbank-vic-3335/13587260",
    "score": 55,
@@ -2960,7 +2918,7 @@
    "is_new": false
   },
   {
-   "idx": 61,
+   "idx": 62,
    "address": "120 Socket Drive, Rockbank VIC 3335",
    "url": "https://www.homely.com.au/homes/120-socket-drive-rockbank-vic-3335/13587259",
    "score": 55,
@@ -3001,7 +2959,7 @@
    "is_new": false
   },
   {
-   "idx": 62,
+   "idx": 63,
    "address": "LOT 119 Atlas Estate, Rockbank VIC 3335",
    "url": "https://www.homely.com.au/homes/lot-119-atlas-estate-rockbank-vic-3335/13586024",
    "score": 55,
@@ -3085,7 +3043,7 @@
    "is_new": false
   },
   {
-   "idx": 85,
+   "idx": 88,
    "address": "Lot 4327 Draycott Street, Wyndham Vale VIC 3024",
    "url": "https://www.homely.com.au/homes/lot-4327-draycott-street-wyndham-vale-vic-302/13638137",
    "score": 55,
@@ -3123,10 +3081,10 @@
    ],
    "suburb": "Wyndham Vale",
    "price_mid": 577830.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 87,
+   "idx": 90,
    "address": "Lot 4307 Stanmore Crescent, Wyndham Vale VIC 3024",
    "url": "https://www.homely.com.au/homes/lot-4307-stanmore-crescent-wyndham-vale-vic-3/13638067",
    "score": 55,
@@ -3164,10 +3122,10 @@
    ],
    "suburb": "Wyndham Vale",
    "price_mid": 645920.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 88,
+   "idx": 91,
    "address": "Lot 4316 Happiness Way, Wyndham Vale VIC 3024",
    "url": "https://www.homely.com.au/homes/lot-4316-happiness-way-wyndham-vale-vic-3024/13638066",
    "score": 55,
@@ -3205,10 +3163,10 @@
    ],
    "suburb": "Wyndham Vale",
    "price_mid": 639150.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 89,
+   "idx": 92,
    "address": "Lot 9212 Empress Street, Wyndham Vale VIC 3024",
    "url": "https://www.homely.com.au/homes/lot-9212-empress-street-wyndham-vale-vic-3024/13638065",
    "score": 55,
@@ -3246,10 +3204,10 @@
    ],
    "suburb": "Wyndham Vale",
    "price_mid": 617730.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 90,
+   "idx": 93,
    "address": "Lot 9209 Empress Street, Wyndham Vale VIC 3024",
    "url": "https://www.homely.com.au/homes/lot-9209-empress-street-wyndham-vale-vic-3024/13638064",
    "score": 55,
@@ -3287,92 +3245,10 @@
    ],
    "suburb": "Wyndham Vale",
    "price_mid": 574830.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 92,
-   "address": "Lot 5824 Menotti Street, Wyndham Vale VIC 3024",
-   "url": "https://www.homely.com.au/homes/lot-5824-menotti-street-wyndham-vale-vic-3024/13638027",
-   "score": 55,
-   "bonus": 5,
-   "total": 60,
-   "price_low": 640718.0,
-   "price_high": 640718.0,
-   "price_display": "$640,718",
-   "land": 350,
-   "beds": 4,
-   "baths": 2,
-   "cars": 2,
-   "status": "Available",
-   "build_year": null,
-   "is_new_home": true,
-   "breakdown": {
-    "land": 0,
-    "build": 20,
-    "value": 15.0,
-    "status": 20
-   },
-   "weights": {
-    "land_and_size": 30,
-    "value_vs_estimate": 30,
-    "build_age_condition": 20,
-    "availability_status": 20
-   },
-   "upfront": 139691,
-   "fits": false,
-   "lat": -37.8383852,
-   "lon": 144.5976673,
-   "listed_on": null,
-   "sources": [
-    "homely"
-   ],
-   "suburb": "Wyndham Vale",
-   "price_mid": 640718.0,
-   "is_new": true
-  },
-  {
-   "idx": 93,
-   "address": "Lot 5801 Richmore Road, Wyndham Vale VIC 3024",
-   "url": "https://www.homely.com.au/homes/lot-5801-richmore-road-wyndham-vale-vic-3024/13638026",
-   "score": 55,
-   "bonus": 5,
-   "total": 60,
-   "price_low": 581876.0,
-   "price_high": 581876.0,
-   "price_display": "$581,876",
-   "land": 312,
-   "beds": 4,
-   "baths": 2,
-   "cars": 2,
-   "status": "Available",
-   "build_year": null,
-   "is_new_home": true,
-   "breakdown": {
-    "land": 0,
-    "build": 20,
-    "value": 15.0,
-    "status": 20
-   },
-   "weights": {
-    "land_and_size": 30,
-    "value_vs_estimate": 30,
-    "build_age_condition": 20,
-    "availability_status": 20
-   },
-   "upfront": 118825,
-   "fits": false,
-   "lat": -37.8383852,
-   "lon": 144.5976673,
-   "listed_on": null,
-   "sources": [
-    "homely"
-   ],
-   "suburb": "Wyndham Vale",
-   "price_mid": 581876.0,
-   "is_new": true
-  },
-  {
-   "idx": 139,
+   "idx": 138,
    "address": "25 Newhaven Drive, Williams Landing VIC 3027",
    "url": "https://www.homely.com.au/homes/25-newhaven-drive-williams-landing-vic-3027/13219941",
    "score": 55,
@@ -3413,16 +3289,16 @@
    "is_new": false
   },
   {
-   "idx": 153,
-   "address": "Lot 707 Jira Crescent, Tarneit VIC 3029",
-   "url": "https://www.homely.com.au/homes/lot-707-jira-crescent-tarneit-vic-3029/13637836",
+   "idx": 151,
+   "address": "LOT 845 Wattle Park Estate, Tarneit VIC 3029",
+   "url": "https://www.homely.com.au/homes/lot-845-wattle-park-estate-tarneit-vic-3029/13639198",
    "score": 55,
    "bonus": 5,
    "total": 60,
-   "price_low": 660650.0,
-   "price_high": 660650.0,
-   "price_display": "$660,650",
-   "land": 331,
+   "price_low": 733022.0,
+   "price_high": 733022.0,
+   "price_display": "$733,022",
+   "land": 392,
    "beds": 4,
    "baths": 2,
    "cars": 2,
@@ -3441,7 +3317,7 @@
     "build_age_condition": 20,
     "availability_status": 20
    },
-   "upfront": 148614,
+   "upfront": 183686,
    "fits": false,
    "lat": -37.8208705,
    "lon": 144.6944256,
@@ -3451,19 +3327,102 @@
     "view.com.au"
    ],
    "suburb": "Tarneit",
-   "price_mid": 660650.0,
+   "price_mid": 733022.0,
+   "is_new": true
+  },
+  {
+   "idx": 152,
+   "address": "LOT 841 Wattle Park Estate, Tarneit VIC 3029",
+   "url": "https://www.homely.com.au/homes/lot-841-wattle-park-estate-tarneit-vic-3029/13639192",
+   "score": 55,
+   "bonus": 5,
+   "total": 60,
+   "price_low": 722910.0,
+   "price_high": 722910.0,
+   "price_display": "$722,910",
+   "land": 392,
+   "beds": 4,
+   "baths": 2,
+   "cars": 2,
+   "status": "Available",
+   "build_year": null,
+   "is_new_home": true,
+   "breakdown": {
+    "land": 0,
+    "build": 20,
+    "value": 15.0,
+    "status": 20
+   },
+   "weights": {
+    "land_and_size": 30,
+    "value_vs_estimate": 30,
+    "build_age_condition": 20,
+    "availability_status": 20
+   },
+   "upfront": 178534,
+   "fits": false,
+   "lat": -37.8208705,
+   "lon": 144.6944256,
+   "listed_on": "2026-10-27",
+   "sources": [
+    "homely",
+    "view.com.au"
+   ],
+   "suburb": "Tarneit",
+   "price_mid": 722910.0,
+   "is_new": true
+  },
+  {
+   "idx": 153,
+   "address": "LOT 843 Wattle Park Estate, Tarneit VIC 3029",
+   "url": "https://www.homely.com.au/homes/lot-843-wattle-park-estate-tarneit-vic-3029/13639180",
+   "score": 55,
+   "bonus": 5,
+   "total": 60,
+   "price_low": 689090.0,
+   "price_high": 689090.0,
+   "price_display": "$689,090",
+   "land": 350,
+   "beds": 4,
+   "baths": 2,
+   "cars": 2,
+   "status": "Available",
+   "build_year": null,
+   "is_new_home": true,
+   "breakdown": {
+    "land": 0,
+    "build": 20,
+    "value": 15.0,
+    "status": 20
+   },
+   "weights": {
+    "land_and_size": 30,
+    "value_vs_estimate": 30,
+    "build_age_condition": 20,
+    "availability_status": 20
+   },
+   "upfront": 161896,
+   "fits": false,
+   "lat": -37.8208705,
+   "lon": 144.6944256,
+   "listed_on": null,
+   "sources": [
+    "homely"
+   ],
+   "suburb": "Tarneit",
+   "price_mid": 689090.0,
    "is_new": true
   },
   {
    "idx": 154,
-   "address": "Lot 750 Turmeric Street, Tarneit VIC 3029",
-   "url": "https://www.homely.com.au/homes/lot-750-turmeric-street-tarneit-vic-3029/13637834",
+   "address": "LOT 844 Wattle Park Estate, Tarneit VIC 3029",
+   "url": "https://www.homely.com.au/homes/lot-844-wattle-park-estate-tarneit-vic-3029/13639181",
    "score": 55,
    "bonus": 5,
    "total": 60,
-   "price_low": 692418.0,
-   "price_high": 692418.0,
-   "price_display": "$692,418",
+   "price_low": 693888.0,
+   "price_high": 693888.0,
+   "price_display": "$693,888",
    "land": 350,
    "beds": 4,
    "baths": 2,
@@ -3483,29 +3442,28 @@
     "build_age_condition": 20,
     "availability_status": 20
    },
-   "upfront": 163493,
+   "upfront": 164201,
    "fits": false,
    "lat": -37.8208705,
    "lon": 144.6944256,
-   "listed_on": "2026-10-27",
+   "listed_on": null,
    "sources": [
-    "homely",
-    "view.com.au"
+    "homely"
    ],
    "suburb": "Tarneit",
-   "price_mid": 692418.0,
+   "price_mid": 693888.0,
    "is_new": true
   },
   {
    "idx": 155,
-   "address": "Lot 1127 Frogmore Circuit, Tarneit VIC 3029",
-   "url": "https://www.homely.com.au/homes/lot-1127-frogmore-circuit-tarneit-vic-3029/13637657",
+   "address": "LOT 842 Wattle Park Estate, Tarneit VIC 3029",
+   "url": "https://www.homely.com.au/homes/lot-842-wattle-park-estate-tarneit-vic-3029/13639177",
    "score": 55,
    "bonus": 5,
    "total": 60,
-   "price_low": 709718.0,
-   "price_high": 709718.0,
-   "price_display": "$709,718",
+   "price_low": 672597.0,
+   "price_high": 672597.0,
+   "price_display": "$672,597",
    "land": 350,
    "beds": 4,
    "baths": 2,
@@ -3525,7 +3483,7 @@
     "build_age_condition": 20,
     "availability_status": 20
    },
-   "upfront": 171935,
+   "upfront": 154115,
    "fits": false,
    "lat": -37.8208705,
    "lon": 144.6944256,
@@ -3534,21 +3492,21 @@
     "homely"
    ],
    "suburb": "Tarneit",
-   "price_mid": 709718.0,
+   "price_mid": 672597.0,
    "is_new": true
   },
   {
    "idx": 156,
-   "address": "Lot 1035 Frogmore Circuit, Tarneit VIC 3029",
-   "url": "https://www.homely.com.au/homes/lot-1035-frogmore-circuit-tarneit-vic-3029/13637561",
+   "address": "LOT 916 Wattle Park Estate, Tarneit VIC 3029",
+   "url": "https://www.homely.com.au/homes/lot-916-wattle-park-estate-tarneit-vic-3029/13639168",
    "score": 55,
    "bonus": 5,
    "total": 60,
-   "price_low": 651100.0,
-   "price_high": 651100.0,
-   "price_display": "$651,100",
-   "land": 294,
-   "beds": 3,
+   "price_low": 603100.0,
+   "price_high": 603100.0,
+   "price_display": "$603,100",
+   "land": 290,
+   "beds": 4,
    "baths": 2,
    "cars": 2,
    "status": "Available",
@@ -3566,7 +3524,7 @@
     "build_age_condition": 20,
     "availability_status": 20
    },
-   "upfront": 144299,
+   "upfront": 123716,
    "fits": false,
    "lat": -37.8208705,
    "lon": 144.6944256,
@@ -3575,426 +3533,11 @@
     "homely"
    ],
    "suburb": "Tarneit",
-   "price_mid": 651100.0,
+   "price_mid": 603100.0,
    "is_new": true
   },
   {
-   "idx": 157,
-   "address": "Lot 1129 Frogmore Circuit, Tarneit VIC 3029",
-   "url": "https://www.homely.com.au/homes/lot-1129-frogmore-circuit-tarneit-vic-3029/13637560",
-   "score": 55,
-   "bonus": 5,
-   "total": 60,
-   "price_low": 662150.0,
-   "price_high": 662150.0,
-   "price_display": "$662,150",
-   "land": 294,
-   "beds": 4,
-   "baths": 2,
-   "cars": 2,
-   "status": "Available",
-   "build_year": null,
-   "is_new_home": true,
-   "breakdown": {
-    "land": 0,
-    "build": 20,
-    "value": 15.0,
-    "status": 20
-   },
-   "weights": {
-    "land_and_size": 30,
-    "value_vs_estimate": 30,
-    "build_age_condition": 20,
-    "availability_status": 20
-   },
-   "upfront": 149298,
-   "fits": false,
-   "lat": -37.8208705,
-   "lon": 144.6944256,
-   "listed_on": null,
-   "sources": [
-    "homely"
-   ],
-   "suburb": "Tarneit",
-   "price_mid": 662150.0,
-   "is_new": true
-  },
-  {
-   "idx": 158,
-   "address": "Lot 1034 Frogmore Circuit, Tarneit VIC 3029",
-   "url": "https://www.homely.com.au/homes/lot-1034-frogmore-circuit-tarneit-vic-3029/13637559",
-   "score": 55,
-   "bonus": 5,
-   "total": 60,
-   "price_low": 660800.0,
-   "price_high": 660800.0,
-   "price_display": "$660,800",
-   "land": 294,
-   "beds": 3,
-   "baths": 2,
-   "cars": 2,
-   "status": "Available",
-   "build_year": null,
-   "is_new_home": true,
-   "breakdown": {
-    "land": 0,
-    "build": 20,
-    "value": 15.0,
-    "status": 20
-   },
-   "weights": {
-    "land_and_size": 30,
-    "value_vs_estimate": 30,
-    "build_age_condition": 20,
-    "availability_status": 20
-   },
-   "upfront": 148682,
-   "fits": false,
-   "lat": -37.8208705,
-   "lon": 144.6944256,
-   "listed_on": null,
-   "sources": [
-    "homely"
-   ],
-   "suburb": "Tarneit",
-   "price_mid": 660800.0,
-   "is_new": true
-  },
-  {
-   "idx": 159,
-   "address": "922 48 Hock Street, Tarneit VIC 3029",
-   "url": "https://www.homely.com.au/homes/922-48-hock-street-tarneit-vic-3029/13637494",
-   "score": 55,
-   "bonus": 5,
-   "total": 60,
-   "price_low": 732310.0,
-   "price_high": 732310.0,
-   "price_display": "$732,310",
-   "land": 400,
-   "beds": 4,
-   "baths": 2,
-   "cars": 2,
-   "status": "Available",
-   "build_year": null,
-   "is_new_home": true,
-   "breakdown": {
-    "land": 0,
-    "build": 20,
-    "value": 15.0,
-    "status": 20
-   },
-   "weights": {
-    "land_and_size": 30,
-    "value_vs_estimate": 30,
-    "build_age_condition": 20,
-    "availability_status": 20
-   },
-   "upfront": 183320,
-   "fits": true,
-   "lat": -37.8208705,
-   "lon": 144.6944256,
-   "listed_on": null,
-   "sources": [
-    "homely"
-   ],
-   "suburb": "Tarneit",
-   "price_mid": 732310.0,
-   "is_new": true
-  },
-  {
-   "idx": 160,
-   "address": "840 Lomatia Road, Tarneit VIC 3029",
-   "url": "https://www.homely.com.au/homes/840-lomatia-road-tarneit-vic-3029/13637441",
-   "score": 55,
-   "bonus": 5,
-   "total": 60,
-   "price_low": 672617.0,
-   "price_high": 672617.0,
-   "price_display": "$672,617",
-   "land": 350,
-   "beds": 4,
-   "baths": 2,
-   "cars": 2,
-   "status": "Available",
-   "build_year": null,
-   "is_new_home": true,
-   "breakdown": {
-    "land": 0,
-    "build": 20,
-    "value": 15.0,
-    "status": 20
-   },
-   "weights": {
-    "land_and_size": 30,
-    "value_vs_estimate": 30,
-    "build_age_condition": 20,
-    "availability_status": 20
-   },
-   "upfront": 154124,
-   "fits": false,
-   "lat": -37.8208705,
-   "lon": 144.6944256,
-   "listed_on": "2026-10-27",
-   "sources": [
-    "homely",
-    "view.com.au"
-   ],
-   "suburb": "Tarneit",
-   "price_mid": 672617.0,
-   "is_new": true
-  },
-  {
-   "idx": 161,
-   "address": "5547 Nautical Circuit, Tarneit VIC 3029",
-   "url": "https://www.homely.com.au/homes/5547-nautical-circuit-tarneit-vic-3029/13637440",
-   "score": 55,
-   "bonus": 5,
-   "total": 60,
-   "price_low": 635328.0,
-   "price_high": 635328.0,
-   "price_display": "$635,328",
-   "land": 312,
-   "beds": 4,
-   "baths": 2,
-   "cars": 2,
-   "status": "Available",
-   "build_year": null,
-   "is_new_home": true,
-   "breakdown": {
-    "land": 0,
-    "build": 20,
-    "value": 15.0,
-    "status": 20
-   },
-   "weights": {
-    "land_and_size": 30,
-    "value_vs_estimate": 30,
-    "build_age_condition": 20,
-    "availability_status": 20
-   },
-   "upfront": 137332,
-   "fits": false,
-   "lat": -37.8208705,
-   "lon": 144.6944256,
-   "listed_on": "2026-10-27",
-   "sources": [
-    "homely",
-    "view.com.au"
-   ],
-   "suburb": "Tarneit",
-   "price_mid": 635328.0,
-   "is_new": true
-  },
-  {
-   "idx": 165,
-   "address": "Lot 5533 Verday Boulevard, Tarneit VIC 3029",
-   "url": "https://www.homely.com.au/homes/lot-5533-verday-boulevard-tarneit-vic-3029/13637200",
-   "score": 55,
-   "bonus": 5,
-   "total": 60,
-   "price_low": 684718.0,
-   "price_high": 684718.0,
-   "price_display": "$684,718",
-   "land": 350,
-   "beds": 4,
-   "baths": 2,
-   "cars": 2,
-   "status": "Available",
-   "build_year": null,
-   "is_new_home": true,
-   "breakdown": {
-    "land": 0,
-    "build": 20,
-    "value": 15.0,
-    "status": 20
-   },
-   "weights": {
-    "land_and_size": 30,
-    "value_vs_estimate": 30,
-    "build_age_condition": 20,
-    "availability_status": 20
-   },
-   "upfront": 159812,
-   "fits": false,
-   "lat": -37.8208705,
-   "lon": 144.6944256,
-   "listed_on": null,
-   "sources": [
-    "homely"
-   ],
-   "suburb": "Tarneit",
-   "price_mid": 684718.0,
-   "is_new": true
-  },
-  {
-   "idx": 166,
-   "address": "Lot 2950 Lockington Road, Tarneit VIC 3029",
-   "url": "https://www.homely.com.au/homes/lot-2950-lockington-road-tarneit-vic-3029/13637198",
-   "score": 55,
-   "bonus": 5,
-   "total": 60,
-   "price_low": 674150.0,
-   "price_high": 674150.0,
-   "price_display": "$674,150",
-   "land": 301,
-   "beds": 4,
-   "baths": 2,
-   "cars": 2,
-   "status": "Available",
-   "build_year": null,
-   "is_new_home": true,
-   "breakdown": {
-    "land": 0,
-    "build": 20,
-    "value": 15.0,
-    "status": 20
-   },
-   "weights": {
-    "land_and_size": 30,
-    "value_vs_estimate": 30,
-    "build_age_condition": 20,
-    "availability_status": 20
-   },
-   "upfront": 154838,
-   "fits": false,
-   "lat": -37.8208705,
-   "lon": 144.6944256,
-   "listed_on": null,
-   "sources": [
-    "homely"
-   ],
-   "suburb": "Tarneit",
-   "price_mid": 674150.0,
-   "is_new": true
-  },
-  {
-   "idx": 167,
-   "address": "Lot 2440 Cathcart Avenue, Tarneit VIC 3029",
-   "url": "https://www.homely.com.au/homes/lot-2440-cathcart-avenue-tarneit-vic-3029/13637172",
-   "score": 55,
-   "bonus": 5,
-   "total": 60,
-   "price_low": 743453.0,
-   "price_high": 743453.0,
-   "price_display": "$743,453",
-   "land": 400,
-   "beds": 4,
-   "baths": 2,
-   "cars": 2,
-   "status": "Available",
-   "build_year": null,
-   "is_new_home": true,
-   "breakdown": {
-    "land": 0,
-    "build": 20,
-    "value": 15.0,
-    "status": 20
-   },
-   "weights": {
-    "land_and_size": 30,
-    "value_vs_estimate": 30,
-    "build_age_condition": 20,
-    "availability_status": 20
-   },
-   "upfront": 189086,
-   "fits": true,
-   "lat": -37.8208705,
-   "lon": 144.6944256,
-   "listed_on": "2026-10-27",
-   "sources": [
-    "homely",
-    "view.com.au"
-   ],
-   "suburb": "Tarneit",
-   "price_mid": 743453.0,
-   "is_new": true
-  },
-  {
-   "idx": 169,
-   "address": "Lot 2412 Eloquence Road, Tarneit VIC 3029",
-   "url": "https://www.homely.com.au/homes/lot-2412-eloquence-road-tarneit-vic-3029/13637141",
-   "score": 55,
-   "bonus": 5,
-   "total": 60,
-   "price_low": 741329.0,
-   "price_high": 741329.0,
-   "price_display": "$741,329",
-   "land": 403,
-   "beds": 4,
-   "baths": 2,
-   "cars": 2,
-   "status": "Available",
-   "build_year": null,
-   "is_new_home": true,
-   "breakdown": {
-    "land": 0.4,
-    "build": 20,
-    "value": 15.0,
-    "status": 20
-   },
-   "weights": {
-    "land_and_size": 30,
-    "value_vs_estimate": 30,
-    "build_age_condition": 20,
-    "availability_status": 20
-   },
-   "upfront": 187979,
-   "fits": true,
-   "lat": -37.8208705,
-   "lon": 144.6944256,
-   "listed_on": "2026-10-27",
-   "sources": [
-    "homely",
-    "view.com.au"
-   ],
-   "suburb": "Tarneit",
-   "price_mid": 741329.0,
-   "is_new": true
-  },
-  {
-   "idx": 170,
-   "address": "Lot 2409 Eloquence Road, Tarneit VIC 3029",
-   "url": "https://www.homely.com.au/homes/lot-2409-eloquence-road-tarneit-vic-3029/13637113",
-   "score": 55,
-   "bonus": 5,
-   "total": 60,
-   "price_low": 695718.0,
-   "price_high": 695718.0,
-   "price_display": "$695,718",
-   "land": 350,
-   "beds": 4,
-   "baths": 2,
-   "cars": 2,
-   "status": "Available",
-   "build_year": null,
-   "is_new_home": true,
-   "breakdown": {
-    "land": 0,
-    "build": 20,
-    "value": 15.0,
-    "status": 20
-   },
-   "weights": {
-    "land_and_size": 30,
-    "value_vs_estimate": 30,
-    "build_age_condition": 20,
-    "availability_status": 20
-   },
-   "upfront": 165085,
-   "fits": false,
-   "lat": -37.8208705,
-   "lon": 144.6944256,
-   "listed_on": "2026-10-27",
-   "sources": [
-    "homely",
-    "view.com.au"
-   ],
-   "suburb": "Tarneit",
-   "price_mid": 695718.0,
-   "is_new": true
-  },
-  {
-   "idx": 184,
+   "idx": 181,
    "address": "17 Sherlock Avenue, Tarneit VIC 3029",
    "url": "https://view.com.au/property/vic/tarneit-3029/17-sherlock-avenue-18239381/",
    "score": 55,
@@ -4073,10 +3616,10 @@
    ],
    "suburb": "Truganina",
    "price_mid": null,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 199,
+   "idx": 195,
    "address": "31 Ballybunion Avenue, Craigieburn VIC 3064",
    "url": "https://www.homely.com.au/homes/31-ballybunion-avenue-craigieburn-vic-3064/13625722",
    "score": 59,
@@ -4118,7 +3661,7 @@
    "is_new": false
   },
   {
-   "idx": 130,
+   "idx": 129,
    "address": "17 Trenchard Road, Williams Landing VIC 3027",
    "url": "https://www.homely.com.au/homes/17-trenchard-road-williams-landing-vic-3027/13474427",
    "score": 53,
@@ -4160,7 +3703,7 @@
    "is_new": false
   },
   {
-   "idx": 138,
+   "idx": 137,
    "address": "95 Urban Drive, Williams Landing VIC 3027",
    "url": "https://www.homely.com.au/homes/95-urban-drive-williams-landing-vic-3027/13236124",
    "score": 52,
@@ -4202,7 +3745,7 @@
    "is_new": false
   },
   {
-   "idx": 146,
+   "idx": 145,
    "address": "7 Greenfinch Court, Williams Landing VIC 3027",
    "url": "https://view.com.au/property/vic/williams-landing-3027/7-greenfinch-court-17855609/",
    "score": 52,
@@ -4284,7 +3827,7 @@
    "is_new": false
   },
   {
-   "idx": 42,
+   "idx": 43,
    "address": "14 Trellis Gr, Rockbank VIC 3335",
    "url": "https://www.homely.com.au/homes/14-trellis-gr-rockbank-vic-3335/13637902",
    "score": 51,
@@ -4323,10 +3866,10 @@
    ],
    "suburb": "Rockbank",
    "price_mid": 740000.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 43,
+   "idx": 44,
    "address": "29 Hemingway Drive, Rockbank VIC 3335",
    "url": "https://www.homely.com.au/homes/29-hemingway-drive-rockbank-vic-3335/13637279",
    "score": 51,
@@ -4365,10 +3908,10 @@
    ],
    "suburb": "Rockbank",
    "price_mid": 740000.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 45,
+   "idx": 46,
    "address": "27 Lightsview Boulevard, Rockbank VIC 3335",
    "url": "https://www.homely.com.au/homes/27-lightsview-boulevard-rockbank-vic-3335/13626425",
    "score": 51,
@@ -4448,7 +3991,7 @@
    ],
    "suburb": "Plumpton",
    "price_mid": 790000.0,
-   "is_new": true
+   "is_new": false
   },
   {
    "idx": 95,
@@ -4489,7 +4032,7 @@
    ],
    "suburb": "Plumpton",
    "price_mid": 805000.0,
-   "is_new": true
+   "is_new": false
   },
   {
    "idx": 99,
@@ -4530,10 +4073,92 @@
    ],
    "suburb": "Plumpton",
    "price_mid": 890000.0,
+   "is_new": false
+  },
+  {
+   "idx": 157,
+   "address": "17 Safari Drive, Tarneit VIC 3029",
+   "url": "https://www.homely.com.au/homes/17-safari-drive-tarneit-vic-3029/13638763",
+   "score": 51,
+   "bonus": 5,
+   "total": 56,
+   "price_low": 700000.0,
+   "price_high": 720000.0,
+   "price_display": "$700,000 - $720,000 (North Facing Home)",
+   "land": 448,
+   "beds": 4,
+   "baths": 2,
+   "cars": 2,
+   "status": "Available",
+   "build_year": null,
+   "is_new_home": false,
+   "breakdown": {
+    "land": 5.8,
+    "build": 10.0,
+    "value": 15.0,
+    "status": 20
+   },
+   "weights": {
+    "land_and_size": 30,
+    "value_vs_estimate": 30,
+    "build_age_condition": 20,
+    "availability_status": 20
+   },
+   "upfront": 172075,
+   "fits": true,
+   "lat": -37.8385226,
+   "lon": 144.6829823,
+   "listed_on": null,
+   "sources": [
+    "homely"
+   ],
+   "suburb": "Tarneit",
+   "price_mid": 710000.0,
    "is_new": true
   },
   {
-   "idx": 179,
+   "idx": 167,
+   "address": "Lot 2433 Cathcart Avenue, Tarneit VIC 3029",
+   "url": "https://view.com.au/property/vic/tarneit-3029/lot-2433-cathcart-avenue-18246696/",
+   "score": 51,
+   "bonus": 5,
+   "total": 56,
+   "price_low": 815797.0,
+   "price_high": 815797.0,
+   "price_display": "$815,797",
+   "land": 448,
+   "beds": 4,
+   "baths": 2,
+   "cars": 2,
+   "status": "Available",
+   "build_year": null,
+   "is_new_home": false,
+   "breakdown": {
+    "land": 5.8,
+    "build": 10.0,
+    "value": 15.0,
+    "status": 20
+   },
+   "weights": {
+    "land_and_size": 30,
+    "value_vs_estimate": 30,
+    "build_age_condition": 20,
+    "availability_status": 20
+   },
+   "upfront": 209627,
+   "fits": false,
+   "lat": -37.817918,
+   "lon": 144.669846,
+   "listed_on": "2026-10-27",
+   "sources": [
+    "view.com.au"
+   ],
+   "suburb": "Tarneit",
+   "price_mid": 815797.0,
+   "is_new": false
+  },
+  {
+   "idx": 176,
    "address": "38 Serengeti Circuit, Tarneit VIC 3029",
    "url": "https://view.com.au/property/vic/tarneit-3029/38-serengeti-circuit-18240731/",
    "score": 51,
@@ -4574,7 +4199,7 @@
    "is_new": false
   },
   {
-   "idx": 255,
+   "idx": 249,
    "address": "39 Mystic Grove, Point Cook VIC 3030",
    "url": "https://www.homely.com.au/homes/39-mystic-grove-point-cook-vic-3030/13629702",
    "score": 51,
@@ -4616,7 +4241,7 @@
    "is_new": false
   },
   {
-   "idx": 258,
+   "idx": 252,
    "address": "8 Pangana Drive, Point Cook VIC 3030",
    "url": "https://www.homely.com.au/homes/8-pangana-drive-point-cook-vic-3030/13628381",
    "score": 51,
@@ -4699,7 +4324,7 @@
    "is_new": false
   },
   {
-   "idx": 195,
+   "idx": 191,
    "address": "1 Nethercote Street, Craigieburn VIC 3064",
    "url": "https://www.homely.com.au/homes/1-nethercote-street-craigieburn-vic-3064/13627951",
    "score": 55,
@@ -4740,7 +4365,7 @@
    "is_new": false
   },
   {
-   "idx": 197,
+   "idx": 193,
    "address": "46029 Fluvial Street, Craigieburn VIC 3064",
    "url": "https://www.homely.com.au/homes/46029-fluvial-street-craigieburn-vic-3064/13626076",
    "score": 55,
@@ -4781,7 +4406,7 @@
    "is_new": false
   },
   {
-   "idx": 198,
+   "idx": 194,
    "address": "115 Mohit Rise, Craigieburn VIC 3064",
    "url": "https://www.homely.com.au/homes/115-mohit-rise-craigieburn-vic-3064/13626074",
    "score": 55,
@@ -4822,7 +4447,7 @@
    "is_new": false
   },
   {
-   "idx": 209,
+   "idx": 205,
    "address": "153 Gallantry Avenue, Craigieburn VIC 3064",
    "url": "https://www.homely.com.au/homes/153-gallantry-avenue-craigieburn-vic-3064/13622165",
    "score": 55,
@@ -4863,7 +4488,7 @@
    "is_new": false
   },
   {
-   "idx": 210,
+   "idx": 206,
    "address": "167 Greenside Avenue, Craigieburn VIC 3064",
    "url": "https://www.homely.com.au/homes/167-greenside-avenue-craigieburn-vic-3064/13622164",
    "score": 55,
@@ -4904,48 +4529,7 @@
    "is_new": false
   },
   {
-   "idx": 211,
-   "address": "133 Mohit Rise, Craigieburn VIC 3064",
-   "url": "https://www.homely.com.au/homes/133-mohit-rise-craigieburn-vic-3064/13622163",
-   "score": 55,
-   "bonus": 0,
-   "total": 55,
-   "price_low": 718160.0,
-   "price_high": 718160.0,
-   "price_display": "$718,160",
-   "land": 313,
-   "beds": 4,
-   "baths": 2,
-   "cars": 2,
-   "status": "Available",
-   "build_year": null,
-   "is_new_home": true,
-   "breakdown": {
-    "land": 0,
-    "build": 20,
-    "value": 15.0,
-    "status": 20
-   },
-   "weights": {
-    "land_and_size": 30,
-    "value_vs_estimate": 30,
-    "build_age_condition": 20,
-    "availability_status": 20
-   },
-   "upfront": 176142,
-   "fits": false,
-   "lat": -37.5565169,
-   "lon": 144.930394,
-   "listed_on": null,
-   "sources": [
-    "homely"
-   ],
-   "suburb": "Craigieburn",
-   "price_mid": 718160.0,
-   "is_new": false
-  },
-  {
-   "idx": 224,
+   "idx": 219,
    "address": "154 Montana Street, Greenvale VIC 3059",
    "url": "https://www.homely.com.au/homes/154-montana-street-greenvale-vic-3059/13637225",
    "score": 55,
@@ -4984,10 +4568,10 @@
    ],
    "suburb": "Greenvale",
    "price_mid": 999970.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 225,
+   "idx": 220,
    "address": "LOT 241 Dunhelen Estate, Greenvale VIC 3059",
    "url": "https://www.homely.com.au/homes/lot-241-dunhelen-estate-greenvale-vic-3059/13635203",
    "score": 55,
@@ -5029,7 +4613,7 @@
    "is_new": false
   },
   {
-   "idx": 226,
+   "idx": 221,
    "address": "LOT 242 Dunhelen Estate, Greenvale VIC 3059",
    "url": "https://www.homely.com.au/homes/lot-242-dunhelen-estate-greenvale-vic-3059/13635202",
    "score": 55,
@@ -5071,7 +4655,7 @@
    "is_new": false
   },
   {
-   "idx": 227,
+   "idx": 222,
    "address": "LOT 217 Dunhelen Estate, Greenvale VIC 3059",
    "url": "https://www.homely.com.au/homes/lot-217-dunhelen-estate-greenvale-vic-3059/13635192",
    "score": 55,
@@ -5113,7 +4697,7 @@
    "is_new": false
   },
   {
-   "idx": 228,
+   "idx": 223,
    "address": "LOT 216 Dunhelen Estate, Greenvale VIC 3059",
    "url": "https://www.homely.com.au/homes/lot-216-dunhelen-estate-greenvale-vic-3059/13635189",
    "score": 55,
@@ -5155,7 +4739,7 @@
    "is_new": false
   },
   {
-   "idx": 229,
+   "idx": 224,
    "address": "LOT 212 Dunhelen Estate, Greenvale VIC 3059",
    "url": "https://www.homely.com.au/homes/lot-212-dunhelen-estate-greenvale-vic-3059/13635177",
    "score": 55,
@@ -5197,7 +4781,7 @@
    "is_new": false
   },
   {
-   "idx": 230,
+   "idx": 225,
    "address": "LOT 211 Dunhelen Estate, Greenvale VIC 3059",
    "url": "https://www.homely.com.au/homes/lot-211-dunhelen-estate-greenvale-vic-3059/13635174",
    "score": 55,
@@ -5239,7 +4823,7 @@
    "is_new": false
   },
   {
-   "idx": 231,
+   "idx": 226,
    "address": "LOT 208 Duhelen Estate, Greenvale VIC 3059",
    "url": "https://www.homely.com.au/homes/lot-208-duhelen-estate-greenvale-vic-3059/13635166",
    "score": 55,
@@ -5281,7 +4865,7 @@
    "is_new": false
   },
   {
-   "idx": 232,
+   "idx": 227,
    "address": "LOT 208 Dunhelen Estate, Greenvale VIC 3059",
    "url": "https://www.homely.com.au/homes/lot-208-dunhelen-estate-greenvale-vic-3059/13635164",
    "score": 55,
@@ -5323,47 +4907,6 @@
    "is_new": false
   },
   {
-   "idx": 249,
-   "address": "10 Queensferry Place, Greenvale VIC 3059",
-   "url": "https://view.com.au/property/vic/greenvale-3059/10-queensferry-place-18216865/",
-   "score": 55,
-   "bonus": 0,
-   "total": 55,
-   "price_low": null,
-   "price_high": null,
-   "price_display": "** UNDER CONTRACT **",
-   "land": 2007,
-   "beds": 4,
-   "baths": 2,
-   "cars": 3,
-   "status": "Under contract",
-   "build_year": null,
-   "is_new_home": false,
-   "breakdown": {
-    "land": 30,
-    "build": 10.0,
-    "value": 15.0,
-    "status": 0
-   },
-   "weights": {
-    "land_and_size": 30,
-    "value_vs_estimate": 30,
-    "build_age_condition": 20,
-    "availability_status": 20
-   },
-   "upfront": 2450,
-   "fits": false,
-   "lat": -37.649602,
-   "lon": 144.883936,
-   "listed_on": "2026-10-11",
-   "sources": [
-    "view.com.au"
-   ],
-   "suburb": "Greenvale",
-   "price_mid": null,
-   "is_new": false
-  },
-  {
    "idx": 40,
    "address": "23 Corvo Drive, Truganina VIC 3029",
    "url": "https://view.com.au/property/vic/truganina-3029/23-corvo-drive-18223114/",
@@ -5402,10 +4945,10 @@
    ],
    "suburb": "Truganina",
    "price_mid": 650000.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 149,
+   "idx": 148,
    "address": "26 Laurence Way, Tarneit VIC 3029",
    "url": "https://www.homely.com.au/homes/26-laurence-way-tarneit-vic-3029/12579869",
    "score": 48,
@@ -5487,7 +5030,7 @@
    "is_new": false
   },
   {
-   "idx": 142,
+   "idx": 141,
    "address": "6 Rocket Road, Williams Landing VIC 3027",
    "url": "https://view.com.au/property/vic/williams-landing-3027/6-rocket-road-17988712/",
    "score": 47,
@@ -5525,10 +5068,51 @@
    ],
    "suburb": "Williams Landing",
    "price_mid": 905000.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 262,
+   "idx": 165,
+   "address": "Lot 5557 Nautical circuit, Tarneit VIC 3029",
+   "url": "https://view.com.au/property/vic/tarneit-3029/lot-5557-nautical-circuit-18246756/",
+   "score": 47,
+   "bonus": 5,
+   "total": 52,
+   "price_low": 763752.0,
+   "price_high": 763752.0,
+   "price_display": "$763,752",
+   "land": 416,
+   "beds": 4,
+   "baths": 2,
+   "cars": 2,
+   "status": "Available",
+   "build_year": null,
+   "is_new_home": false,
+   "breakdown": {
+    "land": 1.9,
+    "build": 10.0,
+    "value": 15.0,
+    "status": 20
+   },
+   "weights": {
+    "land_and_size": 30,
+    "value_vs_estimate": 30,
+    "build_age_condition": 20,
+    "availability_status": 20
+   },
+   "upfront": 196096,
+   "fits": false,
+   "lat": -37.862764,
+   "lon": 144.640063,
+   "listed_on": "2026-10-27",
+   "sources": [
+    "view.com.au"
+   ],
+   "suburb": "Tarneit",
+   "price_mid": 763752.0,
+   "is_new": false
+  },
+  {
+   "idx": 256,
    "address": "14 Lambro Way, Point Cook VIC 3030",
    "url": "https://www.homely.com.au/homes/14-lambro-way-point-cook-vic-3030/13626603",
    "score": 47,
@@ -5569,7 +5153,7 @@
    "is_new": false
   },
   {
-   "idx": 265,
+   "idx": 258,
    "address": "20 Hutchence Drive, Point Cook VIC 3030",
    "url": "https://www.homely.com.au/homes/20-hutchence-drive-point-cook-vic-3030/13625050",
    "score": 47,
@@ -5610,7 +5194,7 @@
    "is_new": false
   },
   {
-   "idx": 274,
+   "idx": 267,
    "address": "92 Evesham Drive, Point Cook VIC 3030",
    "url": "https://www.homely.com.au/homes/92-evesham-drive-point-cook-vic-3030/13616147",
    "score": 47,
@@ -5652,6 +5236,48 @@
    "is_new": false
   },
   {
+   "idx": 85,
+   "address": "10 Mountview Drive, Diggers Rest VIC 3427",
+   "url": "https://www.homely.com.au/homes/10-mountview-drive-diggers-rest-vic-3427/13639615",
+   "score": 51,
+   "bonus": 0,
+   "total": 51,
+   "price_low": 785000.0,
+   "price_high": 835000.0,
+   "price_display": "$785,000 to $835,000",
+   "land": 448,
+   "beds": 4,
+   "baths": 2,
+   "cars": 2,
+   "status": "Available",
+   "build_year": null,
+   "is_new_home": false,
+   "breakdown": {
+    "land": 5.8,
+    "build": 10.0,
+    "value": 15.0,
+    "status": 20
+   },
+   "weights": {
+    "land_and_size": 30,
+    "value_vs_estimate": 30,
+    "build_age_condition": 20,
+    "availability_status": 20
+   },
+   "upfront": 208120,
+   "fits": false,
+   "lat": -37.6170915,
+   "lon": 144.7064899,
+   "listed_on": "2026-10-27",
+   "sources": [
+    "homely",
+    "view.com.au"
+   ],
+   "suburb": "Diggers Rest",
+   "price_mid": 810000.0,
+   "is_new": true
+  },
+  {
    "idx": 106,
    "address": "Lot 134 Ginkgo Street, Fraser Rise VIC 3336",
    "url": "https://view.com.au/property/vic/fraser-rise-3336/lot-134-ginkgo-street-18247072/",
@@ -5690,7 +5316,7 @@
    ],
    "suburb": "Fraser Rise",
    "price_mid": 834000.0,
-   "is_new": true
+   "is_new": false
   },
   {
    "idx": 112,
@@ -5731,10 +5357,10 @@
    ],
    "suburb": "Bonnie Brook",
    "price_mid": null,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 119,
+   "idx": 118,
    "address": "53 Penshurst Avenue, Williams Landing VIC 3027",
    "url": "https://www.homely.com.au/homes/53-penshurst-avenue-williams-landing-vic-3027/13604436",
    "score": 46,
@@ -5776,7 +5402,7 @@
    "is_new": false
   },
   {
-   "idx": 236,
+   "idx": 231,
    "address": "23 Maton Street, Greenvale VIC 3059",
    "url": "https://view.com.au/property/vic/greenvale-3059/23-maton-street-18246290/",
    "score": 51,
@@ -5814,7 +5440,7 @@
    ],
    "suburb": "Greenvale",
    "price_mid": 1500000.0,
-   "is_new": true
+   "is_new": false
   },
   {
    "idx": 0,
@@ -5896,7 +5522,7 @@
    ],
    "suburb": "Truganina",
    "price_mid": 770000.0,
-   "is_new": true
+   "is_new": false
   },
   {
    "idx": 13,
@@ -5938,7 +5564,7 @@
    ],
    "suburb": "Truganina",
    "price_mid": 684084.0,
-   "is_new": true
+   "is_new": false
   },
   {
    "idx": 14,
@@ -6310,7 +5936,7 @@
    ],
    "suburb": "Truganina",
    "price_mid": 815345.0,
-   "is_new": true
+   "is_new": false
   },
   {
    "idx": 27,
@@ -6515,7 +6141,7 @@
    ],
    "suburb": "Truganina",
    "price_mid": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "idx": 34,
@@ -6556,7 +6182,7 @@
    ],
    "suburb": "Truganina",
    "price_mid": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "idx": 36,
@@ -6597,7 +6223,7 @@
    ],
    "suburb": "Truganina",
    "price_mid": 1179000.0,
-   "is_new": true
+   "is_new": false
   },
   {
    "idx": 37,
@@ -6638,7 +6264,7 @@
    ],
    "suburb": "Truganina",
    "price_mid": 770000.0,
-   "is_new": true
+   "is_new": false
   },
   {
    "idx": 38,
@@ -6679,7 +6305,7 @@
    ],
    "suburb": "Truganina",
    "price_mid": 705000.0,
-   "is_new": true
+   "is_new": false
   },
   {
    "idx": 39,
@@ -6720,10 +6346,10 @@
    ],
    "suburb": "Truganina",
    "price_mid": 667500.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 41,
+   "idx": 42,
    "address": "4 Bradford Street, Rockbank VIC 3335",
    "url": "https://www.homely.com.au/homes/4-bradford-street-rockbank-vic-3335/13638139",
    "score": 45,
@@ -6762,10 +6388,10 @@
    ],
    "suburb": "Rockbank",
    "price_mid": 559000.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 44,
+   "idx": 45,
    "address": "14 Juniper Grove, Rockbank VIC 3335",
    "url": "https://www.homely.com.au/homes/14-juniper-grove-rockbank-vic-3335/13633937",
    "score": 45,
@@ -6807,7 +6433,7 @@
    "is_new": false
   },
   {
-   "idx": 49,
+   "idx": 50,
    "address": "11 Harris Street, Rockbank VIC 3335",
    "url": "https://www.homely.com.au/homes/11-harris-street-rockbank-vic-3335/13614779",
    "score": 45,
@@ -6848,7 +6474,7 @@
    "is_new": false
   },
   {
-   "idx": 50,
+   "idx": 51,
    "address": "6 Attar Road, Rockbank VIC 3335",
    "url": "https://www.homely.com.au/homes/6-attar-road-rockbank-vic-3335/13613911",
    "score": 45,
@@ -6890,14 +6516,14 @@
    "is_new": false
   },
   {
-   "idx": 51,
+   "idx": 52,
    "address": "8 Puritan Street, Rockbank VIC 3335",
    "url": "https://www.homely.com.au/homes/8-puritan-street-rockbank-vic-3335/13603196",
    "score": 45,
    "bonus": 5,
    "total": 50,
-   "price_low": 639813,
-   "price_high": 639813,
+   "price_low": 639438,
+   "price_high": 639438,
    "price_display": "Contact Agent",
    "land": null,
    "beds": 4,
@@ -6918,7 +6544,7 @@
     "build_age_condition": 20,
     "availability_status": 20
    },
-   "upfront": 139293,
+   "upfront": 139129,
    "fits": false,
    "lat": -37.7223294,
    "lon": 144.638164,
@@ -6928,11 +6554,11 @@
     "view.com.au"
    ],
    "suburb": "Rockbank",
-   "price_mid": 639813.0,
+   "price_mid": 639438.0,
    "is_new": false
   },
   {
-   "idx": 53,
+   "idx": 54,
    "address": "5 Ficus Way, Rockbank VIC 3335",
    "url": "https://www.homely.com.au/homes/5-ficus-way-rockbank-vic-3335/13594475",
    "score": 45,
@@ -6974,14 +6600,14 @@
    "is_new": false
   },
   {
-   "idx": 54,
+   "idx": 55,
    "address": "25 Wasim Circuit, Rockbank VIC 3335",
    "url": "https://www.homely.com.au/homes/25-wasim-circuit-rockbank-vic-3335/13591715",
    "score": 45,
    "bonus": 5,
    "total": 50,
-   "price_low": 639813,
-   "price_high": 639813,
+   "price_low": 639438,
+   "price_high": 639438,
    "price_display": "Enquire now : Contact Agent",
    "land": null,
    "beds": 4,
@@ -7002,7 +6628,7 @@
     "build_age_condition": 20,
     "availability_status": 20
    },
-   "upfront": 139293,
+   "upfront": 139129,
    "fits": false,
    "lat": -37.7363978,
    "lon": 144.6462936,
@@ -7012,11 +6638,11 @@
     "view.com.au"
    ],
    "suburb": "Rockbank",
-   "price_mid": 639813.0,
+   "price_mid": 639438.0,
    "is_new": false
   },
   {
-   "idx": 55,
+   "idx": 56,
    "address": "29 Kohli Cres, Rockbank VIC 3335",
    "url": "https://www.homely.com.au/homes/29-kohli-cres-rockbank-vic-3335/13591193",
    "score": 45,
@@ -7057,14 +6683,14 @@
    "is_new": false
   },
   {
-   "idx": 59,
+   "idx": 60,
    "address": "7 Papyrus Way, Rockbank VIC 3335",
    "url": "https://www.homely.com.au/homes/7-papyrus-way-rockbank-vic-3335/13589628",
    "score": 45,
    "bonus": 5,
    "total": 50,
-   "price_low": 639813,
-   "price_high": 639813,
+   "price_low": 639438,
+   "price_high": 639438,
    "price_display": "Contact Dheeraj @0466 787 165",
    "land": null,
    "beds": 3,
@@ -7085,7 +6711,7 @@
     "build_age_condition": 20,
     "availability_status": 20
    },
-   "upfront": 139293,
+   "upfront": 139129,
    "fits": false,
    "lat": -37.7423088,
    "lon": 144.6565185,
@@ -7094,11 +6720,11 @@
     "homely"
    ],
    "suburb": "Rockbank",
-   "price_mid": 639813.0,
+   "price_mid": 639438.0,
    "is_new": false
   },
   {
-   "idx": 63,
+   "idx": 64,
    "address": "LOT 123 Atlas Estate, Rockbank VIC 3335",
    "url": "https://view.com.au/property/vic/rockbank-3335/lot-123-atlas-estate-18215625/",
    "score": 45,
@@ -7136,10 +6762,10 @@
    ],
    "suburb": "Rockbank",
    "price_mid": 651307.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 64,
+   "idx": 65,
    "address": "LOT 120 Atlas Estate, Rockbank VIC 3335",
    "url": "https://view.com.au/property/vic/rockbank-3335/lot-120-atlas-estate-18215616/",
    "score": 45,
@@ -7177,10 +6803,10 @@
    ],
    "suburb": "Rockbank",
    "price_mid": 572270.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 65,
+   "idx": 66,
    "address": "LOT 105 Atlas Estate, Rockbank VIC 3335",
    "url": "https://view.com.au/property/vic/rockbank-3335/lot-105-atlas-estate-18215580/",
    "score": 45,
@@ -7218,10 +6844,10 @@
    ],
    "suburb": "Rockbank",
    "price_mid": 602270.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 66,
+   "idx": 67,
    "address": "8 Uttar Way, Rockbank VIC 3335",
    "url": "https://view.com.au/property/vic/rockbank-3335/8-uttar-way-18214053/",
    "score": 45,
@@ -7259,10 +6885,10 @@
    ],
    "suburb": "Rockbank",
    "price_mid": 590000.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 67,
+   "idx": 68,
    "address": "7 Hampshire Avenue, Rockbank VIC 3335",
    "url": "https://view.com.au/property/vic/rockbank-3335/7-hampshire-avenue-18210461/",
    "score": 45,
@@ -7300,10 +6926,10 @@
    ],
    "suburb": "Rockbank",
    "price_mid": 699000.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 68,
+   "idx": 69,
    "address": "6 Valais Way, Rockbank VIC 3335",
    "url": "https://view.com.au/property/vic/rockbank-3335/6-valais-way-18210199/",
    "score": 45,
@@ -7341,10 +6967,10 @@
    ],
    "suburb": "Rockbank",
    "price_mid": 685000.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 69,
+   "idx": 70,
    "address": "45 Westbury Avenue, Rockbank VIC 3335",
    "url": "https://view.com.au/property/vic/rockbank-3335/45-westbury-avenue-18210198/",
    "score": 45,
@@ -7382,10 +7008,10 @@
    ],
    "suburb": "Rockbank",
    "price_mid": 587500.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 70,
+   "idx": 71,
    "address": "Listing 18209298 (address withheld), Rockbank VIC 3335",
    "url": "https://view.com.au/property/vic/rockbank-3335/18209298/",
    "score": 45,
@@ -7423,10 +7049,10 @@
    ],
    "suburb": "Rockbank",
    "price_mid": 735750.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 71,
+   "idx": 72,
    "address": "42 Viola Drive, Rockbank VIC 3335",
    "url": "https://view.com.au/property/vic/rockbank-3335/42-viola-drive-18205857/",
    "score": 45,
@@ -7464,10 +7090,10 @@
    ],
    "suburb": "Rockbank",
    "price_mid": 559000.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 72,
+   "idx": 73,
    "address": "Lot 120 Socket Drive ( Qualifies for Help to buy Scheme ), Rockbank VIC 3335",
    "url": "https://view.com.au/property/vic/rockbank-3335/lot-120-socket-drive-qualifies-for-help-to-buy-scheme-18204033/",
    "score": 45,
@@ -7505,10 +7131,10 @@
    ],
    "suburb": "Rockbank",
    "price_mid": 587080.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 73,
+   "idx": 74,
    "address": "82 Brundell Avenue, Rockbank VIC 3335",
    "url": "https://view.com.au/property/vic/rockbank-3335/82-brundell-avenue-18199991/",
    "score": 45,
@@ -7546,10 +7172,10 @@
    ],
    "suburb": "Rockbank",
    "price_mid": 524000.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 74,
+   "idx": 75,
    "address": "17 Alliance Grove, Rockbank VIC 3335",
    "url": "https://view.com.au/property/vic/rockbank-3335/17-alliance-grove-18197215/",
    "score": 45,
@@ -7587,48 +7213,7 @@
    ],
    "suburb": "Rockbank",
    "price_mid": 595000.0,
-   "is_new": true
-  },
-  {
-   "idx": 75,
-   "address": "20 Tesla Road, Rockbank VIC 3335",
-   "url": "https://view.com.au/property/vic/rockbank-3335/20-tesla-road-18194522/",
-   "score": 45,
-   "bonus": 5,
-   "total": 50,
-   "price_low": null,
-   "price_high": null,
-   "price_display": "Henley Home on 350sqm with Potential 5th Bedroom",
-   "land": 350,
-   "beds": 4,
-   "baths": 2,
-   "cars": 2,
-   "status": "Available",
-   "build_year": null,
-   "is_new_home": false,
-   "breakdown": {
-    "land": 0,
-    "build": 10.0,
-    "value": 15.0,
-    "status": 20
-   },
-   "weights": {
-    "land_and_size": 30,
-    "value_vs_estimate": 30,
-    "build_age_condition": 20,
-    "availability_status": 20
-   },
-   "upfront": 2450,
-   "fits": false,
-   "lat": -37.736585,
-   "lon": 144.662406,
-   "listed_on": "2026-09-29",
-   "sources": [
-    "view.com.au"
-   ],
-   "suburb": "Rockbank",
-   "price_mid": null,
-   "is_new": true
+   "is_new": false
   },
   {
    "idx": 78,
@@ -7796,47 +7381,6 @@
    "is_new": false
   },
   {
-   "idx": 91,
-   "address": "3/21 Joan Street, Melton VIC 3337",
-   "url": "https://www.homely.com.au/homes/3-21-joan-street-melton-vic-3337/13638042",
-   "score": 45,
-   "bonus": 5,
-   "total": 50,
-   "price_low": 399000.0,
-   "price_high": 419000.0,
-   "price_display": "$399,000 - $419,000",
-   "land": 214.9853,
-   "beds": 2,
-   "baths": 1,
-   "cars": 1,
-   "status": "Available",
-   "build_year": null,
-   "is_new_home": false,
-   "breakdown": {
-    "land": 0,
-    "build": 10.0,
-    "value": 15.0,
-    "status": 20
-   },
-   "weights": {
-    "land_and_size": 30,
-    "value_vs_estimate": 30,
-    "build_age_condition": 20,
-    "availability_status": 20
-   },
-   "upfront": 84250,
-   "fits": false,
-   "lat": -37.685415,
-   "lon": 144.574376,
-   "listed_on": null,
-   "sources": [
-    "homely"
-   ],
-   "suburb": "Melton",
-   "price_mid": 409000.0,
-   "is_new": true
-  },
-  {
    "idx": 96,
    "address": "47 Enterprise Circuit, Plumpton VIC 3335",
    "url": "https://view.com.au/property/vic/plumpton-3335/47-enterprise-circuit-17836348/",
@@ -7875,7 +7419,7 @@
    ],
    "suburb": "Plumpton",
    "price_mid": 1050000.0,
-   "is_new": true
+   "is_new": false
   },
   {
    "idx": 97,
@@ -7916,7 +7460,7 @@
    ],
    "suburb": "Plumpton",
    "price_mid": 774000.0,
-   "is_new": true
+   "is_new": false
   },
   {
    "idx": 98,
@@ -7957,7 +7501,7 @@
    ],
    "suburb": "Plumpton",
    "price_mid": 830000.0,
-   "is_new": true
+   "is_new": false
   },
   {
    "idx": 100,
@@ -7998,7 +7542,7 @@
    ],
    "suburb": "Plumpton",
    "price_mid": 755000.0,
-   "is_new": true
+   "is_new": false
   },
   {
    "idx": 101,
@@ -8039,7 +7583,7 @@
    ],
    "suburb": "Plumpton",
    "price_mid": 774000.0,
-   "is_new": true
+   "is_new": false
   },
   {
    "idx": 102,
@@ -8080,7 +7624,7 @@
    ],
    "suburb": "Plumpton",
    "price_mid": 660000.0,
-   "is_new": true
+   "is_new": false
   },
   {
    "idx": 103,
@@ -8121,7 +7665,7 @@
    ],
    "suburb": "Plumpton",
    "price_mid": 600000.0,
-   "is_new": true
+   "is_new": false
   },
   {
    "idx": 104,
@@ -8162,7 +7706,7 @@
    ],
    "suburb": "Plumpton",
    "price_mid": 675000.0,
-   "is_new": true
+   "is_new": false
   },
   {
    "idx": 105,
@@ -8203,10 +7747,10 @@
    ],
    "suburb": "Plumpton",
    "price_mid": 660000.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 116,
+   "idx": 115,
    "address": "15 Merryfield Circuit, Williams Landing VIC 3027",
    "url": "https://www.homely.com.au/homes/15-merryfield-circuit-williams-landing-vic-30/13019548",
    "score": 45,
@@ -8247,7 +7791,7 @@
    "is_new": false
   },
   {
-   "idx": 117,
+   "idx": 116,
    "address": "20 Stoneleigh Circuit, Williams Landing VIC 3027",
    "url": "https://www.homely.com.au/homes/20-stoneleigh-circuit-williams-landing-vic-30/13632528",
    "score": 45,
@@ -8289,7 +7833,7 @@
    "is_new": false
   },
   {
-   "idx": 120,
+   "idx": 119,
    "address": "24 Loon Drive, Williams Landing VIC 3027",
    "url": "https://www.homely.com.au/homes/24-loon-drive-williams-landing-vic-3027/13601376",
    "score": 45,
@@ -8330,7 +7874,7 @@
    "is_new": false
   },
   {
-   "idx": 121,
+   "idx": 120,
    "address": "20 Ashcroft Avenue, Williams Landing VIC 3027",
    "url": "https://www.homely.com.au/homes/20-ashcroft-avenue-williams-landing-vic-3027/13595402",
    "score": 45,
@@ -8372,7 +7916,7 @@
    "is_new": false
   },
   {
-   "idx": 122,
+   "idx": 121,
    "address": "37 Waterways Boulevard, Williams Landing VIC 3027",
    "url": "https://www.homely.com.au/homes/37-waterways-boulevard-williams-landing-vic-3/13586907",
    "score": 45,
@@ -8414,7 +7958,7 @@
    "is_new": false
   },
   {
-   "idx": 123,
+   "idx": 122,
    "address": "60 Lukis Avenue, Williams Landing VIC 3027",
    "url": "https://www.homely.com.au/homes/60-lukis-avenue-williams-landing-vic-3027/13545030",
    "score": 45,
@@ -8456,7 +8000,7 @@
    "is_new": false
   },
   {
-   "idx": 124,
+   "idx": 123,
    "address": "33 Chessington Drive, Williams Landing VIC 3027",
    "url": "https://www.homely.com.au/homes/33-chessington-drive-williams-landing-vic-302/13534810",
    "score": 45,
@@ -8498,7 +8042,7 @@
    "is_new": false
   },
   {
-   "idx": 126,
+   "idx": 125,
    "address": "9 Merryfield Circuit, Williams Landing VIC 3027",
    "url": "https://www.homely.com.au/homes/9-merryfield-circuit-williams-landing-vic-302/13063497",
    "score": 45,
@@ -8539,7 +8083,7 @@
    "is_new": false
   },
   {
-   "idx": 128,
+   "idx": 127,
    "address": "17 Freedman Avenue, Williams Landing VIC 3027",
    "url": "https://www.homely.com.au/homes/17-freedman-avenue-williams-landing-vic-3027/13490854",
    "score": 45,
@@ -8581,7 +8125,7 @@
    "is_new": false
   },
   {
-   "idx": 129,
+   "idx": 128,
    "address": "47 Waterways Boulevard, Williams Landing VIC 3027",
    "url": "https://www.homely.com.au/homes/47-waterways-boulevard-williams-landing-vic-3/13474810",
    "score": 45,
@@ -8623,7 +8167,7 @@
    "is_new": false
   },
   {
-   "idx": 131,
+   "idx": 130,
    "address": "209/115 Overton Road, Williams Landing VIC 3027",
    "url": "https://www.homely.com.au/homes/209-115-overton-road-williams-landing-vic-302/13465825",
    "score": 45,
@@ -8665,7 +8209,7 @@
    "is_new": false
   },
   {
-   "idx": 132,
+   "idx": 131,
    "address": "12 Beckett Way, Williams Landing VIC 3027",
    "url": "https://www.homely.com.au/homes/12-beckett-way-williams-landing-vic-3027/9957900",
    "score": 45,
@@ -8707,7 +8251,7 @@
    "is_new": false
   },
   {
-   "idx": 133,
+   "idx": 132,
    "address": "17 Wingfield Parkway, Williams Landing VIC 3027",
    "url": "https://www.homely.com.au/homes/17-wingfield-parkway-williams-landing-vic-302/13414734",
    "score": 45,
@@ -8748,7 +8292,7 @@
    "is_new": false
   },
   {
-   "idx": 134,
+   "idx": 133,
    "address": "19 Electra Drive,, Williams Landing VIC 3027",
    "url": "https://www.homely.com.au/homes/19-electra-drive-williams-landing-vic-3027/13407819",
    "score": 45,
@@ -8790,7 +8334,7 @@
    "is_new": false
   },
   {
-   "idx": 136,
+   "idx": 135,
    "address": "102/1 Clark Street, Williams Landing VIC 3027",
    "url": "https://www.homely.com.au/homes/102-1-clark-street-williams-landing-vic-3027/13365689",
    "score": 45,
@@ -8831,7 +8375,7 @@
    "is_new": false
   },
   {
-   "idx": 137,
+   "idx": 136,
    "address": "21 Chessington Dr, Williams Landing VIC 3027",
    "url": "https://www.homely.com.au/homes/21-chessington-dr-williams-landing-vic-3027/13351500",
    "score": 45,
@@ -8872,7 +8416,7 @@
    "is_new": false
   },
   {
-   "idx": 140,
+   "idx": 139,
    "address": "20 Coleridge Circuit, Williams Landing VIC 3027",
    "url": "https://www.homely.com.au/homes/20-coleridge-circuit-williams-landing-vic-302/13202832",
    "score": 45,
@@ -8914,7 +8458,7 @@
    "is_new": false
   },
   {
-   "idx": 143,
+   "idx": 142,
    "address": "16 Gainsborough Road, Williams Landing VIC 3027",
    "url": "https://view.com.au/property/vic/williams-landing-3027/16-gainsborough-road-17956040/",
    "score": 45,
@@ -8952,10 +8496,10 @@
    ],
    "suburb": "Williams Landing",
    "price_mid": 622500.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 144,
+   "idx": 143,
    "address": "21 Stoneleigh Circuit, Williams Landing VIC 3027",
    "url": "https://view.com.au/property/vic/williams-landing-3027/21-stoneleigh-circuit-17949907/",
    "score": 45,
@@ -8993,10 +8537,10 @@
    ],
    "suburb": "Williams Landing",
    "price_mid": 765000.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 145,
+   "idx": 144,
    "address": "16 Flight Drive, Williams Landing VIC 3027",
    "url": "https://view.com.au/property/vic/williams-landing-3027/16-flight-drive-17863804/",
    "score": 45,
@@ -9034,10 +8578,10 @@
    ],
    "suburb": "Williams Landing",
    "price_mid": 817500.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 147,
+   "idx": 146,
    "address": "82 Ashcroft Avenue, Williams Landing VIC 3027",
    "url": "https://view.com.au/property/vic/williams-landing-3027/82-ashcroft-avenue-17845428/",
    "score": 45,
@@ -9078,7 +8622,7 @@
    "is_new": false
   },
   {
-   "idx": 148,
+   "idx": 147,
    "address": "28 Hanworth Avenue, Williams Landing VIC 3027",
    "url": "https://view.com.au/property/vic/williams-landing-3027/28-hanworth-avenue-17835619/",
    "score": 45,
@@ -9116,12 +8660,95 @@
    ],
    "suburb": "Williams Landing",
    "price_mid": 1010000.0,
+   "is_new": false
+  },
+  {
+   "idx": 149,
+   "address": "39 Rapa Drive, Tarneit VIC 3029",
+   "url": "https://www.homely.com.au/homes/39-rapa-drive-tarneit-vic-3029/13639846",
+   "score": 45,
+   "bonus": 5,
+   "total": 50,
+   "price_low": 672264,
+   "price_high": 672264,
+   "price_display": "Contact Agent",
+   "land": null,
+   "beds": 4,
+   "baths": 2,
+   "cars": 2,
+   "status": "Available",
+   "build_year": null,
+   "is_new_home": false,
+   "breakdown": {
+    "land": 0,
+    "build": 10.0,
+    "value": 15.0,
+    "status": 20
+   },
+   "weights": {
+    "land_and_size": 30,
+    "value_vs_estimate": 30,
+    "build_age_condition": 20,
+    "availability_status": 20
+   },
+   "upfront": 153960,
+   "fits": false,
+   "lat": -37.8563179,
+   "lon": 144.6497002,
+   "listed_on": "2026-10-27",
+   "sources": [
+    "homely",
+    "view.com.au"
+   ],
+   "suburb": "Tarneit",
+   "price_mid": 672264.0,
    "is_new": true
   },
   {
-   "idx": 152,
+   "idx": 150,
+   "address": "9 Lowrie Street, Tarneit VIC 3029",
+   "url": "https://www.homely.com.au/homes/9-lowrie-street-tarneit-vic-3029/13639763",
+   "score": 45,
+   "bonus": 5,
+   "total": 50,
+   "price_low": null,
+   "price_high": null,
+   "price_display": "4-Bedroom Home Near Shops & Train Station",
+   "land": null,
+   "beds": 4,
+   "baths": 2,
+   "cars": 2,
+   "status": "Available",
+   "build_year": null,
+   "is_new_home": false,
+   "breakdown": {
+    "land": 0,
+    "build": 10.0,
+    "value": 15.0,
+    "status": 20
+   },
+   "weights": {
+    "land_and_size": 30,
+    "value_vs_estimate": 30,
+    "build_age_condition": 20,
+    "availability_status": 20
+   },
+   "upfront": 2450,
+   "fits": false,
+   "lat": -37.8174962,
+   "lon": 144.6606988,
+   "listed_on": null,
+   "sources": [
+    "homely"
+   ],
+   "suburb": "Tarneit",
+   "price_mid": null,
+   "is_new": true
+  },
+  {
+   "idx": 161,
    "address": "9 Carbine Avenue, Tarneit VIC 3029",
-   "url": "https://www.homely.com.au/homes/9-carbine-avenue-tarneit-vic-3029/13637851",
+   "url": "https://view.com.au/property/vic/tarneit-3029/9-carbine-avenue-18247769/",
    "score": 45,
    "bonus": 5,
    "total": 50,
@@ -9149,20 +8776,225 @@
    },
    "upfront": 137190,
    "fits": false,
-   "lat": -37.8414369,
-   "lon": 144.6761817,
-   "listed_on": null,
+   "lat": -37.841491,
+   "lon": 144.676171,
+   "listed_on": "2026-10-27",
    "sources": [
-    "homely"
+    "view.com.au"
    ],
    "suburb": "Tarneit",
    "price_mid": 635000.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 173,
+   "idx": 162,
+   "address": "5547 Nautical Circuit, Tarneit VIC 3029",
+   "url": "https://view.com.au/property/vic/tarneit-3029/5547-nautical-circuit-18246895/",
+   "score": 45,
+   "bonus": 5,
+   "total": 50,
+   "price_low": 635328.0,
+   "price_high": 635328.0,
+   "price_display": "$635,328",
+   "land": 312,
+   "beds": 4,
+   "baths": 2,
+   "cars": 2,
+   "status": "Available",
+   "build_year": null,
+   "is_new_home": false,
+   "breakdown": {
+    "land": 0,
+    "build": 10.0,
+    "value": 15.0,
+    "status": 20
+   },
+   "weights": {
+    "land_and_size": 30,
+    "value_vs_estimate": 30,
+    "build_age_condition": 20,
+    "availability_status": 20
+   },
+   "upfront": 137332,
+   "fits": false,
+   "lat": -37.862764,
+   "lon": 144.640063,
+   "listed_on": "2026-10-27",
+   "sources": [
+    "view.com.au"
+   ],
+   "suburb": "Tarneit",
+   "price_mid": 635328.0,
+   "is_new": false
+  },
+  {
+   "idx": 163,
+   "address": "840 Lomatia Road, Tarneit VIC 3029",
+   "url": "https://view.com.au/property/vic/tarneit-3029/840-lomatia-road-18246893/",
+   "score": 45,
+   "bonus": 5,
+   "total": 50,
+   "price_low": 672617.0,
+   "price_high": 672617.0,
+   "price_display": "$672,617",
+   "land": 350,
+   "beds": 4,
+   "baths": 2,
+   "cars": 2,
+   "status": "Available",
+   "build_year": null,
+   "is_new_home": false,
+   "breakdown": {
+    "land": 0,
+    "build": 10.0,
+    "value": 15.0,
+    "status": 20
+   },
+   "weights": {
+    "land_and_size": 30,
+    "value_vs_estimate": 30,
+    "build_age_condition": 20,
+    "availability_status": 20
+   },
+   "upfront": 154124,
+   "fits": false,
+   "lat": -37.843216,
+   "lon": 144.667033,
+   "listed_on": "2026-10-27",
+   "sources": [
+    "view.com.au"
+   ],
+   "suburb": "Tarneit",
+   "price_mid": 672617.0,
+   "is_new": false
+  },
+  {
+   "idx": 166,
+   "address": "Lot 2440 Cathcart Avenue, Tarneit VIC 3029",
+   "url": "https://view.com.au/property/vic/tarneit-3029/lot-2440-cathcart-avenue-18246708/",
+   "score": 45,
+   "bonus": 5,
+   "total": 50,
+   "price_low": 743453.0,
+   "price_high": 743453.0,
+   "price_display": "$743,453",
+   "land": 400,
+   "beds": 4,
+   "baths": 2,
+   "cars": 2,
+   "status": "Available",
+   "build_year": null,
+   "is_new_home": false,
+   "breakdown": {
+    "land": 0,
+    "build": 10.0,
+    "value": 15.0,
+    "status": 20
+   },
+   "weights": {
+    "land_and_size": 30,
+    "value_vs_estimate": 30,
+    "build_age_condition": 20,
+    "availability_status": 20
+   },
+   "upfront": 189086,
+   "fits": true,
+   "lat": -37.817918,
+   "lon": 144.669846,
+   "listed_on": "2026-10-27",
+   "sources": [
+    "view.com.au"
+   ],
+   "suburb": "Tarneit",
+   "price_mid": 743453.0,
+   "is_new": false
+  },
+  {
+   "idx": 168,
+   "address": "Lot 2412 Eloquence Road, Tarneit VIC 3029",
+   "url": "https://view.com.au/property/vic/tarneit-3029/lot-2412-eloquence-road-18246686/",
+   "score": 45,
+   "bonus": 5,
+   "total": 50,
+   "price_low": 741329.0,
+   "price_high": 741329.0,
+   "price_display": "$741,329",
+   "land": 403,
+   "beds": 4,
+   "baths": 2,
+   "cars": 2,
+   "status": "Available",
+   "build_year": null,
+   "is_new_home": false,
+   "breakdown": {
+    "land": 0.4,
+    "build": 10.0,
+    "value": 15.0,
+    "status": 20
+   },
+   "weights": {
+    "land_and_size": 30,
+    "value_vs_estimate": 30,
+    "build_age_condition": 20,
+    "availability_status": 20
+   },
+   "upfront": 187979,
+   "fits": true,
+   "lat": -37.819703,
+   "lon": 144.668093,
+   "listed_on": "2026-10-27",
+   "sources": [
+    "view.com.au"
+   ],
+   "suburb": "Tarneit",
+   "price_mid": 741329.0,
+   "is_new": false
+  },
+  {
+   "idx": 169,
+   "address": "Lot 2409 Eloquence Road, Tarneit VIC 3029",
+   "url": "https://view.com.au/property/vic/tarneit-3029/lot-2409-eloquence-road-18246666/",
+   "score": 45,
+   "bonus": 5,
+   "total": 50,
+   "price_low": 695718.0,
+   "price_high": 695718.0,
+   "price_display": "$695,718",
+   "land": 350,
+   "beds": 4,
+   "baths": 2,
+   "cars": 2,
+   "status": "Available",
+   "build_year": null,
+   "is_new_home": false,
+   "breakdown": {
+    "land": 0,
+    "build": 10.0,
+    "value": 15.0,
+    "status": 20
+   },
+   "weights": {
+    "land_and_size": 30,
+    "value_vs_estimate": 30,
+    "build_age_condition": 20,
+    "availability_status": 20
+   },
+   "upfront": 165085,
+   "fits": false,
+   "lat": -37.819703,
+   "lon": 144.668093,
+   "listed_on": "2026-10-27",
+   "sources": [
+    "view.com.au"
+   ],
+   "suburb": "Tarneit",
+   "price_mid": 695718.0,
+   "is_new": false
+  },
+  {
+   "idx": 170,
    "address": "26 Weldon Street, Tarneit VIC 3029",
-   "url": "https://www.homely.com.au/homes/26-weldon-street-tarneit-vic-3029/13635479",
+   "url": "https://view.com.au/property/vic/tarneit-3029/26-weldon-street-18245662/",
    "score": 45,
    "bonus": 5,
    "total": 50,
@@ -9190,11 +9022,10 @@
    },
    "upfront": 141581,
    "fits": false,
-   "lat": -37.8472326,
-   "lon": 144.6421321,
+   "lat": -37.847271,
+   "lon": 144.642004,
    "listed_on": "2026-10-26",
    "sources": [
-    "homely",
     "view.com.au"
    ],
    "suburb": "Tarneit",
@@ -9202,7 +9033,7 @@
    "is_new": false
   },
   {
-   "idx": 174,
+   "idx": 171,
    "address": "Lot 1704 Coalmoor Street, Tarneit VIC 3029",
    "url": "https://view.com.au/property/vic/tarneit-3029/lot-1704-coalmoor-street-18244915/",
    "score": 45,
@@ -9243,7 +9074,7 @@
    "is_new": false
   },
   {
-   "idx": 175,
+   "idx": 172,
    "address": "13 Hairpin Drive, Tarneit VIC 3029",
    "url": "https://view.com.au/property/vic/tarneit-3029/13-hairpin-drive-18241623/",
    "score": 45,
@@ -9284,7 +9115,7 @@
    "is_new": false
   },
   {
-   "idx": 176,
+   "idx": 173,
    "address": "493 Hogans Road, Tarneit VIC 3029",
    "url": "https://view.com.au/property/vic/tarneit-3029/493-hogans-road-18241341/",
    "score": 45,
@@ -9325,7 +9156,7 @@
    "is_new": false
   },
   {
-   "idx": 178,
+   "idx": 175,
    "address": "21 Thicket Drive, Tarneit VIC 3029",
    "url": "https://view.com.au/property/vic/tarneit-3029/21-thicket-drive-18240916/",
    "score": 45,
@@ -9366,7 +9197,7 @@
    "is_new": false
   },
   {
-   "idx": 180,
+   "idx": 177,
    "address": "4 Isola Mews, Tarneit VIC 3029",
    "url": "https://view.com.au/property/vic/tarneit-3029/4-isola-mews-18240292/",
    "score": 45,
@@ -9407,7 +9238,7 @@
    "is_new": false
   },
   {
-   "idx": 181,
+   "idx": 178,
    "address": "24 Streamlet Boulevard, Tarneit VIC 3029",
    "url": "https://view.com.au/property/vic/tarneit-3029/24-streamlet-boulevard-18240262/",
    "score": 45,
@@ -9448,7 +9279,7 @@
    "is_new": false
   },
   {
-   "idx": 182,
+   "idx": 179,
    "address": "7 Ackerman Avenue, Tarneit VIC 3029",
    "url": "https://view.com.au/property/vic/tarneit-3029/7-ackerman-avenue-18239961/",
    "score": 45,
@@ -9489,7 +9320,7 @@
    "is_new": false
   },
   {
-   "idx": 183,
+   "idx": 180,
    "address": "15 Nia Road, Tarneit VIC 3029",
    "url": "https://view.com.au/property/vic/tarneit-3029/15-nia-road-18239571/",
    "score": 45,
@@ -9530,48 +9361,7 @@
    "is_new": false
   },
   {
-   "idx": 186,
-   "address": "9 Moroccan Way, Tarneit VIC 3029",
-   "url": "https://view.com.au/property/vic/tarneit-3029/9-moroccan-way-18239174/",
-   "score": 45,
-   "bonus": 5,
-   "total": 50,
-   "price_low": 590000.0,
-   "price_high": 620000.0,
-   "price_display": "$590,000 - $620,000",
-   "land": null,
-   "beds": 3,
-   "baths": 2,
-   "cars": 1,
-   "status": "Available",
-   "build_year": null,
-   "is_new_home": false,
-   "breakdown": {
-    "land": 0,
-    "build": 10.0,
-    "value": 15.0,
-    "status": 20
-   },
-   "weights": {
-    "land_and_size": 30,
-    "value_vs_estimate": 30,
-    "build_age_condition": 20,
-    "availability_status": 20
-   },
-   "upfront": 124496,
-   "fits": false,
-   "lat": -37.849989,
-   "lon": 144.62383,
-   "listed_on": "2026-10-22",
-   "sources": [
-    "view.com.au"
-   ],
-   "suburb": "Tarneit",
-   "price_mid": 605000.0,
-   "is_new": true
-  },
-  {
-   "idx": 253,
+   "idx": 247,
    "address": "16 Suva Street, Point Cook VIC 3030",
    "url": "https://www.homely.com.au/homes/16-suva-street-point-cook-vic-3030/13632029",
    "score": 45,
@@ -9613,7 +9403,7 @@
    "is_new": false
   },
   {
-   "idx": 256,
+   "idx": 250,
    "address": "30 Tom Roberts Parade, Point Cook VIC 3030",
    "url": "https://www.homely.com.au/homes/30-tom-roberts-parade-point-cook-vic-3030/13629309",
    "score": 45,
@@ -9655,7 +9445,7 @@
    "is_new": false
   },
   {
-   "idx": 257,
+   "idx": 251,
    "address": "41 Whisper Boulevard, Point Cook VIC 3030",
    "url": "https://www.homely.com.au/homes/41-whisper-boulevard-point-cook-vic-3030/13628837",
    "score": 45,
@@ -9697,7 +9487,7 @@
    "is_new": false
   },
   {
-   "idx": 264,
+   "idx": 257,
    "address": "55 Astoria Drive, Point Cook VIC 3030",
    "url": "https://www.homely.com.au/homes/55-astoria-drive-point-cook-vic-3030/13625990",
    "score": 45,
@@ -9739,7 +9529,7 @@
    "is_new": false
   },
   {
-   "idx": 267,
+   "idx": 260,
    "address": "23 Tropic Circuit, Point Cook VIC 3030",
    "url": "https://www.homely.com.au/homes/23-tropic-circuit-point-cook-vic-3030/13622821",
    "score": 45,
@@ -9781,7 +9571,7 @@
    "is_new": false
   },
   {
-   "idx": 268,
+   "idx": 261,
    "address": "3 Archibald Chase, Point Cook VIC 3030",
    "url": "https://www.homely.com.au/homes/3-archibald-chase-point-cook-vic-3030/13622601",
    "score": 45,
@@ -9822,14 +9612,14 @@
    "is_new": false
   },
   {
-   "idx": 273,
+   "idx": 266,
    "address": "56 Carrick Street, Point Cook VIC 3030",
    "url": "https://www.homely.com.au/homes/56-carrick-street-point-cook-vic-3030/13616278",
    "score": 45,
    "bonus": 5,
    "total": 50,
-   "price_low": 810000,
-   "price_high": 810000,
+   "price_low": 811483,
+   "price_high": 811483,
    "price_display": "CONTACT AGENTS",
    "land": null,
    "beds": 4,
@@ -9850,7 +9640,7 @@
     "build_age_condition": 20,
     "availability_status": 20
    },
-   "upfront": 208120,
+   "upfront": 208506,
    "fits": false,
    "lat": -37.9095478,
    "lon": 144.7683853,
@@ -9859,11 +9649,52 @@
     "homely"
    ],
    "suburb": "Point Cook",
-   "price_mid": 810000.0,
+   "price_mid": 811483.0,
    "is_new": false
   },
   {
-   "idx": 277,
+   "idx": 269,
+   "address": "40/39 Astley Crescent, Point Cook VIC 3030",
+   "url": "https://view.com.au/property/vic/point-cook-3030/40-39-astley-crescent-18248047/",
+   "score": 45,
+   "bonus": 5,
+   "total": 50,
+   "price_low": 570000.0,
+   "price_high": 600000.0,
+   "price_display": "$570,000-$600,000",
+   "land": 141,
+   "beds": 3,
+   "baths": 2,
+   "cars": 2,
+   "status": "Available",
+   "build_year": null,
+   "is_new_home": false,
+   "breakdown": {
+    "land": 0,
+    "build": 10.0,
+    "value": 15.0,
+    "status": 20
+   },
+   "weights": {
+    "land_and_size": 30,
+    "value_vs_estimate": 30,
+    "build_age_condition": 20,
+    "availability_status": 20
+   },
+   "upfront": 119450,
+   "fits": false,
+   "lat": -37.890711,
+   "lon": 144.730437,
+   "listed_on": "2026-10-27",
+   "sources": [
+    "view.com.au"
+   ],
+   "suburb": "Point Cook",
+   "price_mid": 585000.0,
+   "is_new": true
+  },
+  {
+   "idx": 272,
    "address": "14 Beatrix Street, Point Cook VIC 3030",
    "url": "https://view.com.au/property/vic/point-cook-3030/14-beatrix-street-18241115/",
    "score": 45,
@@ -9901,10 +9732,10 @@
    ],
    "suburb": "Point Cook",
    "price_mid": 953000.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 279,
+   "idx": 274,
    "address": "9 Reeves Street, Point Cook VIC 3030",
    "url": "https://view.com.au/property/vic/point-cook-3030/9-reeves-street-18238660/",
    "score": 45,
@@ -9942,10 +9773,10 @@
    ],
    "suburb": "Point Cook",
    "price_mid": 710000.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 280,
+   "idx": 275,
    "address": "42/1 Greg Norman Drive, Point Cook VIC 3030",
    "url": "https://view.com.au/property/vic/point-cook-3030/42-1-greg-norman-drive-18237309/",
    "score": 45,
@@ -9983,10 +9814,10 @@
    ],
    "suburb": "Point Cook",
    "price_mid": 610000.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 248,
+   "idx": 243,
    "address": "20 Bloom Avenue, Greenvale VIC 3059",
    "url": "https://view.com.au/property/vic/greenvale-3059/20-bloom-avenue-18218441/",
    "score": 48,
@@ -10027,57 +9858,15 @@
    "is_new": false
   },
   {
-   "idx": 263,
-   "address": "7 Mulloway Drive, Point Cook VIC 3030",
-   "url": "https://www.homely.com.au/homes/7-mulloway-drive-point-cook-vic-3030/13626514",
-   "score": 42,
-   "bonus": 5,
-   "total": 47,
-   "price_low": 730000.0,
-   "price_high": 750000.0,
-   "price_display": "$730,000 - $750,000 | Vacant Possession Available",
-   "land": 508,
-   "beds": 4,
-   "baths": 2,
-   "cars": 2,
-   "status": "Under offer",
-   "build_year": null,
-   "is_new_home": false,
-   "breakdown": {
-    "land": 13.0,
-    "build": 10.0,
-    "value": 15.0,
-    "status": 4.0
-   },
-   "weights": {
-    "land_and_size": 30,
-    "value_vs_estimate": 30,
-    "build_age_condition": 20,
-    "availability_status": 20
-   },
-   "upfront": 187289,
-   "fits": true,
-   "lat": -37.9146269,
-   "lon": 144.761211,
-   "listed_on": null,
-   "sources": [
-    "homely",
-    "view.com.au"
-   ],
-   "suburb": "Point Cook",
-   "price_mid": 740000.0,
-   "is_new": false
-  },
-  {
-   "idx": 151,
+   "idx": 160,
    "address": "5 TAYRONA ROAD, Tarneit VIC 3029",
    "url": "https://www.homely.com.au/homes/5-tayrona-road-tarneit-vic-3029/13638141",
    "score": 41,
    "bonus": 5,
    "total": 46,
-   "price_low": 680000,
-   "price_high": 680000,
-   "price_display": "680000-730000",
+   "price_low": 680000.0,
+   "price_high": 730000.0,
+   "price_display": "$680000-$730000",
    "land": null,
    "beds": 4,
    "baths": 2,
@@ -10097,7 +9886,7 @@
     "build_age_condition": 20,
     "availability_status": 20
    },
-   "upfront": 157581,
+   "upfront": 169609,
    "fits": false,
    "lat": -37.8326458,
    "lon": 144.6547919,
@@ -10106,52 +9895,11 @@
     "homely"
    ],
    "suburb": "Tarneit",
-   "price_mid": 680000.0,
-   "is_new": true
+   "price_mid": 705000.0,
+   "is_new": false
   },
   {
-   "idx": 172,
-   "address": "70 Cinnamara Circuit, Tarneit VIC 3029",
-   "url": "https://www.homely.com.au/homes/70-cinnamara-circuit-tarneit-vic-3029/13142904",
-   "score": 41,
-   "bonus": 5,
-   "total": 46,
-   "price_low": 671098,
-   "price_high": 671098,
-   "price_display": "Contact Agent",
-   "land": 336,
-   "beds": 4,
-   "baths": 2,
-   "cars": 2,
-   "status": "Auction scheduled",
-   "build_year": null,
-   "is_new_home": false,
-   "breakdown": {
-    "land": 0,
-    "build": 10.0,
-    "value": 15.0,
-    "status": 16.0
-   },
-   "weights": {
-    "land_and_size": 30,
-    "value_vs_estimate": 30,
-    "build_age_condition": 20,
-    "availability_status": 20
-   },
-   "upfront": 153418,
-   "fits": false,
-   "lat": -37.8480594,
-   "lon": 144.6485458,
-   "listed_on": null,
-   "sources": [
-    "homely"
-   ],
-   "suburb": "Tarneit",
-   "price_mid": 671098.0,
-   "is_new": true
-  },
-  {
-   "idx": 240,
+   "idx": 235,
    "address": "81 Blossom Drive, Greenvale VIC 3059",
    "url": "https://view.com.au/property/vic/greenvale-3059/81-blossom-drive-18241996/",
    "score": 46,
@@ -10394,7 +10142,7 @@
    ],
    "suburb": "Fraser Rise",
    "price_mid": 787500.0,
-   "is_new": true
+   "is_new": false
   },
   {
    "idx": 111,
@@ -10520,17 +10268,17 @@
    "is_new": false
   },
   {
-   "idx": 115,
-   "address": "504 Fraser Rise, Fraser Rise VIC 3336",
-   "url": "https://view.com.au/property/vic/fraser-rise-3336/504-fraser-rise-18243102/",
+   "idx": 182,
+   "address": "1 Olivetree Loop, Craigieburn VIC 3064",
+   "url": "https://www.homely.com.au/homes/1-olivetree-loop-craigieburn-vic-3064/13639555",
    "score": 45,
    "bonus": 0,
    "total": 45,
-   "price_low": 669266.0,
-   "price_high": 669266.0,
-   "price_display": "$669,266",
-   "land": 350,
-   "beds": 4,
+   "price_low": 719525,
+   "price_high": 719525,
+   "price_display": "Contact Agent",
+   "land": 301,
+   "beds": 3,
    "baths": 2,
    "cars": 2,
    "status": "Available",
@@ -10548,20 +10296,20 @@
     "build_age_condition": 20,
     "availability_status": 20
    },
-   "upfront": 152570,
+   "upfront": 176827,
    "fits": false,
-   "lat": -37.704809,
-   "lon": 144.712627,
-   "listed_on": "2026-10-24",
+   "lat": -37.5684012,
+   "lon": 144.9211339,
+   "listed_on": null,
    "sources": [
-    "view.com.au"
+    "homely"
    ],
-   "suburb": "Fraser Rise",
-   "price_mid": 669266.0,
-   "is_new": false
+   "suburb": "Craigieburn",
+   "price_mid": 719525.0,
+   "is_new": true
   },
   {
-   "idx": 192,
+   "idx": 188,
    "address": "30 Season Way, Craigieburn VIC 3064",
    "url": "https://www.homely.com.au/homes/30-season-way-craigieburn-vic-3064/13632739",
    "score": 45,
@@ -10603,7 +10351,7 @@
    "is_new": false
   },
   {
-   "idx": 193,
+   "idx": 189,
    "address": "9 Cockatiel Circuit, Craigieburn VIC 3064",
    "url": "https://www.homely.com.au/homes/9-cockatiel-circuit-craigieburn-vic-3064/13632577",
    "score": 45,
@@ -10645,7 +10393,7 @@
    "is_new": false
   },
   {
-   "idx": 201,
+   "idx": 197,
    "address": "24 Nobility Road, Craigieburn VIC 3064",
    "url": "https://www.homely.com.au/homes/24-nobility-road-craigieburn-vic-3064/13625158",
    "score": 45,
@@ -10687,7 +10435,7 @@
    "is_new": false
   },
   {
-   "idx": 203,
+   "idx": 199,
    "address": "38 Bandicoot Road, Craigieburn VIC 3064",
    "url": "https://www.homely.com.au/homes/38-bandicoot-road-craigieburn-vic-3064/13624734",
    "score": 45,
@@ -10729,7 +10477,7 @@
    "is_new": false
   },
   {
-   "idx": 207,
+   "idx": 203,
    "address": "42 Bandicoot Road, Craigieburn VIC 3064",
    "url": "https://www.homely.com.au/homes/42-bandicoot-road-craigieburn-vic-3064/13623145",
    "score": 45,
@@ -10771,7 +10519,7 @@
    "is_new": false
   },
   {
-   "idx": 208,
+   "idx": 204,
    "address": "108 Gallantry Avenue, Craigieburn VIC 3064",
    "url": "https://www.homely.com.au/homes/108-gallantry-avenue-craigieburn-vic-3064/13623144",
    "score": 45,
@@ -10813,7 +10561,7 @@
    "is_new": false
   },
   {
-   "idx": 212,
+   "idx": 207,
    "address": "76 Mitford Crescent, Craigieburn VIC 3064",
    "url": "https://view.com.au/property/vic/craigieburn-3064/76-mitford-crescent-18238330/",
    "score": 45,
@@ -10851,10 +10599,10 @@
    ],
    "suburb": "Craigieburn",
    "price_mid": 725000.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 214,
+   "idx": 209,
    "address": "27 Streamside Drive, Craigieburn VIC 3064",
    "url": "https://view.com.au/property/vic/craigieburn-3064/27-streamside-drive-18233794/",
    "score": 45,
@@ -10895,7 +10643,7 @@
    "is_new": false
   },
   {
-   "idx": 215,
+   "idx": 210,
    "address": "34 Labichea Street, Craigieburn VIC 3064",
    "url": "https://view.com.au/property/vic/craigieburn-3064/34-labichea-street-18232594/",
    "score": 45,
@@ -10936,7 +10684,7 @@
    "is_new": false
   },
   {
-   "idx": 217,
+   "idx": 212,
    "address": "8 Sunmoth Road, Craigieburn VIC 3064",
    "url": "https://view.com.au/property/vic/craigieburn-3064/8-sunmoth-road-18230400/",
    "score": 45,
@@ -10974,10 +10722,10 @@
    ],
    "suburb": "Craigieburn",
    "price_mid": 729000.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 221,
+   "idx": 216,
    "address": "13 Landor Way, Craigieburn VIC 3064",
    "url": "https://view.com.au/property/vic/craigieburn-3064/13-landor-way-18227321/",
    "score": 45,
@@ -11015,10 +10763,10 @@
    ],
    "suburb": "Craigieburn",
    "price_mid": 675000.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 222,
+   "idx": 217,
    "address": "13 Norcal Court, Greenvale VIC 3059",
    "url": "https://www.homely.com.au/homes/13-norcal-court-greenvale-vic-3059/12124191",
    "score": 45,
@@ -11059,7 +10807,7 @@
    "is_new": false
   },
   {
-   "idx": 223,
+   "idx": 218,
    "address": "9 Cinnabar Street, Greenvale VIC 3059",
    "url": "https://www.homely.com.au/homes/9-cinnabar-street-greenvale-vic-3059/13637594",
    "score": 45,
@@ -11091,16 +10839,17 @@
    "fits": false,
    "lat": -37.6356419,
    "lon": 144.873842,
-   "listed_on": null,
+   "listed_on": "2026-10-27",
    "sources": [
-    "homely"
+    "homely",
+    "view.com.au"
    ],
    "suburb": "Greenvale",
    "price_mid": 710000.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 237,
+   "idx": 232,
    "address": "4 Galileo Place, Greenvale VIC 3059",
    "url": "https://view.com.au/property/vic/greenvale-3059/4-galileo-place-18243530/",
    "score": 45,
@@ -11138,10 +10887,10 @@
    ],
    "suburb": "Greenvale",
    "price_mid": 765000.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 239,
+   "idx": 234,
    "address": "12 Malkari Circuit, Greenvale VIC 3059",
    "url": "https://view.com.au/property/vic/greenvale-3059/12-malkari-circuit-18242629/",
    "score": 45,
@@ -11182,7 +10931,7 @@
    "is_new": false
   },
   {
-   "idx": 241,
+   "idx": 236,
    "address": "6 Galileo Place, Greenvale VIC 3059",
    "url": "https://view.com.au/property/vic/greenvale-3059/6-galileo-place-18236274/",
    "score": 45,
@@ -11223,7 +10972,7 @@
    "is_new": false
   },
   {
-   "idx": 242,
+   "idx": 237,
    "address": "29 Alyssa Street, Greenvale VIC 3059",
    "url": "https://view.com.au/property/vic/greenvale-3059/29-alyssa-street-18234973/",
    "score": 45,
@@ -11264,7 +11013,7 @@
    "is_new": false
   },
   {
-   "idx": 243,
+   "idx": 238,
    "address": "LOT 415 VIRIDIAN ESTATE, Greenvale VIC 3059",
    "url": "https://view.com.au/property/vic/greenvale-3059/lot-415-viridian-estate-18233612/",
    "score": 45,
@@ -11305,7 +11054,7 @@
    "is_new": false
   },
   {
-   "idx": 244,
+   "idx": 239,
    "address": "LOT 414 VIRIDIAN ESTATE, Greenvale VIC 3059",
    "url": "https://view.com.au/property/vic/greenvale-3059/lot-414-viridian-estate-18233598/",
    "score": 45,
@@ -11346,7 +11095,7 @@
    "is_new": false
   },
   {
-   "idx": 247,
+   "idx": 242,
    "address": "Lot 309 Veristic Drive, Greenvale VIC 3059",
    "url": "https://view.com.au/property/vic/greenvale-3059/lot-309-veristic-drive-18224869/",
    "score": 45,
@@ -11387,7 +11136,7 @@
    "is_new": false
   },
   {
-   "idx": 189,
+   "idx": 185,
    "address": "31 Gilded Way, Craigieburn VIC 3064",
    "url": "https://www.homely.com.au/homes/31-gilded-way-craigieburn-vic-3064/13636634",
    "score": 41,
@@ -11426,10 +11175,10 @@
    ],
    "suburb": "Craigieburn",
    "price_mid": 719525.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 190,
+   "idx": 186,
    "address": "1 Lygon Drive, Craigieburn VIC 3064",
    "url": "https://www.homely.com.au/homes/1-lygon-drive-craigieburn-vic-3064/13633279",
    "score": 41,
@@ -11471,7 +11220,7 @@
    "is_new": false
   },
   {
-   "idx": 191,
+   "idx": 187,
    "address": "13 Millennium Road, Craigieburn VIC 3064",
    "url": "https://www.homely.com.au/homes/13-millennium-road-craigieburn-vic-3064/13632774",
    "score": 41,
@@ -11513,7 +11262,7 @@
    "is_new": false
   },
   {
-   "idx": 200,
+   "idx": 196,
    "address": "3 Pioneer Street, Craigieburn VIC 3064",
    "url": "https://www.homely.com.au/homes/3-pioneer-street-craigieburn-vic-3064/13625230",
    "score": 41,
@@ -11555,7 +11304,7 @@
    "is_new": false
   },
   {
-   "idx": 204,
+   "idx": 200,
    "address": "32 Dashing Road, Craigieburn VIC 3064",
    "url": "https://www.homely.com.au/homes/32-dashing-road-craigieburn-vic-3064/13624457",
    "score": 41,
@@ -11597,7 +11346,7 @@
    "is_new": false
   },
   {
-   "idx": 213,
+   "idx": 208,
    "address": "21 Ravenswoods Way, Craigieburn VIC 3064",
    "url": "https://view.com.au/property/vic/craigieburn-3064/21-ravenswoods-way-18235410/",
    "score": 41,
@@ -11638,7 +11387,7 @@
    "is_new": false
   },
   {
-   "idx": 216,
+   "idx": 211,
    "address": "24 Huntingfield street, Craigieburn VIC 3064",
    "url": "https://view.com.au/property/vic/craigieburn-3064/24-huntingfield-street-18230430/",
    "score": 41,
@@ -11676,10 +11425,10 @@
    ],
    "suburb": "Craigieburn",
    "price_mid": 667000.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 218,
+   "idx": 213,
    "address": "13 Baffin Road, Craigieburn VIC 3064",
    "url": "https://view.com.au/property/vic/craigieburn-3064/13-baffin-road-18229257/",
    "score": 41,
@@ -11717,10 +11466,10 @@
    ],
    "suburb": "Craigieburn",
    "price_mid": 600000.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 219,
+   "idx": 214,
    "address": "23 Lewisham Place, Craigieburn VIC 3064",
    "url": "https://view.com.au/property/vic/craigieburn-3064/23-lewisham-place-18228952/",
    "score": 41,
@@ -11758,10 +11507,10 @@
    ],
    "suburb": "Craigieburn",
    "price_mid": 670000.0,
-   "is_new": true
+   "is_new": false
   },
   {
-   "idx": 234,
+   "idx": 229,
    "address": "10 Lobelia Way, Greenvale VIC 3059",
    "url": "https://www.homely.com.au/homes/10-lobelia-way-greenvale-vic-3059/13633927",
    "score": 41,
