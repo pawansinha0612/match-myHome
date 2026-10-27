@@ -23,6 +23,12 @@ with full headless Chromium, stealth flags, and referer headers, all blocked.
 homely.com.au was tested the same way and returns real, current listing data
 with no blocking.
 
+view.com.au (formerly realestateview) is scanned as a second source: its
+houses-for-sale page embeds the listings as __NEXT_DATA__ JSON too, and adds
+each listing's on-market date. Its terms of use prohibit automated scraping,
+so this is a deliberate choice for personal research: one page per suburb per
+day, and only the facts the scorer needs are kept.
+
 HONEST LIMITATIONS (inherent to what homely.com.au's data actually contains):
   - No build year field exists in the data at all — build age always scores
     as "unknown" (neutral) unless the listing is tagged new/house-and-land.
@@ -71,8 +77,32 @@ USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
 )
-REQUEST_DELAY_SECONDS = 1.5  # be polite — don't hammer homely's servers
+REQUEST_DELAY_SECONDS = 1.5  # be polite — don't hammer either site's servers
 PAGE_TIMEOUT_MS = 25000
+VIEW_BASE_URL = "https://view.com.au"
+
+STREET_TYPES = {
+    "st": "street", "street": "street", "rd": "road", "road": "road",
+    "ave": "avenue", "av": "avenue", "avenue": "avenue", "dr": "drive", "drive": "drive",
+    "ct": "court", "crt": "court", "court": "court", "cres": "crescent", "cr": "crescent",
+    "crescent": "crescent", "way": "way", "wy": "way", "bvd": "boulevard",
+    "blvd": "boulevard", "boulevard": "boulevard", "pl": "place", "place": "place",
+    "ln": "lane", "lane": "lane", "pde": "parade", "parade": "parade",
+    "cct": "circuit", "circuit": "circuit", "cl": "close", "close": "close",
+    "tce": "terrace", "terrace": "terrace", "gr": "grove", "gve": "grove", "grove": "grove",
+    "rise": "rise", "walk": "walk", "loop": "loop", "hwy": "highway", "highway": "highway",
+    "row": "row", "mews": "mews", "link": "link", "chase": "chase", "vista": "vista",
+    "esp": "esplanade", "esplanade": "esplanade", "sq": "square", "square": "square",
+    "gdns": "gardens", "gardens": "gardens", "pkwy": "parkway", "parkway": "parkway",
+    "track": "track", "trl": "trail", "trail": "trail", "view": "view", "glade": "glade",
+}
+
+
+def address_key(address):
+    """Normalised address for spotting the same house on homely and
+    view.com.au ("12 Smith St, Truganina VIC 3029" == "12 smith street truganina vic 3029")."""
+    tokens = re.sub(r"[^a-z0-9]+", " ", (address or "").lower()).split()
+    return " ".join(STREET_TYPES.get(t, t) for t in tokens)
 
 NEXT_DATA_RE = re.compile(r'<script id="__NEXT_DATA__" type="application/json">(.*?)</script>', re.S)
 RSC_CHUNK_RE = re.compile(r'self\.__next_f\.push\((\[.*?\])\)</script>', re.S)
@@ -176,6 +206,7 @@ def parse_listing(raw):
             price_low = price_high = loan_price
 
     lat_long = (raw.get("location") or {}).get("latLong") or {}
+    listed_on = (((raw.get("saleDetails") or {}).get("listingDetails")) or {}).get("listedOn")
 
     return {
         "address": address or (raw.get("uri") or f"listing-{raw.get('id')}"),
@@ -194,9 +225,109 @@ def parse_listing(raw):
         "domain_estimate_mid": None,  # no independent valuation available
         "lat": lat_long.get("latitude"),
         "lon": lat_long.get("longitude"),
+        "listed_on": listed_on[:10] if listed_on else None,
+        "sources": ["homely"],
         "note": None,
         "_id": raw.get("id"),
     }
+
+
+def view_slug(homely_slug):
+    """homely's "truganina-vic-3029" → view.com.au's "vic/in-truganina-3029"."""
+    m = re.fullmatch(r"(.+)-(vic|nsw|qld|sa|wa|tas|act|nt)-(\d{4})", homely_slug)
+    return f"{m.group(2)}/in-{m.group(1)}-{m.group(3)}" if m else None
+
+
+def parse_view_listing(raw):
+    """One listing from view.com.au's search page → the parse_listing() shape.
+    Only the facts the scorer needs are kept — no photos or agent details."""
+    suburb = (raw.get("suburbName") or "").title()
+    state, postcode = (raw.get("state") or "VIC").upper(), raw.get("postcode") or ""
+    if raw.get("isStreetHidden") or not raw.get("streetName"):
+        address = f"Listing {raw.get('id')} (address withheld), {suburb} {state} {postcode}"
+    else:
+        unit = raw.get("unitNumber")
+        street = f"{raw.get('streetNumber') or ''} {raw['streetName']}".strip()
+        address = f"{unit}/{street}, {suburb} {state} {postcode}" if unit else f"{street}, {suburb} {state} {postcode}"
+
+    # Same rule as homely: the agent's own price text wins when it holds a
+    # figure (priceFrom has been seen disagreeing with it), the field is a fallback.
+    price_display = raw.get("priceText")
+    price_low, price_high = extract_price_range(price_display)
+    if price_low is None and not raw.get("isPriceHidden"):
+        lo, hi = raw.get("priceFrom"), raw.get("priceTo") or raw.get("priceFrom")
+        if lo and MIN_PLAUSIBLE_PRICE <= lo <= MAX_PLAUSIBLE_PRICE:
+            price_low, price_high = lo, max(lo, hi)
+
+    land_size = raw.get("landSizeInSqm")
+    if land_size is not None and (land_size <= 0 or land_size > 10000):
+        land_size = None
+    elif land_size is not None:
+        land_size = round(land_size)
+
+    status_text = (raw.get("status") or "").lower()
+    if "contract" in status_text or "sold" in status_text:
+        status = "Under contract"
+    elif "offer" in status_text:
+        status = "Under offer"
+    elif raw.get("auctionAt"):
+        status = "Auction scheduled"
+    else:
+        status = "Available"
+
+    location = raw.get("location") or {}
+    link = raw.get("listingDetailLink")
+    return {
+        "address": address,
+        "url": f"{VIEW_BASE_URL}{link}" if link else None,
+        "price_low": price_low,
+        "price_high": price_high,
+        "price_display": price_display,
+        "land_size_sqm": land_size,
+        "bedrooms": raw.get("bedrooms") or None,
+        "bathrooms": raw.get("bathrooms") or None,
+        "car_spaces": raw.get("carparks") or None,
+        "is_new_home": bool(raw.get("isNewConstruction") or raw.get("isHomeAndLand")
+                            or NEW_HOME_HINTS_RE.search(price_display or "")),
+        "build_year": None,
+        "status": status,
+        "overlay_flags": None,
+        "domain_estimate_mid": None,
+        "lat": location.get("lat"),
+        "lon": location.get("lon"),
+        "listed_on": (raw.get("onMarketAt") or "")[:10] or None,
+        "sources": ["view.com.au"],
+        "note": None,
+        "_id": f"view-{raw.get('id')}",
+    }
+
+
+def scan_view_suburb_page(page, slug):
+    """view.com.au's houses-for-sale page for one homely-style suburb slug,
+    parsed like scan_suburb_page() (None on any failure). It still uses the
+    classic __NEXT_DATA__ tag."""
+    vslug = view_slug(slug)
+    if not vslug:
+        return None
+    url = f"{VIEW_BASE_URL}/for-sale/{vslug}/houses/"
+    try:
+        resp = page.goto(url, wait_until="domcontentloaded", timeout=PAGE_TIMEOUT_MS)
+        if not resp or resp.status != 200:
+            print(f"  [warn] {url} returned HTTP {resp.status if resp else 'no response'}", file=sys.stderr)
+            return None
+        m = NEXT_DATA_RE.search(page.content())
+        if not m:
+            print(f"  [warn] no listing data found for {url} (page structure may have changed)", file=sys.stderr)
+            return None
+        raw_listings = json.loads(m.group(1))["props"]["pageProps"]["data"]["listings"]
+    except (KeyError, TypeError, json.JSONDecodeError) as e:
+        print(f"  [warn] unexpected page structure for {url}: {e}", file=sys.stderr)
+        return None
+    except Exception as e:
+        print(f"  [warn] fetch failed for {url}: {e}", file=sys.stderr)
+        return None
+    return [parse_view_listing(raw) for raw in raw_listings
+            if raw.get("isListing", True) and raw.get("primaryPropertyType") != "Land"]
 
 
 def extract_rsc_ssr_data(html_content):
@@ -267,31 +398,45 @@ def scan_suburb_page(page, slug):
 
 
 def fetch_listings(config):
+    """homely first, then view.com.au for the same suburbs. A house listed on
+    both is kept once (homely's copy), with view.com.au filling any gaps."""
     suburbs = config.get("suburbs", [])
-    seen_ids = set()
+    by_key = {}
     listings = []
     any_success = False
+    counts = {"homely": 0, "view.com.au": 0}
+
+    def add(l):
+        key = address_key(l.get("address")) or l.get("_id")
+        existing = by_key.get(key)
+        if existing is None:
+            by_key[key] = l
+            listings.append(l)
+            return
+        for k, v in l.items():
+            if v is not None and existing.get(k) is None:
+                existing[k] = v
+        existing["sources"] = list(dict.fromkeys(existing["sources"] + l["sources"]))
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         context = browser.new_context(user_agent=USER_AGENT, locale="en-AU")
         page = context.new_page()
         for slug in suburbs:
-            print(f"Fetching {slug} ...")
-            parsed = scan_suburb_page(page, slug)
-            time.sleep(REQUEST_DELAY_SECONDS)
-            if parsed is None:
-                continue
-            any_success = True
-            for l in parsed:
-                lid = l.get("_id")
-                if lid in seen_ids:
+            for source, scan in (("homely", scan_suburb_page), ("view.com.au", scan_view_suburb_page)):
+                print(f"Fetching {slug} from {source} ...")
+                parsed = scan(page, slug)
+                time.sleep(REQUEST_DELAY_SECONDS)
+                if parsed is None:
                     continue
-                seen_ids.add(lid)
-                listings.append(l)
+                any_success = True
+                counts[source] += len(parsed)
+                for l in parsed:
+                    add(l)
         browser.close()
 
-    print(f"Fetched {len(listings)} unique listing(s) across {len(suburbs)} suburb(s)")
+    print(f"Fetched {counts['homely']} from homely + {counts['view.com.au']} from view.com.au "
+          f"= {len(listings)} unique listing(s) across {len(suburbs)} suburb(s)")
     return listings, not any_success
 
 
@@ -544,6 +689,7 @@ def scored_entry_to_dict(idx, score, bonus, l, land_ok, budget_ok, breakdown, co
         "upfront": costs["total_upfront"],
         "fits": bool(land_ok and budget_ok),
         "lat": l.get("lat"), "lon": l.get("lon"),
+        "listed_on": l.get("listed_on"), "sources": l.get("sources") or ["homely"],
     }
 
 
@@ -580,13 +726,13 @@ def write_report(config, scored, today_str, fetch_failed):
         f"Criteria: {config['min_bedrooms']}+ bed house, {config['min_land_sqm']}m²+ land, "
         f"${config['budget_min']:,}–${config['budget_max']:,} price range "
         f"(costs assume a {config['deposit_pct']}% deposit). "
-        f"Source: homely.com.au, {len(config.get('suburbs', []))} suburbs scanned "
+        f"Sources: homely.com.au + view.com.au, {len(config.get('suburbs', []))} suburbs scanned "
         f"(preference for western suburbs, marked with a bonus below).",
         "",
     ]
     if fetch_failed:
         lines.append(
-            "⚠️ **All suburb fetches failed this run.** homely.com.au's page layout may have "
+            "⚠️ **All suburb fetches failed this run.** The sites' page layouts may have "
             "changed, or requests were blocked. See README.md → 'If parsing breaks'. "
             "No listings could be scanned today.\n"
         )
@@ -713,7 +859,7 @@ def write_html_report(config, scored, today_str, fetch_failed):
     if fetch_failed:
         warning = (
             '<div class="warning">⚠️ All suburb fetches failed this run. '
-            "homely.com.au's page layout may have changed, or requests were blocked. "
+            "The sites' page layouts may have changed, or requests were blocked. "
             "See README.md → 'If parsing breaks'.</div>"
         )
     empty = '<p class="empty">No listings found this run.</p>' if not scored else ""
@@ -892,7 +1038,7 @@ def write_html_report(config, scored, today_str, fetch_failed):
     <h1>Melbourne Deal Scan</h1>
     <div class="subtitle">
       {today_str} · {config['min_bedrooms']}+ bed house, {config['min_land_sqm']}m²+ land,
-      ${config['budget_min']:,}–${config['budget_max']:,} price range · homely.com.au,
+      ${config['budget_min']:,}–${config['budget_max']:,} price range · homely.com.au + view.com.au,
       {len(config.get('suburbs', []))} suburbs scanned{analyzer_link}
     </div>
     {warning}

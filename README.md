@@ -13,7 +13,9 @@ page. It needs no API keys, no paid services and no server.
 ## What it does
 
 - **Scans** the for-sale search results on [homely.com.au](https://www.homely.com.au)
-  for each suburb listed in `config.yaml`, using headless Chromium.
+  and [view.com.au](https://view.com.au) for each suburb listed in
+  `config.yaml`, using headless Chromium. A house listed on both sites is
+  kept once, matched by address.
 - **Scores** every listing out of 100 on land size, value, build age and
   availability, plus a small separate bonus for western suburbs. It doesn't
   simply rank by price.
@@ -30,7 +32,7 @@ page. It needs no API keys, no paid services and no server.
  GitHub Actions (7am Melbourne, daily)
         │
         ▼
- scan_deals.py ── Playwright/Chromium ──► homely.com.au search pages
+ scan_deals.py ── Playwright/Chromium ──► homely.com.au + view.com.au search pages
         │                                   (reads the JSON embedded in each page)
         ▼
  parse → sanity-check → score → cost estimate → compare with seen listings
@@ -49,6 +51,10 @@ homely has used two formats, and both are supported:
 - the classic Next.js `__NEXT_DATA__` script tag
 - React Server Component chunks (`self.__next_f.push(...)`), which homely
   switched to in October 2026. These are decoded by `extract_rsc_ssr_data()`.
+
+view.com.au still uses `__NEXT_DATA__` (see `scan_view_suburb_page()`). It
+also gives each listing's on-market date, which feeds a days-on-market row in
+the analyser.
 
 ## Quick start
 
@@ -84,7 +90,7 @@ Then open http://127.0.0.1:5001/. You get the same report, plus:
   lookup to find it
 - a compare view showing driving distance and time from each property to
   your `reference_locations`, using free OSRM routing
-- **Should I buy this one?** — paste a homely / domain / realestate.com.au
+- **Should I buy this one?** — paste a homely / view / domain / realestate.com.au
   link, an address, or listing text copied from any site, and get a
   factor-by-factor table (budget, price vs. suburb, land and $/m², rooms,
   build age, status, days on market, upfront cash, repayments, drive times)
@@ -129,7 +135,7 @@ Main settings in `config.yaml`:
 | `interest_rate_pct` | Loan rate for the analyser's monthly repayment estimate (default 6.0) |
 | `max_drive_km` | Drive-distance limit the analyser rates against (default 35) |
 | `score_weights` | Buyer score weights (must add up to 100) |
-| `suburbs` | homely URL slugs, e.g. `truganina-vic-3029`. Each one costs one page load per run. |
+| `suburbs` | homely URL slugs, e.g. `truganina-vic-3029`. Each one costs two page loads per run (homely and view.com.au). |
 
 `reports/latest.json` always contains **every** scanned listing, whatever
 the filters, so the live page can apply its own.
@@ -186,19 +192,21 @@ data/                  seen-listings history (committed), geocode cache (ignored
   "$649K–$679K"). The scraper takes real dollar figures from the text first,
   and only falls back to homely's internal reference price. Sanity bounds
   reject obvious junk, such as $1 prices or blocks over one hectare.
-- **Only page 1** of each suburb's results (about 25 listings) is read.
+- **Only page 1** of each suburb's results (about 25 listings per site) is read.
 - **Cost estimates are approximate.** Stamp duty uses the VIC
   first-home-buyer concession bands, and LMI uses typical premium rates.
 - Domain and realestate.com.au block headless browsers at the edge (Akamai
-  and Kasada), which is why this project uses homely.
-- Scraping is inherently fragile. If homely changes its pages again, see below.
+  and Kasada), which is why this project uses homely and view.com.au.
+- Scraping is inherently fragile. If either site changes its pages, see below.
 
 ## If parsing breaks
 
 1. Check `reports/latest.md` for the warning banner, or `fetch_failed` in
    `latest.json`. The live page shows a notice when it's set.
 2. Look at `NEXT_DATA_RE`, `RSC_CHUNK_RE`, `extract_rsc_ssr_data()` and
-   `parse_listing()` in `scan_deals.py`.
+   `parse_listing()` (homely), or `scan_view_suburb_page()` and
+   `parse_view_listing()` (view.com.au), in `scan_deals.py`. One site failing
+   doesn't stop the run; the other's results are still published.
 3. A broken field becomes `null` instead of crashing the run, so a partial
    change in homely's pages won't stop the daily reports.
 
@@ -206,6 +214,8 @@ data/                  seen-listings history (committed), geocode cache (ignored
 
 This project reads public search pages once a day, with a delay between
 requests. It's for personal home-buying research, not bulk collection or
-commercial use. Check homely.com.au's Terms of Use before reusing it. It is
+commercial use. view.com.au's Terms of Use prohibit automated scraping, so
+only the facts the scorer needs are kept (no photos or agent details). Check
+both sites' terms before reusing this. It is
 not financial advice, and it doesn't replace a conveyancer, building
 inspector or buyer's agent.

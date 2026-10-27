@@ -36,23 +36,10 @@ import scan_deals as sd
 
 HOMELY_URL_RE = re.compile(r"https?://(?:www\.)?homely\.com\.au/homes/[^\s\"'<>]+")
 DOMAIN_URL_RE = re.compile(r"https?://(?:www\.)?domain\.com\.au/([a-z0-9-]+?)-(\d{6,})\b")
+VIEW_URL_RE = re.compile(r"https?://(?:www\.)?view\.com\.au/property/[a-z]+/([a-z-]+?)-(\d{4})/(?:([a-z0-9-]+)-)?\d+/?", re.I)
 REA_URL_RE = re.compile(r"https?://(?:www\.)?realestate\.com\.au/property-[a-z+]+-([a-z]{2,3})-([a-z+-]+?)-(\d{6,})\b")
 
-STREET_TYPES = {
-    "st": "street", "street": "street", "rd": "road", "road": "road",
-    "ave": "avenue", "av": "avenue", "avenue": "avenue", "dr": "drive", "drive": "drive",
-    "ct": "court", "crt": "court", "court": "court", "cres": "crescent", "cr": "crescent",
-    "crescent": "crescent", "way": "way", "wy": "way", "bvd": "boulevard",
-    "blvd": "boulevard", "boulevard": "boulevard", "pl": "place", "place": "place",
-    "ln": "lane", "lane": "lane", "pde": "parade", "parade": "parade",
-    "cct": "circuit", "circuit": "circuit", "cl": "close", "close": "close",
-    "tce": "terrace", "terrace": "terrace", "gr": "grove", "gve": "grove", "grove": "grove",
-    "rise": "rise", "walk": "walk", "loop": "loop", "hwy": "highway", "highway": "highway",
-    "row": "row", "mews": "mews", "link": "link", "chase": "chase", "vista": "vista",
-    "esp": "esplanade", "esplanade": "esplanade", "sq": "square", "square": "square",
-    "gdns": "gardens", "gardens": "gardens", "pkwy": "parkway", "parkway": "parkway",
-    "track": "track", "trl": "trail", "trail": "trail", "view": "view", "glade": "glade",
-}
+STREET_TYPES = sd.STREET_TYPES
 
 ADDRESS_RE = re.compile(
     r"\b((?:lot\s*)?\d+[a-z]?(?:\s*/\s*\d+[a-z]?)?\s+[a-z][a-z' -]{1,40}?\s+(?:"
@@ -100,6 +87,14 @@ def parse_pasted_text(text):
     m = DOMAIN_URL_RE.search(text)
     if m:
         facts["address_guess"] = m.group(1).replace("-", " ")
+        facts["source_url"] = m.group(0)
+    # view.com.au: /property/vic/truganina-3029/5-appalachian-street-18246427/
+    m = VIEW_URL_RE.search(text)
+    if m:
+        if m.group(3):
+            facts["address_guess"] = f"{m.group(3).replace('-', ' ')} {m.group(1).replace('-', ' ')} vic {m.group(2)}"
+        else:
+            facts["suburb_guess"] = m.group(1).replace("-", " ")
         facts["source_url"] = m.group(0)
     m = REA_URL_RE.search(text)
     if m:
@@ -205,6 +200,7 @@ def _feed_entry_to_listing(e):
         "bathrooms": e.get("baths"), "car_spaces": e.get("cars"),
         "is_new_home": e.get("is_new_home"), "build_year": e.get("build_year"),
         "status": e.get("status"), "lat": e.get("lat"), "lon": e.get("lon"),
+        "listed_on": e.get("listed_on"),
     }
 
 
@@ -337,9 +333,11 @@ def analyze(text, config=None):
         if hit:
             listing.update({k: v for k, v in _feed_entry_to_listing(hit).items() if v is not None})
             sources.append("Found in today's daily scan (reports/latest.json)")
+            if hit.get("listed_on"):
+                extras["listed_on"] = hit["listed_on"]
 
     # (b) live homely: listing page and/or the suburb's search page
-    homely_url = facts.get("homely_url") or listing.get("url")
+    homely_url = facts.get("homely_url") or (listing.get("url") if "homely.com.au" in (listing.get("url") or "") else None)
     suburb_name = suburb_of(listing.get("address") or address or "") or facts.get("suburb_guess")
     from playwright.sync_api import sync_playwright
     with sync_playwright() as p:
@@ -347,7 +345,8 @@ def analyze(text, config=None):
         page = browser.new_context(user_agent=sd.USER_AGENT, locale="en-AU").new_page()
 
         if homely_url:
-            detail, extras = fetch_homely_detail(page, homely_url)
+            detail, detail_extras = fetch_homely_detail(page, homely_url)
+            extras.update({k: v for k, v in detail_extras.items() if v})
             if detail:
                 listing.update({k: v for k, v in detail.items() if v is not None and not k.startswith("_")})
                 sources.append("Listing page on homely.com.au (fetched live)")
