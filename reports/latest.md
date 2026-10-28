@@ -1,21 +1,6 @@
-# Melbourne deal scan — 2026-10-28
+# Melbourne deal scan — 2026-10-29
 
 Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs assume a 20% deposit). Sources: homely.com.au + view.com.au, 8 suburbs scanned (preference for western suburbs, marked with a bonus below).
-
-## 5 Linlithgow Way, Melton West VIC 3337
-[View listing](https://www.homely.com.au/homes/5-linlithgow-way-melton-west-vic-3337/13638435)
-**Score: 71/100 (+5 west-side bonus)** · $640,000–$690,000 (agent: “$640,000 - $690,000”) · 🔨 Auction scheduled · 🏗️ Build year unknown · ✅ fits criteria
-
-- Land: 960m² (need 400m²+)
-- Beds/baths/car: 4 / 2 / 2
-- Independent value estimate: Not available from this source
-- Overlay flags: Not available from this source
-
-**Score breakdown (points, not facts)** — land/size 30/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 16.0/20
-
-**Est. upfront cash needed**: $150,604 (deposit $133,000 + stamp duty $15,154 + LMI $0 + other costs $2,450)
-
----
 
 ## 2005 Western Highway, Rockbank VIC 3335
 [View listing](https://www.homely.com.au/homes/2005-western-highway-rockbank-vic-3335/13617825)
@@ -49,7 +34,7 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 
 ## 1 Pandey Place, Rockbank VIC 3335
 [View listing](https://www.homely.com.au/homes/1-pandey-place-rockbank-vic-3335/13621663)
-**Score: 65/100 (+5 west-side bonus)** · $639,438–$639,438 (agent: “Brand-New, Fully Upgraded Luxury Living”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
+**Score: 65/100 (+5 west-side bonus)** · $639,938–$639,938 (agent: “Brand-New, Fully Upgraded Luxury Living”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
 
 - Land: 564m² (need 400m²+)
 - Beds/baths/car: 4 / 3 / 2
@@ -58,22 +43,7 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 
 **Score breakdown (points, not facts)** — land/size 19.7/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
 
-**Est. upfront cash needed**: $139,129 (deposit $127,888 + stamp duty $8,791 + LMI $0 + other costs $2,450)
-
----
-
-## Lot 4364 Draycott Street, Wyndham Vale VIC 3024
-[View listing](https://www.homely.com.au/homes/lot-4364-draycott-street-wyndham-vale-vic-302/13638136)
-**Score: 61/100 (+5 west-side bonus)** · $745,167–$745,167 (agent: “$745,167”) · ✅ Available · 🆕 New build · ✅ fits criteria
-
-- Land: 448m² (need 400m²+)
-- Beds/baths/car: 4 / 2 / 2
-- Independent value estimate: Not available from this source
-- Overlay flags: Not available from this source
-
-**Score breakdown (points, not facts)** — land/size 5.8/30, value vs estimate 15.0/30, build condition 20/20, availability 20/20
-
-**Est. upfront cash needed**: $189,982 (deposit $149,033 + stamp duty $38,498 + LMI $0 + other costs $2,450)
+**Est. upfront cash needed**: $139,348 (deposit $127,988 + stamp duty $8,911 + LMI $0 + other costs $2,450)
 
 ---
 
@@ -93,7 +63,7 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 ---
 
 ## 21 Victoria Street, Truganina VIC 3029
-[View listing](https://www.homely.com.au/homes/21-victoria-street-truganina-vic-3029/13624919)
+[View listing](https://view.com.au/property/vic/truganina-3029/21-victoria-street-18238872/)
 **Score: 56/100 (+5 west-side bonus)** · $735,000–$755,000 (agent: “$735,000-$755,000”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
 
 - Land: 494m² (need 400m²+)
@@ -104,6 +74,36 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 **Score breakdown (points, not facts)** — land/size 11.3/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
 
 **Est. upfront cash needed**: $189,894 (deposit $149,000 + stamp duty $38,444 + LMI $0 + other costs $2,450)
+
+---
+
+## 50136 8 Batura Street, Truganina VIC 3029 🆕 **NEW SINCE LAST RUN**
+[View listing](https://www.homely.com.au/homes/50136-8-batura-street-truganina-vic-3029/13641908)
+**Score: 55/100 (+5 west-side bonus)** · $722,208–$722,208 (agent: “$722,208”) · ✅ Available · 🆕 New build · ✅ fits criteria
+
+- Land: 400m² (need 400m²+)
+- Beds/baths/car: 4 / 2 / 2
+- Independent value estimate: Not available from this source
+- Overlay flags: Not available from this source
+
+**Score breakdown (points, not facts)** — land/size 0/30, value vs estimate 15.0/30, build condition 20/20, availability 20/20
+
+**Est. upfront cash needed**: $178,179 (deposit $144,442 + stamp duty $31,287 + LMI $0 + other costs $2,450)
+
+---
+
+## 40527 Wallaga Road, Truganina VIC 3029 🆕 **NEW SINCE LAST RUN**
+[View listing](https://www.homely.com.au/homes/40527-wallaga-road-truganina-vic-3029/13641907)
+**Score: 55/100 (+5 west-side bonus)** · $721,110–$721,110 (agent: “$721,110”) · ✅ Available · 🆕 New build · ✅ fits criteria
+
+- Land: 400m² (need 400m²+)
+- Beds/baths/car: 4 / 2 / 2
+- Independent value estimate: Not available from this source
+- Overlay flags: Not available from this source
+
+**Score breakdown (points, not facts)** — land/size 0/30, value vs estimate 15.0/30, build condition 20/20, availability 20/20
+
+**Est. upfront cash needed**: $177,625 (deposit $144,222 + stamp duty $30,953 + LMI $0 + other costs $2,450)
 
 ---
 
@@ -167,17 +167,17 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 
 ---
 
-## 17 Sherlock Avenue, Tarneit VIC 3029
-[View listing](https://view.com.au/property/vic/tarneit-3029/17-sherlock-avenue-18239381/)
-**Score: 55/100 (+5 west-side bonus)** · $650,000–$650,000 (agent: “East Facing/ Tarneit Rise School Zone/480sqm Land”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
+## 31 Ballybunion Avenue, Craigieburn VIC 3064
+[View listing](https://www.homely.com.au/homes/31-ballybunion-avenue-craigieburn-vic-3064/13625722)
+**Score: 59/100** · $690,000–$730,000 (agent: “$690k - $730k”) · 🔨 Auction scheduled · 🏗️ Build year unknown · ✅ fits criteria
 
-- Land: 480m² (need 400m²+)
+- Land: 553m² (need 400m²+)
 - Beds/baths/car: 4 / 2 / 2
 - Independent value estimate: Not available from this source
 - Overlay flags: Not available from this source
 
-**Score breakdown (points, not facts)** — land/size 9.6/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
+**Score breakdown (points, not facts)** — land/size 18.4/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 16.0/20
 
-**Est. upfront cash needed**: $143,807 (deposit $130,000 + stamp duty $11,357 + LMI $0 + other costs $2,450)
+**Est. upfront cash needed**: $172,075 (deposit $142,000 + stamp duty $27,625 + LMI $0 + other costs $2,450)
 
 ---
