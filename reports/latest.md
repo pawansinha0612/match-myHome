@@ -1,10 +1,25 @@
-# Melbourne deal scan — 2026-11-04
+# Melbourne deal scan — 2026-11-05
 
 Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs assume a 20% deposit). Sources: homely.com.au + view.com.au, 8 suburbs scanned (preference for western suburbs, marked with a bonus below).
 
+## 88 Westmelton Drive, Melton West VIC 3337 🆕 **NEW SINCE LAST RUN**
+[View listing](https://www.homely.com.au/homes/88-westmelton-drive-melton-west-vic-3337/13663304)
+**Score: 75/100 (+5 west-side bonus)** · $595,000–$635,000 (agent: “$595,000 - $635,000”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
+
+- Land: 865m² (need 400m²+)
+- Beds/baths/car: 4 / 1 / 1
+- Independent value estimate: Not available from this source
+- Overlay flags: Not available from this source
+
+**Score breakdown (points, not facts)** — land/size 30/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
+
+**Est. upfront cash needed**: $128,647 (deposit $123,000 + stamp duty $3,197 + LMI $0 + other costs $2,450)
+
+---
+
 ## 32 Newbold Avenue, Craigieburn VIC 3064
 [View listing](https://www.homely.com.au/homes/32-newbold-avenue-craigieburn-vic-3064/13655369)
-**Score: 75/100** · $721,226–$721,226 (agent: “Contact Agent”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
+**Score: 75/100** · $720,000–$720,000 (agent: “Contact Agent”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
 
 - Land: 954m² (need 400m²+)
 - Beds/baths/car: 5 / 2 / 2
@@ -13,7 +28,7 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 
 **Score breakdown (points, not facts)** — land/size 30/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
 
-**Est. upfront cash needed**: $177,683 (deposit $144,245 + stamp duty $30,988 + LMI $0 + other costs $2,450)
+**Est. upfront cash needed**: $177,066 (deposit $144,000 + stamp duty $30,616 + LMI $0 + other costs $2,450)
 
 ---
 
@@ -32,18 +47,33 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 
 ---
 
-## LOT 209 Sheniz Avenue, Fraser Rise VIC 3336
-[View listing](https://www.homely.com.au/homes/lot-209-sheniz-avenue-fraser-rise-vic-3336/13656855)
-**Score: 72/100** · $749,290–$749,290 (agent: “$749,290”) · ✅ Available · 🆕 New build · ✅ fits criteria
+## 20 Jade Crescent, Wyndham Vale VIC 3024 🆕 **NEW SINCE LAST RUN**
+[View listing](https://www.homely.com.au/homes/20-jade-crescent-wyndham-vale-vic-3024/13662677)
+**Score: 66/100 (+5 west-side bonus)** · $619,746–$619,746 (agent: “Contact Agent”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
 
-- Land: 538m² (need 400m²+)
+- Land: 576m² (need 400m²+)
+- Beds/baths/car: 5 / 2 / 2
+- Independent value estimate: Not available from this source
+- Overlay flags: Not available from this source
+
+**Score breakdown (points, not facts)** — land/size 21.1/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
+
+**Est. upfront cash needed**: $130,645 (deposit $123,949 + stamp duty $4,246 + LMI $0 + other costs $2,450)
+
+---
+
+## 8 Harrington Avenue, Tarneit VIC 3029 🆕 **NEW SINCE LAST RUN**
+[View listing](https://www.homely.com.au/homes/8-harrington-avenue-tarneit-vic-3029/13665536)
+**Score: 66/100 (+5 west-side bonus)** · $669,857–$669,857 (agent: “Contact Vineet @0423299856”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
+
+- Land: 576m² (need 400m²+)
 - Beds/baths/car: 4 / 2 / 2
 - Independent value estimate: Not available from this source
 - Overlay flags: Not available from this source
 
-**Score breakdown (points, not facts)** — land/size 16.6/30, value vs estimate 15.0/30, build condition 20/20, availability 20/20
+**Score breakdown (points, not facts)** — land/size 21.1/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
 
-**Est. upfront cash needed**: $192,146 (deposit $149,858 + stamp duty $39,838 + LMI $0 + other costs $2,450)
+**Est. upfront cash needed**: $152,843 (deposit $133,971 + stamp duty $16,422 + LMI $0 + other costs $2,450)
 
 ---
 
@@ -64,7 +94,7 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 
 ## 8 Prominence Rise, Craigieburn VIC 3064
 [View listing](https://www.homely.com.au/homes/8-prominence-rise-craigieburn-vic-3064/13648711)
-**Score: 66/100** · $721,226–$721,226 (agent: “Contact Agent”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
+**Score: 66/100** · $720,000–$720,000 (agent: “Contact Agent”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
 
 - Land: 576m² (need 400m²+)
 - Beds/baths/car: 4 / 2 / 2
@@ -73,7 +103,7 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 
 **Score breakdown (points, not facts)** — land/size 21.1/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
 
-**Est. upfront cash needed**: $177,683 (deposit $144,245 + stamp duty $30,988 + LMI $0 + other costs $2,450)
+**Est. upfront cash needed**: $177,066 (deposit $144,000 + stamp duty $30,616 + LMI $0 + other costs $2,450)
 
 ---
 
@@ -122,21 +152,6 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 
 ---
 
-## 5416 17 Hustling Street, Tarneit VIC 3029 🆕 **NEW SINCE LAST RUN**
-[View listing](https://www.homely.com.au/homes/5416-17-hustling-street-tarneit-vic-3029/13659874)
-**Score: 55/100 (+5 west-side bonus)** · $697,008–$697,008 (agent: “$697,008”) · ✅ Available · 🆕 New build · ✅ fits criteria
-
-- Land: 400m² (need 400m²+)
-- Beds/baths/car: 4 / 2 / 2
-- Independent value estimate: Not available from this source
-- Overlay flags: Not available from this source
-
-**Score breakdown (points, not facts)** — land/size 0/30, value vs estimate 15.0/30, build condition 20/20, availability 20/20
-
-**Est. upfront cash needed**: $165,709 (deposit $139,402 + stamp duty $23,858 + LMI $0 + other costs $2,450)
-
----
-
 ## 31 Ballybunion Avenue, Craigieburn VIC 3064
 [View listing](https://view.com.au/property/vic/craigieburn-3064/31-ballybunion-avenue-18239239/)
 **Score: 59/100** · $690,000–$730,000 (agent: “$690k - $730k”) · 🔨 Auction scheduled · 🏗️ Build year unknown · ✅ fits criteria
@@ -164,20 +179,5 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 **Score breakdown (points, not facts)** — land/size 7.3/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
 
 **Est. upfront cash needed**: $192,520 (deposit $150,000 + stamp duty $40,070 + LMI $0 + other costs $2,450)
-
----
-
-## 14 Trellis Gr, Rockbank VIC 3335
-[View listing](https://www.homely.com.au/homes/14-trellis-gr-rockbank-vic-3335/13637902)
-**Score: 51/100 (+5 west-side bonus)** · $670,000–$730,000 (agent: “$670000 - $730000”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
-
-- Land: 448m² (need 400m²+)
-- Beds/baths/car: 4 / 2 / 2
-- Independent value estimate: Not available from this source
-- Overlay flags: Not available from this source
-
-**Score breakdown (points, not facts)** — land/size 5.8/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
-
-**Est. upfront cash needed**: $167,163 (deposit $140,000 + stamp duty $24,713 + LMI $0 + other costs $2,450)
 
 ---
