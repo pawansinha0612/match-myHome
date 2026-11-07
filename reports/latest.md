@@ -1,4 +1,4 @@
-# Melbourne deal scan — 2026-11-07
+# Melbourne deal scan — 2026-11-08
 
 Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs assume a 20% deposit). Sources: homely.com.au + view.com.au, 8 suburbs scanned (preference for western suburbs, marked with a bonus below).
 
@@ -77,7 +77,7 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 
 ---
 
-## 10 Lodging Drive, Tarneit VIC 3029 🆕 **NEW SINCE LAST RUN**
+## 10 Lodging Drive, Tarneit VIC 3029
 [View listing](https://www.homely.com.au/homes/10-lodging-drive-tarneit-vic-3029/13672095)
 **Score: 57/100 (+5 west-side bonus)** · $669,719–$669,719 (agent: “Park Facing / 504sqm Land / 49sqs Built”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
 
