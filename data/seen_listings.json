@@ -117,11 +117,11 @@
   },
   "1 Lydd Court, Craigieburn VIC 3064": {
     "first_seen": "2026-10-26",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "1 Lygon Drive, Craigieburn VIC 3064": {
     "first_seen": "2026-10-26",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "1 Madden Grove, Kew VIC 3101": {
     "first_seen": "2026-08-16",
@@ -153,7 +153,7 @@
   },
   "1 Pandey Place, Rockbank VIC 3335": {
     "first_seen": "2026-10-26",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "1 Park Street, Brighton VIC 3186": {
     "first_seen": "2026-08-16",
@@ -185,7 +185,7 @@
   },
   "1 Simmington Circuit, Greenvale VIC 3059": {
     "first_seen": "2026-08-16",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "1 Spink Street, Brighton VIC 3186": {
     "first_seen": "2026-08-16",
@@ -439,6 +439,10 @@
     "first_seen": "2026-08-16",
     "last_seen": "2026-08-23"
   },
+  "10 Keppel Way, Point Cook VIC 3030": {
+    "first_seen": "2026-11-07",
+    "last_seen": "2026-11-07"
+  },
   "10 Lauriston Quay, Caroline Springs VIC 3023": {
     "first_seen": "2026-11-05",
     "last_seen": "2026-11-05"
@@ -453,7 +457,11 @@
   },
   "10 Lobelia Way, Greenvale VIC 3059": {
     "first_seen": "2026-10-26",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
+  },
+  "10 Lodging Drive, Tarneit VIC 3029": {
+    "first_seen": "2026-11-07",
+    "last_seen": "2026-11-07"
   },
   "10 Lunar Way, Fraser Rise VIC 3336": {
     "first_seen": "2026-10-27",
@@ -535,6 +543,10 @@
     "first_seen": "2026-08-16",
     "last_seen": "2026-08-29"
   },
+  "10 St Laurent Boulevard, Point Cook VIC 3030": {
+    "first_seen": "2026-11-07",
+    "last_seen": "2026-11-07"
+  },
   "10 Tench Court, Mill Park VIC 3082": {
     "first_seen": "2026-08-16",
     "last_seen": "2026-08-17"
@@ -553,11 +565,11 @@
   },
   "10 Turin Avenue, Plumpton VIC 3335": {
     "first_seen": "2026-10-27",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "10 Wheat Avenue, Truganina VIC 3029": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "10 Yewers Street, Sunshine VIC 3020": {
     "first_seen": "2026-08-23",
@@ -589,11 +601,15 @@
   },
   "100 Federation Boulevard, Truganina VIC 3029": {
     "first_seen": "2026-10-31",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "101 Ballarat Street, Yarraville VIC 3013": {
     "first_seen": "2026-08-23",
     "last_seen": "2026-08-23"
+  },
+  "101 Cradle Mountain Drive, Craigieburn VIC 3064": {
+    "first_seen": "2026-11-07",
+    "last_seen": "2026-11-07"
   },
   "101 Emperor Parade, Tarneit VIC 3029": {
     "first_seen": "2026-08-29",
@@ -629,7 +645,7 @@
   },
   "102/1 Clark Street, Williams Landing VIC 3027": {
     "first_seen": "2026-08-23",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "103 Ethio Street, Tarneit VIC 3029": {
     "first_seen": "2026-08-16",
@@ -657,7 +673,7 @@
   },
   "105 Bluebell Drive, Craigieburn VIC 3064": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "105 St Albans Road, St Albans VIC 3021": {
     "first_seen": "2026-08-16",
@@ -693,7 +709,7 @@
   },
   "108 Baileyana Road, Greenvale VIC 3059": {
     "first_seen": "2026-11-02",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "108 Carrington Road, Box Hill VIC 3128": {
     "first_seen": "2026-08-16",
@@ -745,7 +761,7 @@
   },
   "11 Ankuri Road, Tarneit VIC 3029": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "11 Bendigo Street, Cheltenham VIC 3192": {
     "first_seen": "2026-08-16",
@@ -829,7 +845,7 @@
   },
   "11 Harris Street, Rockbank VIC 3335": {
     "first_seen": "2026-10-26",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "11 Hay Street, Preston VIC 3072": {
     "first_seen": "2026-08-16",
@@ -849,7 +865,7 @@
   },
   "11 Ironwood Drive, Point Cook VIC 3030": {
     "first_seen": "2026-10-30",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "11 Isola Mews, Tarneit VIC 3029": {
     "first_seen": "2026-10-30",
@@ -903,6 +919,10 @@
     "first_seen": "2026-11-04",
     "last_seen": "2026-11-04"
   },
+  "11 Saltgrass Avenue, Tarneit VIC 3029": {
+    "first_seen": "2026-11-07",
+    "last_seen": "2026-11-07"
+  },
   "11 Second Avenue, Hoppers Crossing VIC 3029": {
     "first_seen": "2026-08-23",
     "last_seen": "2026-08-23"
@@ -913,7 +933,7 @@
   },
   "11 Socorro Way, Truganina VIC 3029": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "11 Tallinga Street, Tarneit VIC 3029": {
     "first_seen": "2026-08-23",
@@ -921,7 +941,7 @@
   },
   "11 Tess Grove, Truganina VIC 3029": {
     "first_seen": "2026-08-16",
-    "last_seen": "2026-08-17"
+    "last_seen": "2026-11-07"
   },
   "11 Tourello Avenue, Hawthorn East VIC 3123": {
     "first_seen": "2026-08-16",
@@ -1029,7 +1049,7 @@
   },
   "1165-1203 Mount Cottrell Road, Thornhill Park VIC 3335": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "117 Railway Street North, Altona VIC 3018": {
     "first_seen": "2026-08-16",
@@ -1077,7 +1097,7 @@
   },
   "119 Socket Drive, Rockbank VIC 3335": {
     "first_seen": "2026-08-23",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "11B Borrell Street, Keilor VIC 3036": {
     "first_seen": "2026-11-03",
@@ -1093,7 +1113,7 @@
   },
   "12 Alto Crescent, Greenvale VIC 3059": {
     "first_seen": "2026-11-03",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "12 Aubisque Close, Fraser Rise VIC 3336": {
     "first_seen": "2026-10-30",
@@ -1117,11 +1137,11 @@
   },
   "12 Beckett Way, Williams Landing VIC 3027": {
     "first_seen": "2026-08-29",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "12 Beckington Place, Craigieburn VIC 3064": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "12 Bradley Drive, Mill Park VIC 3082": {
     "first_seen": "2026-08-16",
@@ -1185,7 +1205,7 @@
   },
   "12 Friesian Street, Plumpton VIC 3335": {
     "first_seen": "2026-10-27",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "12 Gamesley Avenue, Werribee VIC 3030": {
     "first_seen": "2026-08-16",
@@ -1293,7 +1313,7 @@
   },
   "123 Socket Drive, Rockbank VIC 3335": {
     "first_seen": "2026-08-16",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "1239 Ison Road, Manor Lakes VIC 3024": {
     "first_seen": "2026-08-23",
@@ -1345,7 +1365,7 @@
   },
   "128 Socket Drive, Rockbank VIC 3335": {
     "first_seen": "2026-08-16",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "128 Sydney Road, Coburg VIC 3058": {
     "first_seen": "2026-08-16",
@@ -1397,7 +1417,7 @@
   },
   "13 Buddha Walk, Truganina VIC 3029": {
     "first_seen": "2026-10-30",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "13 Canterbury Street, Yarraville VIC 3013": {
     "first_seen": "2026-08-17",
@@ -1425,7 +1445,7 @@
   },
   "13 Egan Street, Deer Park VIC 3023": {
     "first_seen": "2026-10-26",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "13 Georgia Place, Kealba VIC 3021": {
     "first_seen": "2026-08-16",
@@ -1433,7 +1453,7 @@
   },
   "13 Grandview Avenue, Point Cook VIC 3030": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "13 Hairpin Drive, Tarneit VIC 3029": {
     "first_seen": "2026-10-26",
@@ -1489,7 +1509,7 @@
   },
   "13 Long Road, Truganina VIC 3029": {
     "first_seen": "2026-10-29",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "13 Lucille Road, Point Cook VIC 3030": {
     "first_seen": "2026-08-23",
@@ -1505,15 +1525,19 @@
   },
   "13 Meadowbank Grove, Rockbank VIC 3335": {
     "first_seen": "2026-10-26",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
+  },
+  "13 Mewat Circuit, Thornhill Park VIC 3335": {
+    "first_seen": "2026-11-07",
+    "last_seen": "2026-11-07"
   },
   "13 Millennium Road, Craigieburn VIC 3064": {
     "first_seen": "2026-10-26",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "13 Norcal Court, Greenvale VIC 3059": {
     "first_seen": "2026-08-23",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "13 Ontario Street, Caulfield North VIC 3161": {
     "first_seen": "2026-08-16",
@@ -1645,7 +1669,7 @@
   },
   "14 Atlas Walk, Point Cook VIC 3030": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "14 Bank Street, Richmond VIC 3121": {
     "first_seen": "2026-08-16",
@@ -1653,11 +1677,15 @@
   },
   "14 Bardini Street, Point Cook VIC 3030": {
     "first_seen": "2026-10-30",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "14 Beatrix Street, Point Cook VIC 3030": {
     "first_seen": "2026-10-27",
     "last_seen": "2026-11-02"
+  },
+  "14 Bolwarra Street, Craigieburn VIC 3064": {
+    "first_seen": "2026-11-07",
+    "last_seen": "2026-11-07"
   },
   "14 Brougham Street, Box Hill VIC 3128": {
     "first_seen": "2026-08-16",
@@ -1665,7 +1693,7 @@
   },
   "14 Carnation Drive, Rockbank VIC 3335": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "14 Clanranald Way, Greenvale VIC 3059": {
     "first_seen": "2026-08-29",
@@ -1725,7 +1753,7 @@
   },
   "14 Juniper Grove, Rockbank VIC 3335": {
     "first_seen": "2026-10-27",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "14 Knotty Road, Bonnie Brook VIC 3335": {
     "first_seen": "2026-08-29",
@@ -1769,7 +1797,7 @@
   },
   "14 Pacaya Street, Truganina VIC 3029": {
     "first_seen": "2026-08-23",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "14 Paradoxa Drive, Tarneit VIC 3029": {
     "first_seen": "2026-08-23",
@@ -1781,7 +1809,7 @@
   },
   "14 Pippen Loop, Plumpton VIC 3335": {
     "first_seen": "2026-10-27",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "14 Riverside Avenue, Keilor VIC 3036": {
     "first_seen": "2026-08-16",
@@ -1809,7 +1837,7 @@
   },
   "14 Trellis Gr, Rockbank VIC 3335": {
     "first_seen": "2026-10-27",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "14 Trellis Grove, Rockbank VIC 3335": {
     "first_seen": "2026-11-01",
@@ -1917,7 +1945,7 @@
   },
   "15 Dimitri Street, Plumpton VIC 3335": {
     "first_seen": "2026-10-27",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "15 Edward Street, Hawthorn VIC 3122": {
     "first_seen": "2026-08-16",
@@ -1965,7 +1993,7 @@
   },
   "15 Merryfield Circuit, Williams Landing VIC 3027": {
     "first_seen": "2026-08-16",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "15 Monferrato Avenue, Tarneit VIC 3029": {
     "first_seen": "2026-10-31",
@@ -2017,7 +2045,7 @@
   },
   "15 Vessey Walk, Wyndham Vale VIC 3024": {
     "first_seen": "2026-08-16",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "15 Woodlands Street, Tarneit VIC 3029": {
     "first_seen": "2026-08-29",
@@ -2041,7 +2069,7 @@
   },
   "154 Montana Street, Greenvale VIC 3059": {
     "first_seen": "2026-10-27",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "155 Wollahra Rise, Wyndham Vale VIC 3024": {
     "first_seen": "2026-10-29",
@@ -2069,7 +2097,7 @@
   },
   "16 Aliso Street, Truganina VIC 3029": {
     "first_seen": "2026-10-30",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "16 Anchor Crescent, Point Cook VIC 3030": {
     "first_seen": "2026-10-27",
@@ -2077,7 +2105,7 @@
   },
   "16 Ararat Street, Tarneit VIC 3029": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "16 Bisley Court, Craigieburn VIC 3064": {
     "first_seen": "2026-08-16",
@@ -2113,11 +2141,11 @@
   },
   "16 Flight Drive, Williams Landing VIC 3027": {
     "first_seen": "2026-10-27",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "16 Gainsborough Road, Williams Landing VIC 3027": {
     "first_seen": "2026-10-27",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "16 Gibson Court, Altona Meadows VIC 3028": {
     "first_seen": "2026-08-17",
@@ -2217,7 +2245,7 @@
   },
   "16 Saltbush Crescent, Craigieburn VIC 3064": {
     "first_seen": "2026-10-30",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "16 Seaeagle Avenue, Point Cook VIC 3030": {
     "first_seen": "2026-08-16",
@@ -2237,7 +2265,7 @@
   },
   "16 Westmeadows Lane, Truganina VIC 3029": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "16 Weyba Street, Truganina VIC 3029": {
     "first_seen": "2026-08-29",
@@ -2369,7 +2397,7 @@
   },
   "17 Corboy Close, Point Cook VIC 3030": {
     "first_seen": "2026-11-05",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "17 Creekwood Drive, Craigieburn VIC 3064": {
     "first_seen": "2026-10-26",
@@ -2381,7 +2409,7 @@
   },
   "17 Elsham Grove, Truganina VIC 3029": {
     "first_seen": "2026-10-25",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "17 Etnam Street, Preston VIC 3072": {
     "first_seen": "2026-08-16",
@@ -2393,11 +2421,11 @@
   },
   "17 Fossicker Street, Fraser Rise VIC 3336": {
     "first_seen": "2026-11-05",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "17 Freedman Avenue, Williams Landing VIC 3027": {
     "first_seen": "2026-10-26",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "17 Gascoyne Way, Truganina VIC 3029": {
     "first_seen": "2026-08-29",
@@ -2463,9 +2491,17 @@
     "first_seen": "2026-08-16",
     "last_seen": "2026-08-23"
   },
+  "17 Perlino Boulevard, Tarneit VIC 3029": {
+    "first_seen": "2026-11-07",
+    "last_seen": "2026-11-07"
+  },
   "17 Randwick Drive, Keilor Park VIC 3042": {
     "first_seen": "2026-08-23",
     "last_seen": "2026-08-23"
+  },
+  "17 Ravello Circuit, Point Cook VIC 3030": {
+    "first_seen": "2026-11-07",
+    "last_seen": "2026-11-07"
   },
   "17 Ridge Drive, Wyndham Vale VIC 3024": {
     "first_seen": "2026-10-31",
@@ -2505,11 +2541,11 @@
   },
   "17 Trenchard Road, Williams Landing VIC 3027": {
     "first_seen": "2026-10-26",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "17 Wingfield Parkway, Williams Landing VIC 3027": {
     "first_seen": "2026-08-16",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "17 Yates Avenue, Truganina VIC 3029": {
     "first_seen": "2026-10-27",
@@ -2585,11 +2621,15 @@
   },
   "18 Aliso Street, Truganina VIC 3029": {
     "first_seen": "2026-10-30",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "18 Amiel Street, Springvale VIC 3171": {
     "first_seen": "2026-08-16",
     "last_seen": "2026-08-23"
+  },
+  "18 Ashoka Drive, Thornhill Park VIC 3335": {
+    "first_seen": "2026-11-07",
+    "last_seen": "2026-11-07"
   },
   "18 Bandicoot Loop, Tarneit VIC 3029": {
     "first_seen": "2026-10-30",
@@ -2625,7 +2665,7 @@
   },
   "18 Equity Street, Rockbank VIC 3335": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "18 Fraser Street, Brunswick VIC 3056": {
     "first_seen": "2026-08-16",
@@ -2641,7 +2681,7 @@
   },
   "18 Horseshoe Circuit, Truganina VIC 3029": {
     "first_seen": "2026-10-29",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "18 Hosie Street, Altona Meadows VIC 3028": {
     "first_seen": "2026-08-17",
@@ -2657,7 +2697,7 @@
   },
   "18 Mallard Close, Williams Landing VIC 3027": {
     "first_seen": "2026-10-26",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "18 Mclean Street, Thornhill Park VIC 3335": {
     "first_seen": "2026-08-29",
@@ -2733,7 +2773,7 @@
   },
   "186 Clara Avenue, Truganina VIC 3029": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "186 Saltwater Promenade, Point Cook VIC 3030": {
     "first_seen": "2026-08-16",
@@ -2785,7 +2825,7 @@
   },
   "19 Electra Drive,, Williams Landing VIC 3027": {
     "first_seen": "2026-08-16",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "19 Guinane Avenue, Hoppers Crossing VIC 3029": {
     "first_seen": "2026-08-23",
@@ -2809,7 +2849,7 @@
   },
   "19 Orpheus Street, Point Cook VIC 3030": {
     "first_seen": "2026-10-30",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "19 Praise Road, Tarneit VIC 3029": {
     "first_seen": "2026-10-29",
@@ -2837,7 +2877,7 @@
   },
   "19 Waterways Boulevard, Williams Landing VIC 3027": {
     "first_seen": "2026-10-26",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "190 Arundel Road, Keilor VIC 3036": {
     "first_seen": "2026-08-16",
@@ -3133,7 +3173,7 @@
   },
   "20 Aliso Street, Truganina VIC 3029": {
     "first_seen": "2026-10-30",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "20 Ann Street, Springvale VIC 3171": {
     "first_seen": "2026-08-23",
@@ -3145,11 +3185,11 @@
   },
   "20 Ashcroft Avenue, Williams Landing VIC 3027": {
     "first_seen": "2026-10-26",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "20 Atkinson Close, Point Cook VIC 3030": {
     "first_seen": "2026-11-05",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "20 Avenza Street, Mentone VIC 3194": {
     "first_seen": "2026-08-16",
@@ -3181,7 +3221,7 @@
   },
   "20 Coleridge Circuit, Williams Landing VIC 3027": {
     "first_seen": "2026-08-16",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "20 Eagleview Way, Craigieburn VIC 3064": {
     "first_seen": "2026-08-23",
@@ -3277,7 +3317,7 @@
   },
   "20 Stoneleigh Circuit, Williams Landing VIC 3027": {
     "first_seen": "2026-10-27",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "20 Sydney Street, Avondale Heights VIC 3034": {
     "first_seen": "2026-08-23",
@@ -3290,6 +3330,10 @@
   "20 Tesla Road, Rockbank VIC 3335": {
     "first_seen": "2026-10-27",
     "last_seen": "2026-10-27"
+  },
+  "20 Viridian Drive, Hillside VIC 3037": {
+    "first_seen": "2026-11-07",
+    "last_seen": "2026-11-07"
   },
   "20 gladstone Road, Dandenong VIC 3175": {
     "first_seen": "2026-08-16",
@@ -3321,7 +3365,7 @@
   },
   "2005 Western Highway, Rockbank VIC 3335": {
     "first_seen": "2026-10-26",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "203 Boxwood Drive, Bonnie Brook VIC 3335": {
     "first_seen": "2026-08-23",
@@ -3329,11 +3373,11 @@
   },
   "2035 Western Highway, Rockbank VIC 3335": {
     "first_seen": "2026-10-28",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "204 Boxwood Drive, Bonnie Brook VIC 3335": {
     "first_seen": "2026-08-23",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "204 Reynard Street, Coburg VIC 3058": {
     "first_seen": "2026-08-16",
@@ -3397,11 +3441,11 @@
   },
   "209/115 Overton Road, Williams Landing VIC 3027": {
     "first_seen": "2026-10-26",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "21 Award Crescent, Truganina VIC 3029": {
     "first_seen": "2026-10-31",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "21 Baker Street, Richmond VIC 3121": {
     "first_seen": "2026-08-16",
@@ -3417,7 +3461,7 @@
   },
   "21 Chessington Dr, Williams Landing VIC 3027": {
     "first_seen": "2026-08-16",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "21 Clendon Way, Craigieburn VIC 3064": {
     "first_seen": "2026-08-29",
@@ -3469,7 +3513,7 @@
   },
   "21 Panaia Boulevard, Truganina VIC 3029": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "21 Pinnacle Place, Hoppers Crossing VIC 3029": {
     "first_seen": "2026-08-16",
@@ -3489,7 +3533,7 @@
   },
   "21 Stoneleigh Circuit, Williams Landing VIC 3027": {
     "first_seen": "2026-10-27",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "21 Thicket Drive, Tarneit VIC 3029": {
     "first_seen": "2026-10-26",
@@ -3501,7 +3545,7 @@
   },
   "21 Victoria Street, Truganina VIC 3029": {
     "first_seen": "2026-10-25",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "21 Weinstock Road, Truganina VIC 3029": {
     "first_seen": "2026-08-29",
@@ -3641,7 +3685,7 @@
   },
   "22 Fairbridge Road, Point Cook VIC 3030": {
     "first_seen": "2026-10-30",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "22 Fairhall Avenue, Werribee VIC 3030": {
     "first_seen": "2026-08-23",
@@ -3653,7 +3697,7 @@
   },
   "22 Fieldia Road, Tarneit VIC 3029": {
     "first_seen": "2026-11-03",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "22 Firenze Road, Greenvale VIC 3059": {
     "first_seen": "2026-08-16",
@@ -3725,11 +3769,11 @@
   },
   "2213 23 TursuliDrive, Truganina VIC 3029": {
     "first_seen": "2026-10-25",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "2215 27TursuliDrive, Truganina VIC 3029": {
     "first_seen": "2026-10-29",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "223-225 Clayton Road, Clayton VIC 3168": {
     "first_seen": "2026-08-16",
@@ -3797,7 +3841,7 @@
   },
   "23 Lapis Walk, Craigieburn VIC 3064": {
     "first_seen": "2026-11-05",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "23 Lewisham Place, Craigieburn VIC 3064": {
     "first_seen": "2026-10-27",
@@ -3805,7 +3849,7 @@
   },
   "23 Maton Street, Greenvale VIC 3059": {
     "first_seen": "2026-10-27",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "23 Miles Street, Deer Park VIC 3023": {
     "first_seen": "2026-08-16",
@@ -3861,7 +3905,7 @@
   },
   "2327 KalankaAvenue, Truganina VIC 3029": {
     "first_seen": "2026-11-02",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "233 Domain Road, South Yarra VIC 3141": {
     "first_seen": "2026-08-16",
@@ -3869,11 +3913,11 @@
   },
   "233 Newbury Boulevard, Craigieburn VIC 3064": {
     "first_seen": "2026-11-03",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "233 Veristic Drive, Greenvale VIC 3059": {
     "first_seen": "2026-10-29",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "2339 Pandini Drive, Truganina VIC 3029": {
     "first_seen": "2026-10-25",
@@ -3909,7 +3953,7 @@
   },
   "24 Degrees Road, Greenvale VIC 3059": {
     "first_seen": "2026-11-01",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "24 Ferris Ave, Deer Park VIC 3023": {
     "first_seen": "2026-08-16",
@@ -3937,7 +3981,7 @@
   },
   "24 Loon Drive, Williams Landing VIC 3027": {
     "first_seen": "2026-10-26",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "24 Mariposa Way, Tarneit VIC 3029": {
     "first_seen": "2026-10-29",
@@ -4009,7 +4053,7 @@
   },
   "2452 SpantikCircuit, Truganina VIC 3029": {
     "first_seen": "2026-10-25",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "2470 14 Asteroid Street, Tarneit VIC 3029": {
     "first_seen": "2026-10-26",
@@ -4057,7 +4101,7 @@
   },
   "25 Hurlingham Way, Craigieburn VIC 3064": {
     "first_seen": "2026-10-27",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "25 Island Point Avenue, Waterways VIC 3195": {
     "first_seen": "2026-08-16",
@@ -4070,6 +4114,10 @@
   "25 Kororoit Creek Road, Williamstown VIC 3016": {
     "first_seen": "2026-08-16",
     "last_seen": "2026-08-23"
+  },
+  "25 Manchado Street, Tarneit VIC 3029": {
+    "first_seen": "2026-11-07",
+    "last_seen": "2026-11-07"
   },
   "25 Marsden Court, Mill Park VIC 3082": {
     "first_seen": "2026-08-23",
@@ -4085,7 +4133,7 @@
   },
   "25 Pilbara Avenue, Burnside VIC 3023": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "25 Robinson Street, Clayton VIC 3168": {
     "first_seen": "2026-08-16",
@@ -4097,7 +4145,7 @@
   },
   "25 Wasim Circuit, Rockbank VIC 3335": {
     "first_seen": "2026-10-26",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "25 Wensleydale Drive, Rockbank VIC 3335": {
     "first_seen": "2026-08-16",
@@ -4125,7 +4173,7 @@
   },
   "26 Blade Circuit, Fraser Rise VIC 3336": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "26 Cole Street, Laverton VIC 3028": {
     "first_seen": "2026-08-16",
@@ -4149,7 +4197,7 @@
   },
   "26 Kalinda Avenue, Plumpton VIC 3335": {
     "first_seen": "2026-10-27",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "26 Kittyhawk Road, Point Cook VIC 3030": {
     "first_seen": "2026-08-16",
@@ -4157,7 +4205,7 @@
   },
   "26 Laurence Way, Tarneit VIC 3029": {
     "first_seen": "2026-08-16",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "26 Lockton Avenue, Reservoir VIC 3073": {
     "first_seen": "2026-08-17",
@@ -4170,6 +4218,10 @@
   "26 Mulberry Pass, Craigieburn VIC 3064": {
     "first_seen": "2026-08-29",
     "last_seen": "2026-08-29"
+  },
+  "26 Naxos Road, Greenvale VIC 3059": {
+    "first_seen": "2026-11-07",
+    "last_seen": "2026-11-07"
   },
   "26 Oceanwave Parade, Point Cook VIC 3030": {
     "first_seen": "2026-10-29",
@@ -4187,13 +4239,17 @@
     "first_seen": "2026-08-16",
     "last_seen": "2026-08-23"
   },
+  "26 Spraypoint Drive, Point Cook VIC 3030": {
+    "first_seen": "2026-11-07",
+    "last_seen": "2026-11-07"
+  },
   "26 Stapley Crescent, Altona North VIC 3025": {
     "first_seen": "2026-08-16",
     "last_seen": "2026-08-23"
   },
   "26 Surrey Grove, Point Cook VIC 3030": {
     "first_seen": "2026-11-03",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "26 Taihu Road, Wyndham Vale VIC 3024": {
     "first_seen": "2026-08-16",
@@ -4257,7 +4313,7 @@
   },
   "27 Bakewell Crescent, Truganina VIC 3029": {
     "first_seen": "2026-10-25",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "27 Bournemouth Avenue, Springvale VIC 3171": {
     "first_seen": "2026-08-16",
@@ -4289,7 +4345,7 @@
   },
   "27 Lightsview Boulevard, Rockbank VIC 3335": {
     "first_seen": "2026-10-26",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "27 Meek Street, Brighton VIC 3186": {
     "first_seen": "2026-08-16",
@@ -4301,7 +4357,7 @@
   },
   "27 Rocky Gate Drive, Truganina VIC 3029": {
     "first_seen": "2026-11-03",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "27 Skyline Drive, Keilor VIC 3036": {
     "first_seen": "2026-08-16",
@@ -4409,7 +4465,7 @@
   },
   "28 Rivington Road, Point Cook VIC 3030": {
     "first_seen": "2026-10-30",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "28 Stambridge Street, Tarneit VIC 3029": {
     "first_seen": "2026-08-23",
@@ -4481,7 +4537,7 @@
   },
   "29 Compute Street, Greenvale VIC 3059": {
     "first_seen": "2026-11-04",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "29 Crows Lane, Glen Waverley VIC 3150": {
     "first_seen": "2026-08-16",
@@ -4489,11 +4545,11 @@
   },
   "29 Hawker Street, Williams Landing VIC 3027": {
     "first_seen": "2026-10-29",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "29 Hemingway Drive, Rockbank VIC 3335": {
     "first_seen": "2026-10-27",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "29 Jared Road, Altona Meadows VIC 3028": {
     "first_seen": "2026-08-16",
@@ -4505,7 +4561,7 @@
   },
   "29 Kohli Cres, Rockbank VIC 3335": {
     "first_seen": "2026-10-26",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "29 Malibu Boulevard, Point Cook VIC 3030": {
     "first_seen": "2026-10-27",
@@ -4527,13 +4583,17 @@
     "first_seen": "2026-11-03",
     "last_seen": "2026-11-06"
   },
+  "29 Schefflera Street, Craigieburn VIC 3064": {
+    "first_seen": "2026-11-07",
+    "last_seen": "2026-11-07"
+  },
   "29 Snowden Drive, Glen Waverley VIC 3150": {
     "first_seen": "2026-08-16",
     "last_seen": "2026-08-23"
   },
   "29 Vantage Boulevard, Craigieburn VIC 3064": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "29 Viewmont Avenue, Craigieburn VIC 3064": {
     "first_seen": "2026-08-16",
@@ -4561,7 +4621,7 @@
   },
   "2A Claret Ash Court, Tarneit VIC 3029": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "2A Daley Street, Sunshine West VIC 3020": {
     "first_seen": "2026-08-23",
@@ -4669,7 +4729,7 @@
   },
   "3 Foxall Walk, Point Cook VIC 3030": {
     "first_seen": "2026-11-05",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "3 Gillies Street, Hampton VIC 3188": {
     "first_seen": "2026-08-16",
@@ -4767,6 +4827,10 @@
     "first_seen": "2026-08-23",
     "last_seen": "2026-08-23"
   },
+  "3 Pasofino Drive, Bonnie Brook VIC 3335": {
+    "first_seen": "2026-11-07",
+    "last_seen": "2026-11-07"
+  },
   "3 Pennar Way, Werribee VIC 3030": {
     "first_seen": "2026-08-16",
     "last_seen": "2026-08-23"
@@ -4785,7 +4849,7 @@
   },
   "3 Red Wattle Way, Greenvale VIC 3059": {
     "first_seen": "2026-11-02",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "3 Rolain Avenue, South Morang VIC 3752": {
     "first_seen": "2026-08-23",
@@ -4809,7 +4873,7 @@
   },
   "3 Sawatch Street, Truganina VIC 3029": {
     "first_seen": "2026-10-31",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "3 Solero Parade, Point Cook VIC 3030": {
     "first_seen": "2026-10-27",
@@ -4989,7 +5053,7 @@
   },
   "30 Season Way, Craigieburn VIC 3064": {
     "first_seen": "2026-10-26",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "30 Tabula Road, Tarneit VIC 3029": {
     "first_seen": "2026-08-29",
@@ -5025,7 +5089,7 @@
   },
   "31 Broadbeach Circuit, Point Cook VIC 3030": {
     "first_seen": "2026-10-30",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "31 Bruce street, Preston VIC 3072": {
     "first_seen": "2026-08-16",
@@ -5041,11 +5105,11 @@
   },
   "31 Festival Drive, Point Cook VIC 3030": {
     "first_seen": "2026-10-31",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "31 Gilded Way, Craigieburn VIC 3064": {
     "first_seen": "2026-10-27",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "31 Grandview Road, Box Hill South VIC 3128": {
     "first_seen": "2026-08-16",
@@ -5093,11 +5157,15 @@
   },
   "31 Tobago Avenue, Point Cook VIC 3030": {
     "first_seen": "2026-10-30",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "31 Tuppen Street, Yarraville VIC 3013": {
     "first_seen": "2026-08-16",
     "last_seen": "2026-08-23"
+  },
+  "31 Winona Circuit, Tarneit VIC 3029": {
+    "first_seen": "2026-11-07",
+    "last_seen": "2026-11-07"
   },
   "31 Yarcombe Crescent, Craigieburn VIC 3064": {
     "first_seen": "2026-08-16",
@@ -5165,7 +5233,7 @@
   },
   "32 Newbold Avenue, Craigieburn VIC 3064": {
     "first_seen": "2026-11-03",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "32 North Road, Brighton VIC 3186": {
     "first_seen": "2026-08-16",
@@ -5205,7 +5273,7 @@
   },
   "322 Rosemellow Circuit, Bonnie Brook VIC 3335": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "325 Queen Street, Altona Meadows VIC 3028": {
     "first_seen": "2026-08-16",
@@ -5237,7 +5305,7 @@
   },
   "33 Chessington Drive, Williams Landing VIC 3027": {
     "first_seen": "2026-10-26",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "33 Constellation Circuit, Truganina VIC 3029": {
     "first_seen": "2026-10-25",
@@ -5261,7 +5329,7 @@
   },
   "33 Mallacoota Way, Craigieburn VIC 3064": {
     "first_seen": "2026-11-03",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "33 Mcmurray Crescent, Hoppers Crossing VIC 3029": {
     "first_seen": "2026-08-16",
@@ -5369,7 +5437,7 @@
   },
   "343 Saltwater Promenade, Point Cook VIC 3030": {
     "first_seen": "2026-11-03",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "344 Moray Street, South Melbourne VIC 3205": {
     "first_seen": "2026-08-16",
@@ -5477,7 +5545,7 @@
   },
   "36 Navigation Road, Greenvale VIC 3059": {
     "first_seen": "2026-10-30",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "36 Rialto Circuit, Craigieburn VIC 3064": {
     "first_seen": "2026-08-29",
@@ -5485,7 +5553,7 @@
   },
   "36 Yellowbox Drive, Point Cook VIC 3030": {
     "first_seen": "2026-10-31",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "361 Brunswick Road, Brunswick VIC 3056": {
     "first_seen": "2026-08-16",
@@ -5525,7 +5593,7 @@
   },
   "37 Lunar Drive, Greenvale VIC 3059": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "37 Station Road, Deer Park VIC 3023": {
     "first_seen": "2026-08-16",
@@ -5545,7 +5613,7 @@
   },
   "37 Waterways Boulevard, Williams Landing VIC 3027": {
     "first_seen": "2026-10-26",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "372 Tuscalee Terrace, Thornhill Park VIC 3335": {
     "first_seen": "2026-08-23",
@@ -5569,7 +5637,7 @@
   },
   "38 Aycliffe Drive, Deer Park VIC 3023": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "38 Bandicoot Road, Craigieburn VIC 3064": {
     "first_seen": "2026-10-26",
@@ -5659,6 +5727,14 @@
     "first_seen": "2026-08-23",
     "last_seen": "2026-08-23"
   },
+  "39 Blakeville Drive, Caroline Springs VIC 3023": {
+    "first_seen": "2026-11-07",
+    "last_seen": "2026-11-07"
+  },
+  "39 Brentwick Drive, Craigieburn VIC 3064": {
+    "first_seen": "2026-11-07",
+    "last_seen": "2026-11-07"
+  },
   "39 Callaway Lane, Hillside VIC 3037": {
     "first_seen": "2026-10-31",
     "last_seen": "2026-11-04"
@@ -5705,7 +5781,7 @@
   },
   "39 Riland Boulevard, Tarneit VIC 3029": {
     "first_seen": "2026-11-03",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "39 River Street, Newport VIC 3015": {
     "first_seen": "2026-08-16",
@@ -5741,7 +5817,7 @@
   },
   "4 Bradford Street, Rockbank VIC 3335": {
     "first_seen": "2026-10-27",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "4 Celestial Way, Greenvale VIC 3059": {
     "first_seen": "2026-08-29",
@@ -5847,6 +5923,10 @@
     "first_seen": "2026-08-16",
     "last_seen": "2026-08-23"
   },
+  "4 Milan Way, Truganina VIC 3029": {
+    "first_seen": "2026-11-07",
+    "last_seen": "2026-11-07"
+  },
   "4 Myna Street, Epping VIC 3076": {
     "first_seen": "2026-08-23",
     "last_seen": "2026-08-23"
@@ -5865,7 +5945,7 @@
   },
   "4 Sama Promenade, Truganina VIC 3029": {
     "first_seen": "2026-10-25",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "4 Sandra Street, Melton VIC 3337": {
     "first_seen": "2026-08-16",
@@ -5874,6 +5954,10 @@
   "4 Seabrook BLVD, Seabrook VIC 3028": {
     "first_seen": "2026-08-16",
     "last_seen": "2026-08-23"
+  },
+  "4 Seaeagle Avenue, Point Cook VIC 3030": {
+    "first_seen": "2026-11-07",
+    "last_seen": "2026-11-07"
   },
   "4 Seventh Avenue, Altona North VIC 3025": {
     "first_seen": "2026-08-16",
@@ -6001,7 +6085,7 @@
   },
   "40527 Wallaga Road, Truganina VIC 3029": {
     "first_seen": "2026-10-29",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "41 Cole Street, Laverton VIC 3028": {
     "first_seen": "2026-08-16",
@@ -6077,7 +6161,7 @@
   },
   "42 Marwood Avenue, Truganina VIC 3029": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "42 Rosala Avenue, Altona North VIC 3025": {
     "first_seen": "2026-08-16",
@@ -6089,11 +6173,11 @@
   },
   "42 Surround Circuit, Plumpton VIC 3335": {
     "first_seen": "2026-10-27",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "42 Viola Drive, Rockbank VIC 3335": {
     "first_seen": "2026-10-27",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "42-44 Commercial Road, Footscray VIC 3011": {
     "first_seen": "2026-08-16",
@@ -6145,7 +6229,7 @@
   },
   "430 Dawbin Road, Tarneit VIC 3029": {
     "first_seen": "2026-11-02",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "4317 Happiness Way, Wyndham Vale VIC 3024": {
     "first_seen": "2026-11-02",
@@ -6175,6 +6259,10 @@
     "first_seen": "2026-08-16",
     "last_seen": "2026-08-23"
   },
+  "44 Hilda Street, Tarneit VIC 3029": {
+    "first_seen": "2026-11-07",
+    "last_seen": "2026-11-07"
+  },
   "44 Kanooka Grove, Clayton VIC 3168": {
     "first_seen": "2026-08-16",
     "last_seen": "2026-08-23"
@@ -6198,6 +6286,10 @@
   "44 Wickham Road, Hampton East VIC 3188": {
     "first_seen": "2026-08-16",
     "last_seen": "2026-08-23"
+  },
+  "44 Wreath Drive, Tarneit VIC 3029": {
+    "first_seen": "2026-11-07",
+    "last_seen": "2026-11-07"
   },
   "440 South Road, Moorabbin VIC 3189": {
     "first_seen": "2026-08-16",
@@ -6273,7 +6365,7 @@
   },
   "45 Dominion Terrace, Truganina VIC 3029": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "45 Henry Street, Melton VIC 3337": {
     "first_seen": "2026-08-16",
@@ -6317,7 +6409,7 @@
   },
   "45 Westbury Avenue, Rockbank VIC 3335": {
     "first_seen": "2026-10-27",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "45-47 Wattle Road, Maidstone VIC 3012": {
     "first_seen": "2026-08-16",
@@ -6349,7 +6441,7 @@
   },
   "46 Centennial Park Drive, Craigieburn VIC 3064": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "46 Chambers Road, Altona North VIC 3025": {
     "first_seen": "2026-08-16",
@@ -6389,7 +6481,7 @@
   },
   "47 Alma Street, Craigieburn VIC 3064": {
     "first_seen": "2026-11-03",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "47 Bayliss Road, Deer Park VIC 3023": {
     "first_seen": "2026-08-23",
@@ -6409,7 +6501,7 @@
   },
   "47 Enterprise Circuit, Plumpton VIC 3335": {
     "first_seen": "2026-10-27",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "47 Heysen Parkway, Caroline Springs VIC 3023": {
     "first_seen": "2026-11-06",
@@ -6433,7 +6525,7 @@
   },
   "47 Waterways Boulevard, Williams Landing VIC 3027": {
     "first_seen": "2026-10-26",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "471 Geelong Road, Yarraville VIC 3013": {
     "first_seen": "2026-08-23",
@@ -6461,7 +6553,7 @@
   },
   "48 Modern Crescent, Tarneit VIC 3029": {
     "first_seen": "2026-11-05",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "48 Oconnor Road, Deer Park VIC 3023": {
     "first_seen": "2026-08-16",
@@ -6477,7 +6569,7 @@
   },
   "49 Aspire Boulevard, Plumpton VIC 3335": {
     "first_seen": "2026-10-27",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "49 Ben Loman Circuit, Craigieburn VIC 3064": {
     "first_seen": "2026-10-31",
@@ -6485,7 +6577,7 @@
   },
   "49 Clarendon Avenue, Craigieburn VIC 3064": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "49 Delbridge Drive, Sydenham VIC 3037": {
     "first_seen": "2026-10-27",
@@ -6509,7 +6601,7 @@
   },
   "49 Namadgi Crescent, Truganina VIC 3029": {
     "first_seen": "2026-11-05",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "49 Rosina Drive, Melton VIC 3337": {
     "first_seen": "2026-08-16",
@@ -6565,7 +6657,7 @@
   },
   "5 Appalachian Street, Truganina VIC 3029": {
     "first_seen": "2026-10-27",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "5 Asling Street, Brighton VIC 3186": {
     "first_seen": "2026-08-16",
@@ -6582,6 +6674,10 @@
   "5 Bigarade Way, Tarneit VIC 3029": {
     "first_seen": "2026-08-16",
     "last_seen": "2026-08-17"
+  },
+  "5 Bimbadeen Street, Burnside VIC 3023": {
+    "first_seen": "2026-11-07",
+    "last_seen": "2026-11-07"
   },
   "5 Boardwalk Boulevard, Point Cook VIC 3030": {
     "first_seen": "2026-10-25",
@@ -6645,7 +6741,7 @@
   },
   "5 Ficus Way, Rockbank VIC 3335": {
     "first_seen": "2026-10-26",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "5 Ficus way, Rockbank VIC 3335": {
     "first_seen": "2026-08-23",
@@ -6803,6 +6899,10 @@
     "first_seen": "2026-08-29",
     "last_seen": "2026-08-29"
   },
+  "50 Regal Road, Point Cook VIC 3030": {
+    "first_seen": "2026-11-07",
+    "last_seen": "2026-11-07"
+  },
   "50 Skypac Drive, Truganina VIC 3029": {
     "first_seen": "2026-10-27",
     "last_seen": "2026-10-29"
@@ -6829,7 +6929,7 @@
   },
   "50132Batura Street Batura Street, Truganina VIC 3029": {
     "first_seen": "2026-11-02",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "50136 8 Batura Street, Truganina VIC 3029": {
     "first_seen": "2026-10-29",
@@ -6893,15 +6993,15 @@
   },
   "51 Watervale Boulevard, Taylors Hill VIC 3037": {
     "first_seen": "2026-10-27",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "510 Howell Crescent, Truganina VIC 3029": {
     "first_seen": "2026-08-16",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "518 Vintage Street, Greenvale VIC 3059": {
     "first_seen": "2026-10-29",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "519 Vintage Street, Greenvale VIC 3059": {
     "first_seen": "2026-10-26",
@@ -6933,7 +7033,7 @@
   },
   "521 Vintage Street, Greenvale VIC 3059": {
     "first_seen": "2026-10-29",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "522 Vintage Street, Greenvale VIC 3059": {
     "first_seen": "2026-10-26",
@@ -6965,7 +7065,7 @@
   },
   "53 Penshurst Avenue, Williams Landing VIC 3027": {
     "first_seen": "2026-10-26",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "53 Pickett Street, Footscray VIC 3011": {
     "first_seen": "2026-08-16",
@@ -6994,6 +7094,10 @@
   "54 Medway Road, Craigieburn VIC 3064": {
     "first_seen": "2026-08-29",
     "last_seen": "2026-08-29"
+  },
+  "54 Rhyolite Drive, Craigieburn VIC 3064": {
+    "first_seen": "2026-11-07",
+    "last_seen": "2026-11-07"
   },
   "5416 17 Hustling Street, Tarneit VIC 3029": {
     "first_seen": "2026-11-04",
@@ -7133,7 +7237,7 @@
   },
   "58 Papillon Parade, Tarneit VIC 3029": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "5801 13 Richmore Road, Wyndham Vale VIC 3024": {
     "first_seen": "2026-08-16",
@@ -7183,13 +7287,17 @@
     "first_seen": "2026-08-16",
     "last_seen": "2026-08-23"
   },
+  "6 Archie Street, Tarneit VIC 3029": {
+    "first_seen": "2026-11-07",
+    "last_seen": "2026-11-07"
+  },
   "6 Ashfield Street, Reservoir VIC 3073": {
     "first_seen": "2026-08-16",
     "last_seen": "2026-08-17"
   },
   "6 Attar Road, Rockbank VIC 3335": {
     "first_seen": "2026-10-26",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "6 Box Hedge Court, South Morang VIC 3752": {
     "first_seen": "2026-08-16",
@@ -7261,7 +7369,7 @@
   },
   "6 Highpark Circuit, Craigieburn VIC 3064": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "6 Hillcrest Court, Harkness VIC 3337": {
     "first_seen": "2026-10-28",
@@ -7313,7 +7421,7 @@
   },
   "6 Messina Street, Plumpton VIC 3335": {
     "first_seen": "2026-10-27",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "6 Michael Place, Point Cook VIC 3030": {
     "first_seen": "2026-08-23",
@@ -7353,7 +7461,7 @@
   },
   "6 Rocket Road, Williams Landing VIC 3027": {
     "first_seen": "2026-10-27",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "6 Rothesay Place, Greenvale VIC 3059": {
     "first_seen": "2026-10-26",
@@ -7397,7 +7505,7 @@
   },
   "6 Valais Way, Rockbank VIC 3335": {
     "first_seen": "2026-10-27",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "6 Whalers Street, Point Cook VIC 3030": {
     "first_seen": "2026-08-17",
@@ -7409,7 +7517,7 @@
   },
   "6 Wildcherry Place, Point Cook VIC 3030": {
     "first_seen": "2026-10-31",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "6 Woodlands Court, Mordialloc VIC 3195": {
     "first_seen": "2026-08-23",
@@ -7433,7 +7541,7 @@
   },
   "60 Lukis Avenue, Williams Landing VIC 3027": {
     "first_seen": "2026-10-26",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "60 Nelson Avenue, Altona Meadows VIC 3028": {
     "first_seen": "2026-08-16",
@@ -7481,7 +7589,7 @@
   },
   "61 Denman Drive, Point Cook VIC 3030": {
     "first_seen": "2026-11-03",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "61 Galahad Crescent, Glen Waverley VIC 3150": {
     "first_seen": "2026-08-16",
@@ -7497,7 +7605,7 @@
   },
   "61 Tabula Road, Tarneit VIC 3029": {
     "first_seen": "2026-11-05",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "61 Topiary Street, Truganina VIC 3029": {
     "first_seen": "2026-08-29",
@@ -7505,7 +7613,7 @@
   },
   "62 Darmain Drive, Greenvale VIC 3059": {
     "first_seen": "2026-10-30",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "62 Foxwood Drive, Point Cook VIC 3030": {
     "first_seen": "2026-08-23",
@@ -7601,7 +7709,7 @@
   },
   "65 Litoria Drive, Plumpton VIC 3335": {
     "first_seen": "2026-10-27",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "65 The Grove, Coburg VIC 3058": {
     "first_seen": "2026-08-16",
@@ -7693,7 +7801,7 @@
   },
   "68 Welcome Road, Diggers Rest VIC 3427": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "69 Ovens Street, Yarraville VIC 3013": {
     "first_seen": "2026-08-16",
@@ -7701,7 +7809,7 @@
   },
   "69 Rowland Drive, Point Cook VIC 3030": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "69 Tennyson Street, Kew VIC 3101": {
     "first_seen": "2026-08-16",
@@ -7733,7 +7841,7 @@
   },
   "7 Burrora Way, Craigieburn VIC 3064": {
     "first_seen": "2026-11-04",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "7 Cadogan Place, Altona Meadows VIC 3028": {
     "first_seen": "2026-08-16",
@@ -7741,7 +7849,7 @@
   },
   "7 Chatham Avenue, Tarneit VIC 3029": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "7 Chiara Court, Glen Waverley VIC 3150": {
     "first_seen": "2026-08-16",
@@ -7773,7 +7881,7 @@
   },
   "7 Devotion Way, Tarneit VIC 3029": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "7 Diadem Way, Williams Landing VIC 3027": {
     "first_seen": "2026-08-16",
@@ -7793,11 +7901,11 @@
   },
   "7 Greenfinch Court, Williams Landing VIC 3027": {
     "first_seen": "2026-08-16",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "7 Greenstead Amble, Kurunjang VIC 3337": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "7 Hampshire Avenue, Rockbank VIC 3335": {
     "first_seen": "2026-10-27",
@@ -7806,6 +7914,10 @@
   "7 Harsburg Court, Taylors Lakes VIC 3038": {
     "first_seen": "2026-08-16",
     "last_seen": "2026-08-23"
+  },
+  "7 Hero Street, Diggers Rest VIC 3427": {
+    "first_seen": "2026-11-07",
+    "last_seen": "2026-11-07"
   },
   "7 Hickling Road, Tarneit VIC 3029": {
     "first_seen": "2026-08-29",
@@ -7821,7 +7933,7 @@
   },
   "7 Kenross Close, Point Cook VIC 3030": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "7 Kokoda Road, Williamstown VIC 3016": {
     "first_seen": "2026-08-16",
@@ -7905,11 +8017,11 @@
   },
   "7 Smeaton Court, Craigieburn VIC 3064": {
     "first_seen": "2026-11-03",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "7 Solander Grove, Tarneit VIC 3029": {
     "first_seen": "2026-11-05",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "7 Spear Court, Altona VIC 3018": {
     "first_seen": "2026-08-16",
@@ -7981,7 +8093,7 @@
   },
   "70 Newport Avenue, Williams Landing VIC 3027": {
     "first_seen": "2026-10-27",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "70 Rosamond Road, Maribyrnong VIC 3032": {
     "first_seen": "2026-08-16",
@@ -7989,7 +8101,7 @@
   },
   "700 Hogans Road, Tarneit VIC 3029": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "703/1 Acacia Place, Abbotsford VIC 3067": {
     "first_seen": "2026-08-16",
@@ -8021,7 +8133,7 @@
   },
   "72 Glastonbury Circuit, Point Cook VIC 3030": {
     "first_seen": "2026-10-30",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "72 Haines Drive, Wyndham Vale VIC 3024": {
     "first_seen": "2026-10-30",
@@ -8213,11 +8325,11 @@
   },
   "8 Annecy Boulevard, Plumpton VIC 3335": {
     "first_seen": "2026-10-27",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "8 Arden Street, Point Cook VIC 3030": {
     "first_seen": "2026-11-05",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "8 Atkinson Close, Prahran VIC 3181": {
     "first_seen": "2026-08-16",
@@ -8233,7 +8345,7 @@
   },
   "8 Betinick Road, Truganina VIC 3029": {
     "first_seen": "2026-10-29",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "8 Birmingham Street, Springvale VIC 3171": {
     "first_seen": "2026-08-16",
@@ -8257,7 +8369,7 @@
   },
   "8 Corboy Close, Point Cook VIC 3030": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "8 Corfu Road, Greenvale VIC 3059": {
     "first_seen": "2026-08-16",
@@ -8293,7 +8405,7 @@
   },
   "8 Fragrance Terrace, Manor Lakes VIC 3024": {
     "first_seen": "2026-08-16",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "8 Galette Place, South Morang VIC 3752": {
     "first_seen": "2026-08-16",
@@ -8385,11 +8497,11 @@
   },
   "8 Prominence Rise, Craigieburn VIC 3064": {
     "first_seen": "2026-10-30",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "8 Puritan Street, Rockbank VIC 3335": {
     "first_seen": "2026-10-26",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "8 Rhonda Crescent, Truganina VIC 3029": {
     "first_seen": "2026-10-25",
@@ -8457,7 +8569,7 @@
   },
   "8 Uttar Way, Rockbank VIC 3335": {
     "first_seen": "2026-10-27",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "8 Wanawong Crescent, Camberwell VIC 3124": {
     "first_seen": "2026-08-16",
@@ -8481,7 +8593,7 @@
   },
   "80 Urban Drive, Williams Landing VIC 3027": {
     "first_seen": "2026-08-16",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "80 Voyager Boulevard, Tarneit VIC 3029": {
     "first_seen": "2026-08-23",
@@ -8489,7 +8601,7 @@
   },
   "80B Oreilly Road, Tarneit VIC 3029": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "81 Blossom Drive, Greenvale VIC 3059": {
     "first_seen": "2026-10-26",
@@ -8513,11 +8625,11 @@
   },
   "82 Ashcroft Avenue, Williams Landing VIC 3027": {
     "first_seen": "2026-08-16",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "82 Brundell Avenue, Rockbank VIC 3335": {
     "first_seen": "2026-10-27",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "82 Dutchelm Avenue, Werribee VIC 3030": {
     "first_seen": "2026-08-16",
@@ -8537,7 +8649,7 @@
   },
   "82 Yarcombe Crescent, Craigieburn VIC 3064": {
     "first_seen": "2026-11-03",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "83 Parker Street, Williamstown VIC 3016": {
     "first_seen": "2026-08-16",
@@ -8597,7 +8709,7 @@
   },
   "85 Walkside Boulevard, Plumpton VIC 3335": {
     "first_seen": "2026-10-27",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "85 Willsmere Road, Kew VIC 3101": {
     "first_seen": "2026-08-16",
@@ -8729,7 +8841,7 @@
   },
   "9 Barmah Grange, Greenvale VIC 3059": {
     "first_seen": "2026-10-31",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "9 Beartooth Road, Truganina VIC 3029": {
     "first_seen": "2026-10-31",
@@ -8737,7 +8849,7 @@
   },
   "9 Beckington Place, Craigieburn VIC 3064": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "9 Benin Way, Truganina VIC 3029": {
     "first_seen": "2026-08-29",
@@ -8761,7 +8873,7 @@
   },
   "9 Cinnabar Street, Greenvale VIC 3059": {
     "first_seen": "2026-10-27",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "9 Clancys Lane, Doncaster VIC 3108": {
     "first_seen": "2026-08-17",
@@ -8769,7 +8881,7 @@
   },
   "9 Clara Court, Greenvale VIC 3059": {
     "first_seen": "2026-11-02",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "9 Claret Crescent, Doncaster VIC 3108": {
     "first_seen": "2026-08-16",
@@ -8777,7 +8889,7 @@
   },
   "9 Cockatiel Circuit, Craigieburn VIC 3064": {
     "first_seen": "2026-10-26",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "9 Coomleigh Avenue, Glen Waverley VIC 3150": {
     "first_seen": "2026-08-17",
@@ -8797,7 +8909,7 @@
   },
   "9 Electra Drive, Williams Landing VIC 3027": {
     "first_seen": "2026-10-29",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "9 Emu Rd, Maidstone VIC 3012": {
     "first_seen": "2026-08-23",
@@ -8822,6 +8934,10 @@
   "9 Friesian Street, Bonnie Brook VIC 3335": {
     "first_seen": "2026-10-27",
     "last_seen": "2026-10-29"
+  },
+  "9 Frobisher Street, Melton VIC 3337": {
+    "first_seen": "2026-11-07",
+    "last_seen": "2026-11-07"
   },
   "9 Glenmore Place, Greenvale VIC 3059": {
     "first_seen": "2026-08-16",
@@ -8881,7 +8997,7 @@
   },
   "9 Merryfield Circuit, Williams Landing VIC 3027": {
     "first_seen": "2026-10-26",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "9 Monferrato Avenue, Tarneit VIC 3029": {
     "first_seen": "2026-10-31",
@@ -8949,7 +9065,7 @@
   },
   "9 Stewart Crescent, Rockbank VIC 3335": {
     "first_seen": "2026-10-26",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "9 Tarran Street, Laverton VIC 3028": {
     "first_seen": "2026-08-16",
@@ -9017,7 +9133,7 @@
   },
   "91 Jade Way, Hillside VIC 3037": {
     "first_seen": "2026-11-05",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "91 Juniper Avenue, Point Cook VIC 3030": {
     "first_seen": "2026-10-26",
@@ -9033,7 +9149,7 @@
   },
   "91 Waterways Boulevard, Williams Landing VIC 3027": {
     "first_seen": "2026-10-26",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "915 Hampton Street, Brighton VIC 3186": {
     "first_seen": "2026-08-16",
@@ -9089,7 +9205,7 @@
   },
   "935 80 Lomatia Road, Tarneit VIC 3029": {
     "first_seen": "2026-11-04",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "94 Radnor Street, Camberwell VIC 3124": {
     "first_seen": "2026-08-16",
@@ -9103,13 +9219,17 @@
     "first_seen": "2026-08-16",
     "last_seen": "2026-08-23"
   },
+  "95 Carrick Street, Point Cook VIC 3030": {
+    "first_seen": "2026-11-07",
+    "last_seen": "2026-11-07"
+  },
   "95 Cypress Avenue, Brooklyn VIC 3012": {
     "first_seen": "2026-08-23",
     "last_seen": "2026-08-23"
   },
   "95 Urban Drive, Williams Landing VIC 3027": {
     "first_seen": "2026-08-16",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "955 High Street, Reservoir VIC 3073": {
     "first_seen": "2026-08-16",
@@ -9117,7 +9237,7 @@
   },
   "96 Hurst Drive, Tarneit VIC 3029": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "96 The Avenue, Spotswood VIC 3015": {
     "first_seen": "2026-08-16",
@@ -9177,7 +9297,7 @@
   },
   "Address available on request": {
     "first_seen": "2026-08-16",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "Corner Lot 125 Socket Drive, Rockbank VIC 3335": {
     "first_seen": "2026-08-29",
@@ -9201,7 +9321,7 @@
   },
   "LOT 105 Atlas Estate, Rockbank VIC 3335": {
     "first_seen": "2026-10-27",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "LOT 111 Olive Tree Grove, Fraser Rise VIC 3336": {
     "first_seen": "2026-11-03",
@@ -9209,7 +9329,7 @@
   },
   "LOT 112 ASTON ESTATE, Craigieburn VIC 3064": {
     "first_seen": "2026-11-01",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "LOT 112 Aston Estate, Craigieburn VIC 3064": {
     "first_seen": "2026-08-29",
@@ -9241,7 +9361,7 @@
   },
   "LOT 115 ASTON ESTATE, Craigieburn VIC 3064": {
     "first_seen": "2026-11-02",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "LOT 118 Olive Tree Grove, Fraser Rise VIC 3336": {
     "first_seen": "2026-11-03",
@@ -9249,7 +9369,7 @@
   },
   "LOT 119 Atlas Estate, Rockbank VIC 3335": {
     "first_seen": "2026-10-26",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "LOT 119 Socket Drive, Rockbank VIC 3335": {
     "first_seen": "2026-08-16",
@@ -9257,7 +9377,7 @@
   },
   "LOT 120 Atlas Estate, Rockbank VIC 3335": {
     "first_seen": "2026-10-27",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "LOT 120 Socket Drive, Rockbank VIC 3335": {
     "first_seen": "2026-08-16",
@@ -9273,7 +9393,7 @@
   },
   "LOT 123 Atlas Estate, Rockbank VIC 3335": {
     "first_seen": "2026-10-27",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "LOT 125 Olive Tree Grove, Fraser Rise VIC 3336": {
     "first_seen": "2026-11-03",
@@ -9317,7 +9437,7 @@
   },
   "LOT 1910 Grandview Estate, Truganina VIC 3029": {
     "first_seen": "2026-11-02",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "LOT 201 Sheniz Avenue, Fraser Rise VIC 3336": {
     "first_seen": "2026-11-03",
@@ -9349,7 +9469,7 @@
   },
   "LOT 212 Dunhelen Estate, Greenvale VIC 3059": {
     "first_seen": "2026-10-27",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "LOT 21305 Cooma Street, Manor Lakes VIC 3024": {
     "first_seen": "2026-08-16",
@@ -9361,19 +9481,19 @@
   },
   "LOT 216 Dunhelen Estate, Greenvale VIC 3059": {
     "first_seen": "2026-10-27",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "LOT 217 Dunhelen Estate, Greenvale VIC 3059": {
     "first_seen": "2026-10-27",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "LOT 217 Sheniz Avenue, Fraser Rise VIC 3336": {
     "first_seen": "2026-11-03",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "LOT 221 Sheniz Avenue, Fraser Rise VIC 3336": {
     "first_seen": "2026-11-03",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "LOT 2215 Grandview Estate, Truganina VIC 3029": {
     "first_seen": "2026-11-01",
@@ -9381,11 +9501,11 @@
   },
   "LOT 2327 Grandview Estate, Truganina VIC 3029": {
     "first_seen": "2026-11-01",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "LOT 2328 Grandview Estate, Truganina VIC 3029": {
     "first_seen": "2026-11-01",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "LOT 2360 Grandview Estate, Truganina VIC 3029": {
     "first_seen": "2026-08-16",
@@ -9393,15 +9513,15 @@
   },
   "LOT 241 Dunhelen Estate, Greenvale VIC 3059": {
     "first_seen": "2026-10-27",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "LOT 242 Dunhelen Estate, Greenvale VIC 3059": {
     "first_seen": "2026-10-27",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "LOT 250 Gallantry Avenue, Craigieburn VIC 3064": {
     "first_seen": "2026-11-01",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "LOT 2515 Grandview Estate, Truganina VIC 3029": {
     "first_seen": "2026-08-23",
@@ -9525,7 +9645,7 @@
   },
   "Listing 18209298 (address withheld), Rockbank VIC 3335": {
     "first_seen": "2026-10-27",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "Listing 18234227 (address withheld), Truganina VIC 3029": {
     "first_seen": "2026-10-27",
@@ -9537,7 +9657,7 @@
   },
   "Lot 1002 Platinum Way, Fraser Rise VIC 3336": {
     "first_seen": "2026-11-05",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "Lot 1002, South Morang VIC 3752": {
     "first_seen": "2026-08-16",
@@ -9597,7 +9717,7 @@
   },
   "Lot 112 Mohit Rise, Craigieburn VIC 3064": {
     "first_seen": "2026-11-04",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "Lot 1127 Frogmore Circuit, Tarneit VIC 3029": {
     "first_seen": "2026-10-27",
@@ -9637,7 +9757,7 @@
   },
   "Lot 120 Socket Drive ( Qualifies for Help to buy Scheme ), Rockbank VIC 3335": {
     "first_seen": "2026-10-27",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "Lot 120 Socket Drive North Facing, Rockbank VIC 3335": {
     "first_seen": "2026-08-29",
@@ -9645,11 +9765,11 @@
   },
   "Lot 120 Socket Drive, Rockbank VIC 3335": {
     "first_seen": "2026-08-16",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "Lot 122 Nascent Drive, Tarneit VIC 3029": {
     "first_seen": "2026-11-01",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "Lot 125 Kingswood Estate Spring Road, Dingley Village VIC 3172": {
     "first_seen": "2026-08-23",
@@ -9677,7 +9797,7 @@
   },
   "Lot 137 Mohit Rise, Craigieburn VIC 3064": {
     "first_seen": "2026-11-02",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "Lot 146 Montgomery Estate (Q4,2027), Tarneit VIC 3029": {
     "first_seen": "2026-11-02",
@@ -9707,6 +9827,10 @@
     "first_seen": "2026-10-27",
     "last_seen": "2026-10-30"
   },
+  "Lot 202/1296 Dohertys Rise Tandao Road, Tarneit VIC 3029": {
+    "first_seen": "2026-11-07",
+    "last_seen": "2026-11-07"
+  },
   "Lot 210 Kingswood Estate, Dingley Village VIC 3172": {
     "first_seen": "2026-08-23",
     "last_seen": "2026-08-23"
@@ -9721,11 +9845,11 @@
   },
   "Lot 2141 Racecourse Road, Fraser Rise VIC 3336": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "Lot 215 McGrath Road, Wyndham Vale VIC 3024": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "Lot 215 Road A, Dingley Village VIC 3172": {
     "first_seen": "2026-08-23",
@@ -9737,7 +9861,7 @@
   },
   "Lot 219 Wyndham Gardens, Wyndham Vale VIC 3024": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "Lot 2213 (23) Tursuli Drive, Truganina VIC 3029": {
     "first_seen": "2026-10-27",
@@ -9745,7 +9869,11 @@
   },
   "Lot 222 Wyndham Gardens, Wyndham Vale VIC 3024": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
+  },
+  "Lot 223 Wyndham Gardens, Wyndham Vale VIC 3024": {
+    "first_seen": "2026-11-07",
+    "last_seen": "2026-11-07"
   },
   "Lot 2246 (9) Hunza Road, Truganina VIC 3029": {
     "first_seen": "2026-10-27",
@@ -9761,7 +9889,7 @@
   },
   "Lot 2331 Kalanka Avenue, Truganina VIC 3029": {
     "first_seen": "2026-08-23",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "Lot 2408 Eloquence Road, Tarneit VIC 3029": {
     "first_seen": "2026-10-31",
@@ -9789,7 +9917,7 @@
   },
   "Lot 253 Gallantry Avenue, Craigieburn VIC 3064": {
     "first_seen": "2026-11-01",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "Lot 254 Jackfruit Street, Thornhill Park VIC 3335": {
     "first_seen": "2026-11-02",
@@ -9805,7 +9933,7 @@
   },
   "Lot 266 Collette Circuit, Plumpton VIC 3335": {
     "first_seen": "2026-08-16",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "Lot 2919 Briscola Street, Tarneit VIC 3029": {
     "first_seen": "2026-10-29",
@@ -9818,6 +9946,10 @@
   "Lot 2950 Lockington Road, Tarneit VIC 3029": {
     "first_seen": "2026-10-27",
     "last_seen": "2026-10-27"
+  },
+  "Lot 2950 Newhaven Estate (Titled), Tarneit VIC 3029": {
+    "first_seen": "2026-11-07",
+    "last_seen": "2026-11-07"
   },
   "Lot 2952 Lockington Road, Tarneit VIC 3029": {
     "first_seen": "2026-10-29",
@@ -9897,7 +10029,7 @@
   },
   "Lot 3239 Centurion Avenue, Tarneit VIC 3029": {
     "first_seen": "2026-11-05",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "Lot 3241 Centurion Avenue, Tarneit VIC 3029": {
     "first_seen": "2026-11-05",
@@ -9905,7 +10037,7 @@
   },
   "Lot 3302 Ishtar Street, Tarneit VIC 3029": {
     "first_seen": "2026-11-01",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "Lot 3559 Gangur Way, Fraser Rise VIC 3336": {
     "first_seen": "2026-11-02",
@@ -9917,7 +10049,7 @@
   },
   "Lot 405 Baystone Way, Greenvale VIC 3059": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "Lot 40527 (11) Wallaga Road, Truganina VIC 3029": {
     "first_seen": "2026-10-27",
@@ -9925,7 +10057,7 @@
   },
   "Lot 406 Baystone Way, Greenvale VIC 3059": {
     "first_seen": "2026-10-30",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "Lot 40727 Mt Atkinson Estate (Titled), Truganina VIC 3029": {
     "first_seen": "2026-10-31",
@@ -9961,7 +10093,7 @@
   },
   "Lot 50629 22 Foraker Road, Truganina VIC 3029": {
     "first_seen": "2026-11-02",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "Lot 50861 Mt Atkinson Estate (Titled), Truganina VIC 3029": {
     "first_seen": "2026-08-16",
@@ -9969,15 +10101,15 @@
   },
   "Lot 517 Rosehill, Rockbank VIC 3335": {
     "first_seen": "2026-11-02",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "Lot 519 Wiry Way, Tarneit VIC 3029": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "Lot 522 Vintage Street, Greenvale VIC 3059": {
     "first_seen": "2026-11-02",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "Lot 5533 Verday Boulevard, Tarneit VIC 3029": {
     "first_seen": "2026-10-27",
@@ -9999,9 +10131,13 @@
     "first_seen": "2026-10-27",
     "last_seen": "2026-10-28"
   },
+  "Lot 5632 Narrowboat Circuit, Tarneit VIC 3029": {
+    "first_seen": "2026-11-07",
+    "last_seen": "2026-11-07"
+  },
   "Lot 5725 Hoist Drive, Tarneit VIC 3029": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "Lot 5801 Richmore Road, Wyndham Vale VIC 3024": {
     "first_seen": "2026-10-27",
@@ -10047,6 +10183,10 @@
     "first_seen": "2026-08-16",
     "last_seen": "2026-08-23"
   },
+  "Lot 739 Bucco Drive, Tarneit VIC 3029": {
+    "first_seen": "2026-11-07",
+    "last_seen": "2026-11-07"
+  },
   "Lot 750 Turmeric Street, Tarneit VIC 3029": {
     "first_seen": "2026-10-27",
     "last_seen": "2026-10-27"
@@ -10081,7 +10221,7 @@
   },
   "Lot 801 Lomatia Road, Tarneit VIC 3029": {
     "first_seen": "2026-11-06",
-    "last_seen": "2026-11-06"
+    "last_seen": "2026-11-07"
   },
   "Lot 840 Lomatia Road, Tarneit VIC 3029": {
     "first_seen": "2026-10-31",
@@ -10110,6 +10250,10 @@
   "Lot 9212 Empress Street, Wyndham Vale VIC 3024": {
     "first_seen": "2026-10-27",
     "last_seen": "2026-10-28"
+  },
+  "Lot 935 Lomatia Road, Tarneit VIC 3029": {
+    "first_seen": "2026-11-07",
+    "last_seen": "2026-11-07"
   },
   "Lot XX Prescott Street, Mambourin VIC 3024": {
     "first_seen": "2026-08-23",
