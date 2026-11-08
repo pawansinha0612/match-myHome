@@ -1,4 +1,4 @@
-# Melbourne deal scan — 2026-11-08
+# Melbourne deal scan — 2026-11-09
 
 Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs assume a 20% deposit). Sources: homely.com.au + view.com.au, 8 suburbs scanned (preference for western suburbs, marked with a bonus below).
 
@@ -79,7 +79,7 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 
 ## 10 Lodging Drive, Tarneit VIC 3029
 [View listing](https://www.homely.com.au/homes/10-lodging-drive-tarneit-vic-3029/13672095)
-**Score: 57/100 (+5 west-side bonus)** · $669,719–$669,719 (agent: “Park Facing / 504sqm Land / 49sqs Built”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
+**Score: 57/100 (+5 west-side bonus)** · $669,650–$669,650 (agent: “Park Facing / 504sqm Land / 49sqs Built”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
 
 - Land: 504m² (need 400m²+)
 - Beds/baths/car: 4 / 3 / 2
@@ -88,7 +88,7 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 
 **Score breakdown (points, not facts)** — land/size 12.5/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
 
-**Est. upfront cash needed**: $152,779 (deposit $133,944 + stamp duty $16,385 + LMI $0 + other costs $2,450)
+**Est. upfront cash needed**: $152,747 (deposit $133,930 + stamp duty $16,367 + LMI $0 + other costs $2,450)
 
 ---
 
