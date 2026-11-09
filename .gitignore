@@ -12,3 +12,7 @@ data/geocode_cache.json
 
 # Dated report history stays local; only reports/latest.* is published
 reports/20*
+
+# Personal inspection notes and screenshots (never published)
+inspections/
+Screenshot*.png
