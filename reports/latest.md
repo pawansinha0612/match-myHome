@@ -1,25 +1,10 @@
-# Melbourne deal scan — 2026-11-11
+# Melbourne deal scan — 2026-11-12
 
 Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs assume a 20% deposit). Sources: homely.com.au + view.com.au, 8 suburbs scanned (preference for western suburbs, marked with a bonus below).
 
-## 2 Kingsley Place, Melton West VIC 3337
-[View listing](https://www.homely.com.au/homes/2-kingsley-place-melton-west-vic-3337/13681189)
-**Score: 75/100 (+5 west-side bonus)** · $640,000–$680,000 (agent: “$640,000 - $680,000”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
-
-- Land: 730m² (need 400m²+)
-- Beds/baths/car: 4 / 2 / 2
-- Independent value estimate: Not available from this source
-- Overlay flags: Not available from this source
-
-**Score breakdown (points, not facts)** — land/size 30/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
-
-**Est. upfront cash needed**: $148,318 (deposit $132,000 + stamp duty $13,868 + LMI $0 + other costs $2,450)
-
----
-
 ## 17 Amsterdam Avenue, Tarneit VIC 3029
 [View listing](https://www.homely.com.au/homes/17-amsterdam-avenue-tarneit-vic-3029/13680912)
-**Score: 75/100 (+5 west-side bonus)** · $669,650–$669,650 (agent: “Contact Agent”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
+**Score: 75/100 (+5 west-side bonus)** · $669,733–$669,733 (agent: “Contact Agent”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
 
 - Land: 700m² (need 400m²+)
 - Beds/baths/car: 5 / 2 / 3
@@ -28,13 +13,13 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 
 **Score breakdown (points, not facts)** — land/size 30/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
 
-**Est. upfront cash needed**: $152,747 (deposit $133,930 + stamp duty $16,367 + LMI $0 + other costs $2,450)
+**Est. upfront cash needed**: $152,786 (deposit $133,947 + stamp duty $16,389 + LMI $0 + other costs $2,450)
 
 ---
 
-## 56 CHEVIOT DRIVE, Truganina VIC 3029 🆕 **NEW SINCE LAST RUN**
+## 56 CHEVIOT DRIVE, Truganina VIC 3029
 [View listing](https://www.homely.com.au/homes/56-cheviot-drive-truganina-vic-3029/13683930)
-**Score: 71/100 (+5 west-side bonus)** · $677,632–$677,632 (agent: “Contact Agent”) · 🔨 Auction scheduled · 🏗️ Build year unknown · ✅ fits criteria
+**Score: 71/100 (+5 west-side bonus)** · $678,370–$678,370 (agent: “Contact Agent”) · 🔨 Auction scheduled · 🏗️ Build year unknown · ✅ fits criteria
 
 - Land: 965m² (need 400m²+)
 - Beds/baths/car: 5 / 3 / 8
@@ -43,7 +28,7 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 
 **Score breakdown (points, not facts)** — land/size 30/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 16.0/20
 
-**Est. upfront cash needed**: $156,467 (deposit $135,526 + stamp duty $18,491 + LMI $0 + other costs $2,450)
+**Est. upfront cash needed**: $156,814 (deposit $135,674 + stamp duty $18,690 + LMI $0 + other costs $2,450)
 
 ---
 
@@ -62,9 +47,24 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 
 ---
 
-## 1 Nottingham Close, Craigieburn VIC 3064 🆕 **NEW SINCE LAST RUN**
+## 115 Palmerston Street, Melton VIC 3337 🆕 **NEW SINCE LAST RUN**
+[View listing](https://www.homely.com.au/homes/115-palmerston-street-melton-vic-3337/13686719)
+**Score: 67/100 (+5 west-side bonus)** · $639,000–$679,000 (agent: “$639,000 - $679,000”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
+
+- Land: 585m² (need 400m²+)
+- Beds/baths/car: 4 / 1 / 1
+- Independent value estimate: Not available from this source
+- Overlay flags: Not available from this source
+
+**Score breakdown (points, not facts)** — land/size 22.2/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
+
+**Est. upfront cash needed**: $147,863 (deposit $131,800 + stamp duty $13,613 + LMI $0 + other costs $2,450)
+
+---
+
+## 1 Nottingham Close, Craigieburn VIC 3064
 [View listing](https://www.homely.com.au/homes/1-nottingham-close-craigieburn-vic-3064/13681997)
-**Score: 71/100** · $719,100–$719,100 (agent: “Auction Saturday 5th December AT 4:00PM”) · 🔨 Auction scheduled · 🏗️ Build year unknown · ✅ fits criteria
+**Score: 71/100** · $719,400–$719,400 (agent: “Auction Saturday 5th December AT 4:00PM”) · 🔨 Auction scheduled · 🏗️ Build year unknown · ✅ fits criteria
 
 - Land: 788m² (need 400m²+)
 - Beds/baths/car: 5 / 4 / 2
@@ -73,43 +73,58 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 
 **Score breakdown (points, not facts)** — land/size 30/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 16.0/20
 
-**Est. upfront cash needed**: $176,614 (deposit $143,820 + stamp duty $30,344 + LMI $0 + other costs $2,450)
+**Est. upfront cash needed**: $176,764 (deposit $143,880 + stamp duty $30,434 + LMI $0 + other costs $2,450)
 
 ---
 
-## 10 Lodging Drive, Tarneit VIC 3029
-[View listing](https://www.homely.com.au/homes/10-lodging-drive-tarneit-vic-3029/13672095)
-**Score: 57/100 (+5 west-side bonus)** · $669,650–$669,650 (agent: “Park Facing / 504sqm Land / 49sqs Built”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
+## 28 LOWLAND CRES, Truganina VIC 3029 🆕 **NEW SINCE LAST RUN**
+[View listing](https://www.homely.com.au/homes/28-lowland-cres-truganina-vic-3029/13690109)
+**Score: 61/100 (+5 west-side bonus)** · $678,370–$678,370 (agent: “BRAND NEW ONE OF ITS KIND MASTERPIECE”) · ✅ Available · 🆕 New build · ✅ fits criteria
 
-- Land: 504m² (need 400m²+)
-- Beds/baths/car: 4 / 3 / 2
+- Land: 448m² (need 400m²+)
+- Beds/baths/car: 5 / 4 / 2
 - Independent value estimate: Not available from this source
 - Overlay flags: Not available from this source
 
-**Score breakdown (points, not facts)** — land/size 12.5/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
+**Score breakdown (points, not facts)** — land/size 5.8/30, value vs estimate 15.0/30, build condition 20/20, availability 20/20
 
-**Est. upfront cash needed**: $152,747 (deposit $133,930 + stamp duty $16,367 + LMI $0 + other costs $2,450)
+**Est. upfront cash needed**: $156,814 (deposit $135,674 + stamp duty $18,690 + LMI $0 + other costs $2,450)
 
 ---
 
-## 28 Burswood Cct, Harkness VIC 3337
-[View listing](https://www.homely.com.au/homes/28-burswood-cct-harkness-vic-3337/13681426)
-**Score: 60/100** · $660,000–$690,000 (agent: “$660,000 to $690,000”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
+## 26 Botanical Drive, Truganina VIC 3029 🆕 **NEW SINCE LAST RUN**
+[View listing](https://www.homely.com.au/homes/26-botanical-drive-truganina-vic-3029/13681974)
+**Score: 59/100 (+5 west-side bonus)** · $698,000–$738,000 (agent: “$698,000-$738,000”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
 
-- Land: 526m² (need 400m²+)
-- Beds/baths/car: 4 / 2 / 4
+- Land: 514m² (need 400m²+)
+- Beds/baths/car: 4 / 2 / 2
 - Independent value estimate: Not available from this source
 - Overlay flags: Not available from this source
 
-**Score breakdown (points, not facts)** — land/size 15.1/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
+**Score breakdown (points, not facts)** — land/size 13.7/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
 
-**Est. upfront cash needed**: $155,235 (deposit $135,000 + stamp duty $17,785 + LMI $0 + other costs $2,450)
+**Est. upfront cash needed**: $176,061 (deposit $143,600 + stamp duty $30,011 + LMI $0 + other costs $2,450)
+
+---
+
+## 303 Waterview Boulevard, Craigieburn VIC 3064 🆕 **NEW SINCE LAST RUN**
+[View listing](https://www.homely.com.au/homes/303-waterview-boulevard-craigieburn-vic-3064/13687020)
+**Score: 62/100** · $719,400–$719,400 (agent: “Auction Saturday 5th December AT 2:00PM”) · 🔨 Auction scheduled · 🏗️ Build year unknown · ✅ fits criteria
+
+- Land: 575m² (need 400m²+)
+- Beds/baths/car: 5 / 2 / 2
+- Independent value estimate: Not available from this source
+- Overlay flags: Not available from this source
+
+**Score breakdown (points, not facts)** — land/size 21.0/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 16.0/20
+
+**Est. upfront cash needed**: $176,764 (deposit $143,880 + stamp duty $30,434 + LMI $0 + other costs $2,450)
 
 ---
 
 ## 14 Carnation Drive, Rockbank VIC 3335
 [View listing](https://www.homely.com.au/homes/14-carnation-drive-rockbank-vic-3335/13668475)
-**Score: 51/100 (+5 west-side bonus)** · $639,438–$639,438 (agent: “Walk to School, Childcare & Train Station!”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
+**Score: 51/100 (+5 west-side bonus)** · $639,876–$639,876 (agent: “Walk to School, Childcare & Train Station!”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
 
 - Land: 448m² (need 400m²+)
 - Beds/baths/car: 4 / 2 / 2
@@ -118,7 +133,7 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 
 **Score breakdown (points, not facts)** — land/size 5.8/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
 
-**Est. upfront cash needed**: $139,129 (deposit $127,888 + stamp duty $8,791 + LMI $0 + other costs $2,450)
+**Est. upfront cash needed**: $139,321 (deposit $127,975 + stamp duty $8,896 + LMI $0 + other costs $2,450)
 
 ---
 
@@ -164,20 +179,5 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 **Score breakdown (points, not facts)** — land/size 2.5/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
 
 **Est. upfront cash needed**: $130,541 (deposit $123,900 + stamp duty $4,191 + LMI $0 + other costs $2,450)
-
----
-
-## 44 Wreath Drive, Tarneit VIC 3029
-[View listing](https://www.homely.com.au/homes/44-wreath-drive-tarneit-vic-3029/13673503)
-**Score: 48/100 (+5 west-side bonus)** · $670,000–$720,000 (agent: “$670K-$720K/2 LOUNGE + STUDY/28MINS 2 CBD”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
-
-- Land: 425m² (need 400m²+)
-- Beds/baths/car: 4 / 2 / 2
-- Independent value estimate: Not available from this source
-- Overlay flags: Not available from this source
-
-**Score breakdown (points, not facts)** — land/size 3.0/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
-
-**Est. upfront cash needed**: $164,738 (deposit $139,000 + stamp duty $23,288 + LMI $0 + other costs $2,450)
 
 ---
