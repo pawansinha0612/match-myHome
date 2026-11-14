@@ -1,54 +1,9 @@
-# Melbourne deal scan — 2026-11-13
+# Melbourne deal scan — 2026-11-14
 
 Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs assume a 20% deposit). Sources: homely.com.au + view.com.au, 8 suburbs scanned (preference for western suburbs, marked with a bonus below).
 
-## 56 CHEVIOT DRIVE, Truganina VIC 3029
-[View listing](https://www.homely.com.au/homes/56-cheviot-drive-truganina-vic-3029/13683930)
-**Score: 71/100 (+5 west-side bonus)** · $675,956–$675,956 (agent: “Contact Agent”) · 🔨 Auction scheduled · 🏗️ Build year unknown · ✅ fits criteria
-
-- Land: 965m² (need 400m²+)
-- Beds/baths/car: 5 / 3 / 8
-- Independent value estimate: Not available from this source
-- Overlay flags: Not available from this source
-
-**Score breakdown (points, not facts)** — land/size 30/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 16.0/20
-
-**Est. upfront cash needed**: $155,682 (deposit $135,191 + stamp duty $18,041 + LMI $0 + other costs $2,450)
-
----
-
-## 32 Scarborough Crescent, Harkness VIC 3337 🆕 **NEW SINCE LAST RUN**
-[View listing](https://www.homely.com.au/homes/32-scarborough-crescent-harkness-vic-3337/13693166)
-**Score: 75/100** · $729,000–$769,000 (agent: “$729,000 - $769,000”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
-
-- Land: 960m² (need 400m²+)
-- Beds/baths/car: 4 / 2 / 4
-- Independent value estimate: Not available from this source
-- Overlay flags: Not available from this source
-
-**Score breakdown (points, not facts)** — land/size 30/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
-
-**Est. upfront cash needed**: $191,993 (deposit $149,800 + stamp duty $39,743 + LMI $0 + other costs $2,450)
-
----
-
-## 2005 Western Highway, Rockbank VIC 3335
-[View listing](https://www.homely.com.au/homes/2005-western-highway-rockbank-vic-3335/13617825)
-**Score: 69/100 (+5 west-side bonus)** · $610,000–$610,000 (agent: “$610,000”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
-
-- Land: 601m² (need 400m²+)
-- Beds/baths/car: 4 / 1 / 4
-- Independent value estimate: Not available from this source
-- Overlay flags: Not available from this source
-
-**Score breakdown (points, not facts)** — land/size 24.1/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
-
-**Est. upfront cash needed**: $126,561 (deposit $122,000 + stamp duty $2,111 + LMI $0 + other costs $2,450)
-
----
-
-## 9 Haydon Court, Craigieburn VIC 3064 🆕 **NEW SINCE LAST RUN**
-[View listing](https://www.homely.com.au/homes/9-haydon-court-craigieburn-vic-3064/13692075)
+## 9 Haydon Court, Craigieburn VIC 3064
+[View listing](https://view.com.au/property/vic/craigieburn-3064/9-haydon-court-18280914/)
 **Score: 71/100** · $670,000–$710,000 (agent: “$670,000 - $710,000”) · 🔨 Auction scheduled · 🏗️ Build year unknown · ✅ fits criteria
 
 - Land: 799m² (need 400m²+)
@@ -62,38 +17,8 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 
 ---
 
-## 1 Nottingham Close, Craigieburn VIC 3064
-[View listing](https://www.homely.com.au/homes/1-nottingham-close-craigieburn-vic-3064/13681997)
-**Score: 71/100** · $720,066–$720,066 (agent: “Auction Saturday 5th December AT 4:00PM”) · 🔨 Auction scheduled · 🏗️ Build year unknown · ✅ fits criteria
-
-- Land: 788m² (need 400m²+)
-- Beds/baths/car: 5 / 4 / 2
-- Independent value estimate: Not available from this source
-- Overlay flags: Not available from this source
-
-**Score breakdown (points, not facts)** — land/size 30/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 16.0/20
-
-**Est. upfront cash needed**: $177,099 (deposit $144,013 + stamp duty $30,636 + LMI $0 + other costs $2,450)
-
----
-
-## 28 LOWLAND CRES, Truganina VIC 3029
-[View listing](https://www.homely.com.au/homes/28-lowland-cres-truganina-vic-3029/13690109)
-**Score: 61/100 (+5 west-side bonus)** · $675,956–$675,956 (agent: “BRAND NEW ONE OF ITS KIND MASTERPIECE”) · ✅ Available · 🆕 New build · ✅ fits criteria
-
-- Land: 448m² (need 400m²+)
-- Beds/baths/car: 5 / 4 / 2
-- Independent value estimate: Not available from this source
-- Overlay flags: Not available from this source
-
-**Score breakdown (points, not facts)** — land/size 5.8/30, value vs estimate 15.0/30, build condition 20/20, availability 20/20
-
-**Est. upfront cash needed**: $155,682 (deposit $135,191 + stamp duty $18,041 + LMI $0 + other costs $2,450)
-
----
-
 ## 26 Botanical Drive, Truganina VIC 3029
-[View listing](https://www.homely.com.au/homes/26-botanical-drive-truganina-vic-3029/13681974)
+[View listing](https://view.com.au/property/vic/truganina-3029/26-botanical-drive-18274518/)
 **Score: 59/100 (+5 west-side bonus)** · $698,000–$738,000 (agent: “$698,000-$738,000”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
 
 - Land: 514m² (need 400m²+)
@@ -107,68 +32,8 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 
 ---
 
-## 303 Waterview Boulevard, Craigieburn VIC 3064
-[View listing](https://www.homely.com.au/homes/303-waterview-boulevard-craigieburn-vic-3064/13687020)
-**Score: 62/100** · $720,066–$720,066 (agent: “Auction Saturday 5th December AT 2:00PM”) · 🔨 Auction scheduled · 🏗️ Build year unknown · ✅ fits criteria
-
-- Land: 575m² (need 400m²+)
-- Beds/baths/car: 5 / 2 / 2
-- Independent value estimate: Not available from this source
-- Overlay flags: Not available from this source
-
-**Score breakdown (points, not facts)** — land/size 21.0/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 16.0/20
-
-**Est. upfront cash needed**: $177,099 (deposit $144,013 + stamp duty $30,636 + LMI $0 + other costs $2,450)
-
----
-
-## Lot 212 Ashoka Drive, Thornhill Park VIC 3335 🆕 **NEW SINCE LAST RUN**
-[View listing](https://www.homely.com.au/homes/lot-212-ashoka-drive-thornhill-park-vic-3335/13695038)
-**Score: 61/100** · $739,797–$739,797 (agent: “$739,797”) · ✅ Available · 🆕 New build · ✅ fits criteria
-
-- Land: 448m² (need 400m²+)
-- Beds/baths/car: 4 / 2 / 2
-- Independent value estimate: Not available from this source
-- Overlay flags: Not available from this source
-
-**Score breakdown (points, not facts)** — land/size 5.8/30, value vs estimate 15.0/30, build condition 20/20, availability 20/20
-
-**Est. upfront cash needed**: $187,183 (deposit $147,959 + stamp duty $36,774 + LMI $0 + other costs $2,450)
-
----
-
-## Lot 221 Yolanda Grove, Thornhill Park VIC 3335 🆕 **NEW SINCE LAST RUN**
-[View listing](https://www.homely.com.au/homes/lot-221-yolanda-grove-thornhill-park-vic-3335/13694883)
-**Score: 61/100** · $724,027–$724,027 (agent: “$724,027”) · ✅ Available · 🆕 New build · ✅ fits criteria
-
-- Land: 448m² (need 400m²+)
-- Beds/baths/car: 4 / 2 / 2
-- Independent value estimate: Not available from this source
-- Overlay flags: Not available from this source
-
-**Score breakdown (points, not facts)** — land/size 5.8/30, value vs estimate 15.0/30, build condition 20/20, availability 20/20
-
-**Est. upfront cash needed**: $179,099 (deposit $144,805 + stamp duty $31,843 + LMI $0 + other costs $2,450)
-
----
-
-## 14 Carnation Drive, Rockbank VIC 3335
-[View listing](https://www.homely.com.au/homes/14-carnation-drive-rockbank-vic-3335/13668475)
-**Score: 51/100 (+5 west-side bonus)** · $639,000–$639,000 (agent: “Walk to School, Childcare & Train Station!”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
-
-- Land: 448m² (need 400m²+)
-- Beds/baths/car: 4 / 2 / 2
-- Independent value estimate: Not available from this source
-- Overlay flags: Not available from this source
-
-**Score breakdown (points, not facts)** — land/size 5.8/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
-
-**Est. upfront cash needed**: $138,937 (deposit $127,800 + stamp duty $8,687 + LMI $0 + other costs $2,450)
-
----
-
-## 14 Trellis Gr, Rockbank VIC 3335
-[View listing](https://www.homely.com.au/homes/14-trellis-gr-rockbank-vic-3335/13637902)
+## 14 Trellis Grove, Rockbank VIC 3335
+[View listing](https://view.com.au/property/vic/rockbank-3335/14-trellis-grove-18247154/)
 **Score: 51/100 (+5 west-side bonus)** · $670,000–$730,000 (agent: “$670000 - $730000”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
 
 - Land: 448m² (need 400m²+)
@@ -179,5 +44,95 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 **Score breakdown (points, not facts)** — land/size 5.8/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
 
 **Est. upfront cash needed**: $167,163 (deposit $140,000 + stamp duty $24,713 + LMI $0 + other costs $2,450)
+
+---
+
+## 29 Hemingway Drive, Rockbank VIC 3335
+[View listing](https://view.com.au/property/vic/rockbank-3335/29-hemingway-drive-18246786/)
+**Score: 51/100 (+5 west-side bonus)** · $670,000–$730,000 (agent: “$670,000 - $730,000”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
+
+- Land: 452m² (need 400m²+)
+- Beds/baths/car: 4 / 2 / 2
+- Independent value estimate: Not available from this source
+- Overlay flags: Not available from this source
+
+**Score breakdown (points, not facts)** — land/size 6.2/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
+
+**Est. upfront cash needed**: $167,163 (deposit $140,000 + stamp duty $24,713 + LMI $0 + other costs $2,450)
+
+---
+
+## 36 Westonbury Drive, Truganina VIC 3029
+[View listing](https://view.com.au/property/vic/truganina-3029/36-westonbury-drive-18278818/)
+**Score: 46/100 (+5 west-side bonus)** · $700,000–$700,000 (agent: “Contact Agent”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
+
+- Land: 410m² (need 400m²+)
+- Beds/baths/car: 4 / 2 / 2
+- Independent value estimate: Not available from this source
+- Overlay flags: Not available from this source
+
+**Score breakdown (points, not facts)** — land/size 1.2/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
+
+**Est. upfront cash needed**: $167,163 (deposit $140,000 + stamp duty $24,713 + LMI $0 + other costs $2,450)
+
+---
+
+## 50132Batura Street Batura Street, Truganina VIC 3029
+[View listing](https://view.com.au/property/vic/truganina-3029/50132batura-street-batura-street-18256583/)
+**Score: 45/100 (+5 west-side bonus)** · $740,156–$740,156 (agent: “$740,156”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
+
+- Land: 400m² (need 400m²+)
+- Beds/baths/car: 4 / 2 / 2
+- Independent value estimate: Not available from this source
+- Overlay flags: Not available from this source
+
+**Score breakdown (points, not facts)** — land/size 0/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
+
+**Est. upfront cash needed**: $187,370 (deposit $148,031 + stamp duty $36,888 + LMI $0 + other costs $2,450)
+
+---
+
+## 13 Stannifer Street, Tarneit VIC 3029
+[View listing](https://view.com.au/property/vic/tarneit-3029/13-stannifer-street-18281727/)
+**Score: 45/100 (+5 west-side bonus)** · $640,000–$660,000 (agent: “2LIVING/$640K-$660K/WALKTOTRAINSTATION&S.CENTRE”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
+
+- Land: 400m² (need 400m²+)
+- Beds/baths/car: 4 / 2 / 2
+- Independent value estimate: Not available from this source
+- Overlay flags: Not available from this source
+
+**Score breakdown (points, not facts)** — land/size 0/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
+
+**Est. upfront cash needed**: $143,807 (deposit $130,000 + stamp duty $11,357 + LMI $0 + other costs $2,450)
+
+---
+
+## 101 Cradle Mountain Drive, Craigieburn VIC 3064
+[View listing](https://view.com.au/property/vic/craigieburn-3064/101-cradle-mountain-drive-18268939/)
+**Score: 47/100** · $669,000–$709,000 (agent: “$669,000 - $709,000”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
+
+- Land: 414m² (need 400m²+)
+- Beds/baths/car: 4 / 2 / 2
+- Independent value estimate: Not available from this source
+- Overlay flags: Not available from this source
+
+**Score breakdown (points, not facts)** — land/size 1.7/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
+
+**Est. upfront cash needed**: $161,853 (deposit $137,800 + stamp duty $21,603 + LMI $0 + other costs $2,450)
+
+---
+
+## 39 Brentwick Drive, Craigieburn VIC 3064
+[View listing](https://view.com.au/property/vic/craigieburn-3064/39-brentwick-drive-18268205/)
+**Score: 45/100** · $700,000–$750,000 (agent: “Private Sale - ISP: $700,000 to $750,000”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
+
+- Land: 400m² (need 400m²+)
+- Beds/baths/car: 4 / 2 / 2
+- Independent value estimate: Not available from this source
+- Overlay flags: Not available from this source
+
+**Score breakdown (points, not facts)** — land/size 0/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
+
+**Est. upfront cash needed**: $179,592 (deposit $145,000 + stamp duty $32,142 + LMI $0 + other costs $2,450)
 
 ---
