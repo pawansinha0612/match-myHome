@@ -1,21 +1,6 @@
-# Melbourne deal scan — 2026-11-15
+# Melbourne deal scan — 2026-11-16
 
 Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs assume a 20% deposit). Sources: homely.com.au + view.com.au, 8 suburbs scanned (preference for western suburbs, marked with a bonus below).
-
-## 56 CHEVIOT DRIVE, Truganina VIC 3029
-[View listing](https://www.homely.com.au/homes/56-cheviot-drive-truganina-vic-3029/13683930)
-**Score: 71/100 (+5 west-side bonus)** · $675,034–$675,034 (agent: “Contact Agent”) · 🔨 Auction scheduled · 🏗️ Build year unknown · ✅ fits criteria
-
-- Land: 965m² (need 400m²+)
-- Beds/baths/car: 5 / 3 / 8
-- Independent value estimate: Not available from this source
-- Overlay flags: Not available from this source
-
-**Score breakdown (points, not facts)** — land/size 30/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 16.0/20
-
-**Est. upfront cash needed**: $155,251 (deposit $135,007 + stamp duty $17,794 + LMI $0 + other costs $2,450)
-
----
 
 ## 2005 Western Highway, Rockbank VIC 3335
 [View listing](https://www.homely.com.au/homes/2005-western-highway-rockbank-vic-3335/13617825)
@@ -49,7 +34,7 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 
 ## 28 LOWLAND CRES, Truganina VIC 3029
 [View listing](https://www.homely.com.au/homes/28-lowland-cres-truganina-vic-3029/13690109)
-**Score: 61/100 (+5 west-side bonus)** · $675,034–$675,034 (agent: “BRAND NEW ONE OF ITS KIND MASTERPIECE”) · ✅ Available · 🆕 New build · ✅ fits criteria
+**Score: 61/100 (+5 west-side bonus)** · $675,001–$675,001 (agent: “BRAND NEW ONE OF ITS KIND MASTERPIECE”) · ✅ Available · 🆕 New build · ✅ fits criteria
 
 - Land: 448m² (need 400m²+)
 - Beds/baths/car: 5 / 4 / 2
@@ -58,7 +43,7 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 
 **Score breakdown (points, not facts)** — land/size 5.8/30, value vs estimate 15.0/30, build condition 20/20, availability 20/20
 
-**Est. upfront cash needed**: $155,251 (deposit $135,007 + stamp duty $17,794 + LMI $0 + other costs $2,450)
+**Est. upfront cash needed**: $155,235 (deposit $135,000 + stamp duty $17,785 + LMI $0 + other costs $2,450)
 
 ---
 
@@ -104,6 +89,21 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 **Score breakdown (points, not facts)** — land/size 0/30, value vs estimate 15.0/30, build condition 20/20, availability 20/20
 
 **Est. upfront cash needed**: $173,617 (deposit $142,622 + stamp duty $28,546 + LMI $0 + other costs $2,450)
+
+---
+
+## 20 Vantage Place, Truganina VIC 3029 🆕 **NEW SINCE LAST RUN**
+[View listing](https://www.homely.com.au/homes/20-vantage-place-truganina-vic-3029/13704117)
+**Score: 54/100 (+5 west-side bonus)** · $680,000–$690,000 (agent: “$680,000 to $690,000”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
+
+- Land: 475m² (need 400m²+)
+- Beds/baths/car: 4 / 2 / 3
+- Independent value estimate: Not available from this source
+- Overlay flags: Not available from this source
+
+**Score breakdown (points, not facts)** — land/size 9.0/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
+
+**Est. upfront cash needed**: $159,946 (deposit $137,000 + stamp duty $20,496 + LMI $0 + other costs $2,450)
 
 ---
 
@@ -169,7 +169,7 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 
 ## 36 Westonbury Drive, Truganina VIC 3029
 [View listing](https://www.homely.com.au/homes/36-westonbury-drive-truganina-vic-3029/13688587)
-**Score: 46/100 (+5 west-side bonus)** · $675,034–$675,034 (agent: “Contact Agent”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
+**Score: 46/100 (+5 west-side bonus)** · $675,001–$675,001 (agent: “Contact Agent”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
 
 - Land: 410m² (need 400m²+)
 - Beds/baths/car: 4 / 2 / 2
@@ -178,6 +178,6 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 
 **Score breakdown (points, not facts)** — land/size 1.2/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
 
-**Est. upfront cash needed**: $155,251 (deposit $135,007 + stamp duty $17,794 + LMI $0 + other costs $2,450)
+**Est. upfront cash needed**: $155,235 (deposit $135,000 + stamp duty $17,785 + LMI $0 + other costs $2,450)
 
 ---
