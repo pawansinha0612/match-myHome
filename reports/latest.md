@@ -1,4 +1,4 @@
-# Melbourne deal scan — 2026-11-19
+# Melbourne deal scan — 2026-11-20
 
 Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs assume a 20% deposit). Sources: homely.com.au + view.com.au, 8 suburbs scanned (preference for western suburbs, marked with a bonus below).
 
@@ -17,6 +17,21 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 
 ---
 
+## 54 Christina Crescent, Kurunjang VIC 3337 🆕 **NEW SINCE LAST RUN**
+[View listing](https://www.homely.com.au/homes/54-christina-crescent-kurunjang-vic-3337/13722744)
+**Score: 70/100** · $590,000–$630,000 (agent: “$590,000 - $630,000”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
+
+- Land: 610m² (need 400m²+)
+- Beds/baths/car: 4 / 2 / 2
+- Independent value estimate: Not available from this source
+- Overlay flags: Not available from this source
+
+**Score breakdown (points, not facts)** — land/size 25.2/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
+
+**Est. upfront cash needed**: $126,561 (deposit $122,000 + stamp duty $2,111 + LMI $0 + other costs $2,450)
+
+---
+
 ## 1009 Highline Boulevard, Truganina VIC 3029
 [View listing](https://www.homely.com.au/homes/1009-highline-boulevard-truganina-vic-3029/13712725)
 **Score: 61/100 (+5 west-side bonus)** · $733,495–$733,495 (agent: “$733,495”) · ✅ Available · 🆕 New build · ✅ fits criteria
@@ -32,9 +47,9 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 
 ---
 
-## 2 Northstead Way, Craigieburn VIC 3064 🆕 **NEW SINCE LAST RUN**
+## 2 Northstead Way, Craigieburn VIC 3064
 [View listing](https://www.homely.com.au/homes/2-northstead-way-craigieburn-vic-3064/13715293)
-**Score: 65/100** · $716,910–$716,910 (agent: “Auction Saturday 5th December AT 1:00PM”) · 🔨 Auction scheduled · 🏗️ Build year unknown · ✅ fits criteria
+**Score: 65/100** · $717,767–$717,767 (agent: “Auction Saturday 5th December AT 1:00PM”) · 🔨 Auction scheduled · 🏗️ Build year unknown · ✅ fits criteria
 
 - Land: 596.2228m² (need 400m²+)
 - Beds/baths/car: 4 / 3 / 2
@@ -43,7 +58,7 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 
 **Score breakdown (points, not facts)** — land/size 23.5/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 16.0/20
 
-**Est. upfront cash needed**: $175,515 (deposit $143,382 + stamp duty $29,683 + LMI $0 + other costs $2,450)
+**Est. upfront cash needed**: $175,944 (deposit $143,553 + stamp duty $29,941 + LMI $0 + other costs $2,450)
 
 ---
 
@@ -62,7 +77,7 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 
 ---
 
-## 13 GUILFORD Court, Truganina VIC 3029 🆕 **NEW SINCE LAST RUN**
+## 13 GUILFORD Court, Truganina VIC 3029
 [View listing](https://view.com.au/property/vic/truganina-3029/13-guilford-court-18287044/)
 **Score: 56/100 (+5 west-side bonus)** · $749,000–$749,000 (agent: “Contact Agent 0469 332 699”) · 🔨 Auction scheduled · 🏗️ Build year unknown · ✅ fits criteria
 
@@ -77,24 +92,9 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 
 ---
 
-## 1910 Altura Drive, Truganina VIC 3029
-[View listing](https://www.homely.com.au/homes/1910-altura-drive-truganina-vic-3029/13712726)
-**Score: 55/100 (+5 west-side bonus)** · $695,108–$695,108 (agent: “$695,108”) · ✅ Available · 🆕 New build · ✅ fits criteria
-
-- Land: 400m² (need 400m²+)
-- Beds/baths/car: 4 / 2 / 2
-- Independent value estimate: Not available from this source
-- Overlay flags: Not available from this source
-
-**Score breakdown (points, not facts)** — land/size 0/30, value vs estimate 15.0/30, build condition 20/20, availability 20/20
-
-**Est. upfront cash needed**: $164,790 (deposit $139,022 + stamp duty $23,318 + LMI $0 + other costs $2,450)
-
----
-
-## 28 Cowal Street, Truganina VIC 3029 🆕 **NEW SINCE LAST RUN**
+## 28 Cowal Street, Truganina VIC 3029
 [View listing](https://www.homely.com.au/homes/28-cowal-street-truganina-vic-3029/13715656)
-**Score: 51/100 (+5 west-side bonus)** · $677,199–$677,199 (agent: “Contact Agent”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
+**Score: 51/100 (+5 west-side bonus)** · $677,002–$677,002 (agent: “Contact Agent”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
 
 - Land: 448m² (need 400m²+)
 - Beds/baths/car: 5 / 3 / 2
@@ -103,7 +103,7 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 
 **Score breakdown (points, not facts)** — land/size 5.8/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
 
-**Est. upfront cash needed**: $156,264 (deposit $135,440 + stamp duty $18,374 + LMI $0 + other costs $2,450)
+**Est. upfront cash needed**: $156,172 (deposit $135,400 + stamp duty $18,321 + LMI $0 + other costs $2,450)
 
 ---
 
@@ -152,32 +152,32 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 
 ---
 
-## 26 Laurence Way, Tarneit VIC 3029
-[View listing](https://www.homely.com.au/homes/26-laurence-way-tarneit-vic-3029/12579869)
-**Score: 48/100 (+5 west-side bonus)** · $599,000–$640,000 (agent: “$599,000 - $640,000”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
+## 59 Style Way, Tarneit VIC 3029 🆕 **NEW SINCE LAST RUN**
+[View listing](https://www.homely.com.au/homes/59-style-way-tarneit-vic-3029/13723172)
+**Score: 51/100 (+5 west-side bonus)** · $672,175–$672,175 (agent: “Contact Agent”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
 
-- Land: 421m² (need 400m²+)
-- Beds/baths/car: 4 / 2 / 2
+- Land: 448m² (need 400m²+)
+- Beds/baths/car: 4 / 2 / 3
 - Independent value estimate: Not available from this source
 - Overlay flags: Not available from this source
 
-**Score breakdown (points, not facts)** — land/size 2.5/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
+**Score breakdown (points, not facts)** — land/size 5.8/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
 
-**Est. upfront cash needed**: $130,541 (deposit $123,900 + stamp duty $4,191 + LMI $0 + other costs $2,450)
+**Est. upfront cash needed**: $153,919 (deposit $134,435 + stamp duty $17,034 + LMI $0 + other costs $2,450)
 
 ---
 
-## 36 Westonbury Drive, Truganina VIC 3029
-[View listing](https://view.com.au/property/vic/truganina-3029/36-westonbury-drive-18278818/)
-**Score: 46/100 (+5 west-side bonus)** · $700,000–$700,000 (agent: “Contact Agent”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
+## 10 Harshaw Road, Thornhill Park VIC 3335 🆕 **NEW SINCE LAST RUN**
+[View listing](https://www.homely.com.au/homes/10-harshaw-road-thornhill-park-vic-3335/13723015)
+**Score: 55/100** · $699,000–$729,000 (agent: “$699,000 - $729,000”) · ✅ Available · 🆕 New build · ✅ fits criteria
 
-- Land: 410m² (need 400m²+)
+- Land: 400m² (need 400m²+)
 - Beds/baths/car: 4 / 2 / 2
 - Independent value estimate: Not available from this source
 - Overlay flags: Not available from this source
 
-**Score breakdown (points, not facts)** — land/size 1.2/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
+**Score breakdown (points, not facts)** — land/size 0/30, value vs estimate 15.0/30, build condition 20/20, availability 20/20
 
-**Est. upfront cash needed**: $167,163 (deposit $140,000 + stamp duty $24,713 + LMI $0 + other costs $2,450)
+**Est. upfront cash needed**: $174,062 (deposit $142,800 + stamp duty $28,812 + LMI $0 + other costs $2,450)
 
 ---
