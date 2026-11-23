@@ -1,6 +1,21 @@
-# Melbourne deal scan — 2026-11-22
+# Melbourne deal scan — 2026-11-23
 
 Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs assume a 20% deposit). Sources: homely.com.au + view.com.au, 8 suburbs scanned (preference for western suburbs, marked with a bonus below).
+
+## Lot 1509 Taxon Road, Truganina VIC 3029 🆕 **NEW SINCE LAST RUN**
+[View listing](https://www.homely.com.au/homes/lot-1509-taxon-road-truganina-vic-3029/13728480)
+**Score: 61/100 (+5 west-side bonus)** · $679,605–$679,605 (agent: “$679,605”) · ✅ Available · 🆕 New build · ✅ fits criteria
+
+- Land: 451m² (need 400m²+)
+- Beds/baths/car: 4 / 2 / 2
+- Independent value estimate: Not available from this source
+- Overlay flags: Not available from this source
+
+**Score breakdown (points, not facts)** — land/size 6.1/30, value vs estimate 15.0/30, build condition 20/20, availability 20/20
+
+**Est. upfront cash needed**: $157,395 (deposit $135,921 + stamp duty $19,024 + LMI $0 + other costs $2,450)
+
+---
 
 ## 2 Northstead Way, Craigieburn VIC 3064
 [View listing](https://www.homely.com.au/homes/2-northstead-way-craigieburn-vic-3064/13715293)
@@ -49,7 +64,7 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 
 ## 14 Carnation Drive, Rockbank VIC 3335
 [View listing](https://www.homely.com.au/homes/14-carnation-drive-rockbank-vic-3335/13668475)
-**Score: 51/100 (+5 west-side bonus)** · $640,500–$640,500 (agent: “Walk to School, Childcare & Train Station!”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
+**Score: 51/100 (+5 west-side bonus)** · $642,000–$642,000 (agent: “Walk to School, Childcare & Train Station!”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
 
 - Land: 448m² (need 400m²+)
 - Beds/baths/car: 4 / 2 / 2
@@ -58,7 +73,7 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 
 **Score breakdown (points, not facts)** — land/size 5.8/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
 
-**Est. upfront cash needed**: $139,595 (deposit $128,100 + stamp duty $9,045 + LMI $0 + other costs $2,450)
+**Est. upfront cash needed**: $140,255 (deposit $128,400 + stamp duty $9,405 + LMI $0 + other costs $2,450)
 
 ---
 
@@ -92,7 +107,7 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 
 ---
 
-## 1908 Altura Drive, Truganina VIC 3029 🆕 **NEW SINCE LAST RUN**
+## 1908 Altura Drive, Truganina VIC 3029
 [View listing](https://view.com.au/property/vic/truganina-3029/1908-altura-drive-18300322/)
 **Score: 49/100 (+5 west-side bonus)** · $744,843–$744,843 (agent: “$744,843”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
 
@@ -139,7 +154,7 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 
 ## 61 Lucerne Drive, Truganina VIC 3029
 [View listing](https://www.homely.com.au/homes/61-lucerne-drive-truganina-vic-3029/13727584)
-**Score: 45/100 (+5 west-side bonus)** · $678,402–$678,402 (agent: “Contact Agent”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
+**Score: 45/100 (+5 west-side bonus)** · $679,386–$679,386 (agent: “Contact Agent”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
 
 - Land: 400m² (need 400m²+)
 - Beds/baths/car: 5 / 3 / 2
@@ -148,7 +163,7 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 
 **Score breakdown (points, not facts)** — land/size 0/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
 
-**Est. upfront cash needed**: $156,829 (deposit $135,680 + stamp duty $18,698 + LMI $0 + other costs $2,450)
+**Est. upfront cash needed**: $157,292 (deposit $135,877 + stamp duty $18,964 + LMI $0 + other costs $2,450)
 
 ---
 
@@ -164,20 +179,5 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 **Score breakdown (points, not facts)** — land/size 0/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
 
 **Est. upfront cash needed**: $187,289 (deposit $148,000 + stamp duty $36,839 + LMI $0 + other costs $2,450)
-
----
-
-## 26 Tavendale Crescent, Truganina VIC 3029
-[View listing](https://www.homely.com.au/homes/26-tavendale-crescent-truganina-vic-3029/13720471)
-**Score: 45/100 (+5 west-side bonus)** · $730,000–$770,000 (agent: “$730,000-$770,000”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
-
-- Land: 400m² (need 400m²+)
-- Beds/baths/car: 4 / 2 / 2
-- Independent value estimate: Not available from this source
-- Overlay flags: Not available from this source
-
-**Score breakdown (points, not facts)** — land/size 0/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
-
-**Est. upfront cash needed**: $192,520 (deposit $150,000 + stamp duty $40,070 + LMI $0 + other costs $2,450)
 
 ---
