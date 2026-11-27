@@ -1,19 +1,34 @@
-# Melbourne deal scan — 2026-11-26
+# Melbourne deal scan — 2026-11-27
 
 Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs assume a 20% deposit). Sources: homely.com.au + view.com.au, 8 suburbs scanned (preference for western suburbs, marked with a bonus below).
 
-## 19 Lindeman Street, Tarneit VIC 3029
-[View listing](https://www.homely.com.au/homes/19-lindeman-street-tarneit-vic-3029/13735488)
-**Score: 62/100 (+5 west-side bonus)** · $674,162–$674,162 (agent: “CONTACT AGENT!!”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
+## 46 Tennyson Drive, Truganina VIC 3029 🆕 **NEW SINCE LAST RUN**
+[View listing](https://www.homely.com.au/homes/46-tennyson-drive-truganina-vic-3029/13744781)
+**Score: 74/100 (+5 west-side bonus)** · $678,617–$678,617 (agent: “EAST FACING/561 sqm Land/Drive through Access/”) · ✅ Available · 🆕 New build · ✅ fits criteria
 
-- Land: 540.3618m² (need 400m²+)
-- Beds/baths/car: 5 / 2 / 2
+- Land: 561m² (need 400m²+)
+- Beds/baths/car: 4 / 2 / 2
 - Independent value estimate: Not available from this source
 - Overlay flags: Not available from this source
 
-**Score breakdown (points, not facts)** — land/size 16.8/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
+**Score breakdown (points, not facts)** — land/size 19.3/30, value vs estimate 15.0/30, build condition 20/20, availability 20/20
 
-**Est. upfront cash needed**: $154,844 (deposit $134,832 + stamp duty $17,561 + LMI $0 + other costs $2,450)
+**Est. upfront cash needed**: $156,930 (deposit $135,723 + stamp duty $18,756 + LMI $0 + other costs $2,450)
+
+---
+
+## 7 Julian Place, Melton West VIC 3337 🆕 **NEW SINCE LAST RUN**
+[View listing](https://www.homely.com.au/homes/7-julian-place-melton-west-vic-3337/13746498)
+**Score: 67/100 (+5 west-side bonus)** · $640,000–$700,000 (agent: “$640,000 - $700,000”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
+
+- Land: 580m² (need 400m²+)
+- Beds/baths/car: 4 / 2 / 2
+- Independent value estimate: Not available from this source
+- Overlay flags: Not available from this source
+
+**Score breakdown (points, not facts)** — land/size 21.6/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
+
+**Est. upfront cash needed**: $152,909 (deposit $134,000 + stamp duty $16,459 + LMI $0 + other costs $2,450)
 
 ---
 
@@ -32,7 +47,7 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 
 ---
 
-## 5 Bradley Grove, Tarneit VIC 3029 🆕 **NEW SINCE LAST RUN**
+## 5 Bradley Grove, Tarneit VIC 3029
 [View listing](https://www.homely.com.au/homes/5-bradley-grove-tarneit-vic-3029/13740402)
 **Score: 61/100 (+5 west-side bonus)** · $739,000–$759,000 (agent: “Auction  $739,000 - $759,000”) · 🔨 Auction scheduled · 🏗️ Build year unknown · ✅ fits criteria
 
@@ -47,7 +62,37 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 
 ---
 
-## 7 Kevin Avenue, Tarneit VIC 3029 🆕 **NEW SINCE LAST RUN**
+## 20 Lena Circus, Truganina VIC 3029 🆕 **NEW SINCE LAST RUN**
+[View listing](https://www.homely.com.au/homes/20-lena-circus-truganina-vic-3029/13746932)
+**Score: 58/100 (+5 west-side bonus)** · $678,617–$678,617 (agent: “Contact Agent”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
+
+- Land: 507m² (need 400m²+)
+- Beds/baths/car: 5 / 3 / 2
+- Independent value estimate: Not available from this source
+- Overlay flags: Not available from this source
+
+**Score breakdown (points, not facts)** — land/size 12.8/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
+
+**Est. upfront cash needed**: $156,930 (deposit $135,723 + stamp duty $18,756 + LMI $0 + other costs $2,450)
+
+---
+
+## Lot 1140 Houdini Drive, Tarneit VIC 3029 🆕 **NEW SINCE LAST RUN**
+[View listing](https://www.homely.com.au/homes/lot-1140-houdini-drive-tarneit-vic-3029/13743522)
+**Score: 58/100 (+5 west-side bonus)** · $748,953–$748,953 (agent: “$748,953”) · ✅ Available · 🆕 New build · ✅ fits criteria
+
+- Land: 423m² (need 400m²+)
+- Beds/baths/car: 4 / 2 / 2
+- Independent value estimate: Not available from this source
+- Overlay flags: Not available from this source
+
+**Score breakdown (points, not facts)** — land/size 2.8/30, value vs estimate 15.0/30, build condition 20/20, availability 20/20
+
+**Est. upfront cash needed**: $191,969 (deposit $149,791 + stamp duty $39,728 + LMI $0 + other costs $2,450)
+
+---
+
+## 7 Kevin Avenue, Tarneit VIC 3029
 [View listing](https://www.homely.com.au/homes/7-kevin-avenue-tarneit-vic-3029/13740630)
 **Score: 56/100 (+5 west-side bonus)** · $700,000–$750,000 (agent: “$700,000 - $750,000”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
 
@@ -62,7 +107,7 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 
 ---
 
-## Lot 1044 137 Highline Boulevard, Truganina VIC 3029 🆕 **NEW SINCE LAST RUN**
+## Lot 1044 137 Highline Boulevard, Truganina VIC 3029
 [View listing](https://www.homely.com.au/homes/lot-1044-137-highline-boulevard-truganina-vic/13743409)
 **Score: 55/100 (+5 west-side bonus)** · $721,418–$721,418 (agent: “$721,418”) · ✅ Available · 🆕 New build · ✅ fits criteria
 
@@ -92,22 +137,7 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 
 ---
 
-## 20 Komodo Drive, Tarneit VIC 3029 🆕 **NEW SINCE LAST RUN**
-[View listing](https://www.homely.com.au/homes/20-komodo-drive-tarneit-vic-3029/13738272)
-**Score: 52/100 (+5 west-side bonus)** · $674,162–$674,162 (agent: “Contact Agent”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
-
-- Land: 457m² (need 400m²+)
-- Beds/baths/car: 5 / 3 / 2
-- Independent value estimate: Not available from this source
-- Overlay flags: Not available from this source
-
-**Score breakdown (points, not facts)** — land/size 6.8/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
-
-**Est. upfront cash needed**: $154,844 (deposit $134,832 + stamp duty $17,561 + LMI $0 + other costs $2,450)
-
----
-
-## 27 Bushfield Road, Truganina VIC 3029 🆕 **NEW SINCE LAST RUN**
+## 27 Bushfield Road, Truganina VIC 3029
 [View listing](https://www.homely.com.au/homes/27-bushfield-road-truganina-vic-3029/13743051)
 **Score: 51/100 (+5 west-side bonus)** · $720,000–$760,000 (agent: “$720,000 - $760,000”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
 
@@ -119,21 +149,6 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 **Score breakdown (points, not facts)** — land/size 5.8/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
 
 **Est. upfront cash needed**: $187,289 (deposit $148,000 + stamp duty $36,839 + LMI $0 + other costs $2,450)
-
----
-
-## 1009 Highline Boulevard, Truganina VIC 3029
-[View listing](https://view.com.au/property/vic/truganina-3029/1009-highline-boulevard-18290178/)
-**Score: 51/100 (+5 west-side bonus)** · $733,495–$733,495 (agent: “$733,495”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
-
-- Land: 447m² (need 400m²+)
-- Beds/baths/car: 4 / 2 / 2
-- Independent value estimate: Not available from this source
-- Overlay flags: Not available from this source
-
-**Score breakdown (points, not facts)** — land/size 5.6/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
-
-**Est. upfront cash needed**: $183,929 (deposit $146,699 + stamp duty $34,780 + LMI $0 + other costs $2,450)
 
 ---
 
@@ -162,21 +177,6 @@ Criteria: 4+ bed house, 400m²+ land, $600,000–$750,000 price range (costs ass
 - Overlay flags: Not available from this source
 
 **Score breakdown (points, not facts)** — land/size 5.8/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
-
-**Est. upfront cash needed**: $167,163 (deposit $140,000 + stamp duty $24,713 + LMI $0 + other costs $2,450)
-
----
-
-## 29 Hemingway Drive, Rockbank VIC 3335
-[View listing](https://view.com.au/property/vic/rockbank-3335/29-hemingway-drive-18246786/)
-**Score: 51/100 (+5 west-side bonus)** · $670,000–$730,000 (agent: “$670,000 - $730,000”) · ✅ Available · 🏗️ Build year unknown · ✅ fits criteria
-
-- Land: 452m² (need 400m²+)
-- Beds/baths/car: 4 / 2 / 2
-- Independent value estimate: Not available from this source
-- Overlay flags: Not available from this source
-
-**Score breakdown (points, not facts)** — land/size 6.2/30, value vs estimate 15.0/30, build condition 10.0/20 (build year unknown), availability 20/20
 
 **Est. upfront cash needed**: $167,163 (deposit $140,000 + stamp duty $24,713 + LMI $0 + other costs $2,450)
 
